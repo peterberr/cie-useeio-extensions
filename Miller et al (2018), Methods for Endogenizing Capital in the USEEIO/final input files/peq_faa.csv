@@ -1,0 +1,40 @@
+asset_code,asset_nipa,peq_desc,count
+EP1A,Mainframes,Computers and peripheral equipment,1
+EP1B,PCs,Computers and peripheral equipment,1
+EP1C,DASDs,Computers and peripheral equipment,1
+EP1D,Printers,Computers and peripheral equipment,1
+EP1E,Terminals,Computers and peripheral equipment,1
+EP1F,Tape drives,Computers and peripheral equipment,1
+EP1G,Storage devices,Computers and peripheral equipment,1
+EP1H,System integrators,Computers and peripheral equipment,1
+EP20,Communications,Communication equipment,1
+EP34,Nonelectro medical instruments,Medical instruments,1
+EP35,Electro medical instruments,Electro-medical equipment,1
+EP36,Nonmedical instruments,Nonmedical instruments,1
+EP31,Photocopy and related equipment,Photocopy and related equipment,1
+EP12,Office and accounting equipment,Office and accounting equipment,1
+EI11,Nuclear fuel,Fabricated metal products,1
+EI12,Other fabricated metals,Fabricated metal products,1
+EI21,Steam engines,Engines and turbines,1
+EI22,Internal combustion engines,Engines and turbines,1
+EI30,Metalworking machinery,Metalworking machinery,1
+EI40,Special industrial machinery,"Special industry machinery, not elsewhere classified",1
+EI50,General industrial equipment,"General industrial, including materials handling, equipment",1
+EI60,Electric transmission and distribution,"Electrical transmission, distribution, and industrial apparatus",1
+ET11,Light trucks (including utility vehicles),Light trucks (including utility vehicles),1
+ET12,"Other trucks, buses and truck trailers","Other trucks, buses, and truck trailers",1
+ET20,Autos,Autos,1
+ET30,Aircraft,Aircraft,1
+ET40,Ships and boats,Ships and boats,1
+ET50,Railroad equipment,Railroad equipment,1
+EO11,Household furniture,Furniture and fixtures,1
+EO12,Other furniture,Furniture and fixtures,1
+EO30,Other agricultural machinery,Agricultural machinery,1
+EO21,Farm tractors,Agricultural machinery,1
+EO40,Other construction machinery,Construction machinery,1
+EO22,Construction tractors,Construction machinery,1
+EO50,Mining and oilfield machinery,Mining and oilfield machinery,1
+EO60,Service industry machinery,Service industry machinery,1
+EO71,Household appliances,"Electrical equipment, not elsewhere classified",1
+EO72,Other electrical,"Electrical equipment, not elsewhere classified",1
+EO80,Other,Other,1

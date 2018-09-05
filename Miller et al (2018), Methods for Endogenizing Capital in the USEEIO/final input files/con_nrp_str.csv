@@ -1,0 +1,36 @@
+asset_code,asset_nipa,dig_desc,dig_code,inv
+SB43,Air transportation,Other nonresidential structures,2332B0,731
+SB42,Amusement and recreation,Other nonresidential structures,2332B0,12233
+SU20,Communication,Power and communication structures,233240,27487
+SB20,Educational and vocational,Educational and vocational structures,233262,17147
+SU30,Electric,Power and communication structures,233240,33372
+SN00,Farm,Other nonresidential structures,2332B0,6293
+SC04,Food and beverage establishments,"Commercial structures, including farm structures",2332A0,8045
+SU40,Gas,Power and communication structures,233240,7876
+SO04,Highway and conservation and development,Highways and streets,233293,1157
+SB31,Hospitals,Health care structures,233210,27612
+SB44,Local transit structures,Other nonresidential structures,2332B0,1
+SB41,Lodging,Other nonresidential structures,2332B0,34016
+SI00,Manufacturing,Manufacturing structures,233230,39600
+SOO2,Medical buildings,Health care structures,233210,8982
+SOMO,Mobile structures,"Commercial structures, including farm structures",2332A0,292
+SC03,Multimerchandise shopping,"Commercial structures, including farm structures",2332A0,34748
+SOO1,Office,"Commercial structures, including farm structures",2332A0,61118
+SC02,Other commercial,"Commercial structures, including farm structures",2332A0,19040
+SC02,Other commercial,All other wood product manufacturing,3219A0,0
+SC02,Other commercial,Other real estate,531ORE,0
+SB46,Other land transportation,Other nonresidential structures,2332B0,586
+SU11,Other railroad,Other nonresidential structures,2332B0,671
+SB45,Other transportation,Other nonresidential structures,2332B0,269
+SU50,Petroleum pipelines,Power and communication structures,233240,4777
+SO03,Public safety,Other nonresidential structures,2332B0,1283
+SB10,Religious,Other nonresidential structures,2332B0,7522
+SO02,Sewage and waste disposal,Other nonresidential structures,2332B0,870
+SB32,Special care,Health care structures,233210,3459
+SU12,Track replacement,Other nonresidential structures,2332B0,6605
+SC01,Warehouses,"Commercial structures, including farm structures",2332A0,16909
+SO01,Water supply,Other nonresidential structures,2332B0,1109
+SU60,Wind and solar,Power and communication structures,233240,7830
+SM02,Mining,Other support activities for mining,21311A,7353
+SM01,Petroleum and natural gas,Drilling oil and gas wells,213111,52410
+SM01,Petroleum and natural gas,Other support activities for mining,21311A,42230

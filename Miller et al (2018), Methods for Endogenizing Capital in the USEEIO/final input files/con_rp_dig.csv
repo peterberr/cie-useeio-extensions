@@ -1,0 +1,22 @@
+dig_code,dig_desc,Cost of business,Equipment,Manufactured homes,Multifamily residential structures,Other residential structures,Single-family* residential structures
+233411,Single-family residential structures,0,0,0,0,0,0.978
+233412,Multifamily residential structures,0,0,0,1,0,0.022
+2334A0,Other residential structures,0,0,0,0,1,0
+3219A0,All other wood product manufacturing,0,0,1,0,0,0
+334300,Audio and video equipment manufacturing,0,0.046,0,0,0,0
+335210,Small electrical appliance manufacturing,0,0.003,0,0,0,0
+335221,Household cooking appliance manufacturing,0,0.245,0,0,0,0
+335222,Household refrigerator and home freezer manufacturing,0,0.274,0,0,0,0
+335228,Other major household appliance manufacturing,0,0.078,0,0,0,0
+337121,Upholstered household furniture manufacturing,0,0.018,0,0,0,0
+337122,Nonupholstered wood household furniture manufacturing,0,0.027,0,0,0,0
+33712A,Other household nonupholstered furniture,0,0.006,0,0,0,0
+337215,"Showcase, partition, shelving, and locker manufacturing",0,0.001,0,0,0,0
+337900,Other furniture related product manufacturing,0,0.011,0,0,0,0
+314110,Carpet and rug mills,0,0.269,0,0,0,0
+326150,Urethane and other foam product (except polystyrene) manufacturing,0,0.017,0,0,0,0
+326290,Other rubber product manufacturing,0,0.004,0,0,0,0
+524100,Insurance carriers,0.073,0,0,0,0,0
+531ORE,Other real estate,0.749,0,0,0,0,0
+541100,Legal services,0.164,0,0,0,0,0
+541300,"Architectural, engineering, and related services",0.015,0,0,0,0,0

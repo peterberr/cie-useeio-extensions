@@ -1,0 +1,26 @@
+agg_code,agg_desc
+11,"Agri, Forestry, Fishing"
+21,"Mining, Fossil Extraction"
+22,"Electricity, Water"
+23,Construction
+31,"Food, Drink, Textile, Apparel"
+32,"Bio, Chemical, Mineral Products"
+33,"Metal, Vehicles, Machinery"
+42,Wholesale Trade
+4X,Retail Trade
+48,Transport
+49,"Delivery, Warehousing"
+51,Information Industries
+52,"Finance, Insurance"
+53,"Housing, Real Estate"
+54,"Science, Prof. Services"
+55,Management
+56,"Admin, Support, Waste Services"
+61,Education
+62,"Healthcare, Social assistance"
+71,"Arts, Entertainment, Recreation"
+72,"Accommodation, Restaurants"
+81,"Repair, Personal services"
+S0,"Govt., Reuse, Trade Adjustments"
+Y1,Residential fuel
+Y2,Personal vehicle fuel

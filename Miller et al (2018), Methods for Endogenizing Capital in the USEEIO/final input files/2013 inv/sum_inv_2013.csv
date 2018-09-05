@@ -1,0 +1,390 @@
+"dig_code","dig_desc","1	Nonresidential private fixed investment in structures ","2	Nonresidential private fixed investment in equipment","3	Nonresidential private fixed investment in IPP","4	Residential private fixed investment","5  Federal national defense: Gross investment in structures","6  Federal national defense: Gross investment in equipment","7  Federal national defense: Gross investment in intellectual property products","8  Federal nondefense: Gross investment in structures","9  Federal nondefense: Gross investment in equipment","10  Federal nondefense: Gross investment in intellectual property products","11  State and local: Gross investment in structures","12  State and local: Gross investment in equipment","13  State and local: Gross investment in intellectual property products"
+"1111A0","Oilseed farming",0,0,0,0,0,0,0,0,0,0,0,0,0
+"1111B0","Grain farming",0,0,0,0,0,0,0,0,0,0,0,0,0
+"111200","Vegetable and melon farming",0,0,0,0,0,0,0,0,0,0,0,0,0
+"111300","Fruit and tree nut farming",0,0,0,0,0,0,0,0,0,0,0,0,0
+"111400","Greenhouse, nursery, and floriculture production",0,0,0,0,0,0,0,0,0,0,0,0,0
+"111900","Other crop farming",0,0,0,0,0,0,0,0,0,0,0,0,0
+"1121A0","Beef cattle ranching and farming, including feedlots and dual-purpose ranching and farming",0,0,0,0,0,0,0,0,0,0,0,0,0
+"112120","Dairy cattle and milk production",0,0,0,0,0,0,0,0,0,0,0,0,0
+"112A00","Animal production, except cattle and poultry and eggs",0,0,0,0,0,0,0,0,0,0,0,0,0
+"112300","Poultry and egg production",0,0,0,0,0,0,0,0,0,0,0,0,0
+"113000","Forestry and logging",0,0,0,0,0,0,0,0,0,0,0,0,0
+"114000","Fishing, hunting and trapping",0,0,0,0,0,0,0,0,0,0,0,0,0
+"115000","Support activities for agriculture and forestry",0,0,0,0,0,0,0,0,0,0,0,0,0
+"211000","Oil and gas extraction",0,0,0,0,0,0,0,0,0,0,0,0,0
+"212100","Coal mining",0,0,0,0,0,0,0,0,0,0,0,0,0
+"2122A0","Iron, gold, silver, and other metal ore mining",0,177.495171646696,0,0,0,0,0,0,0,0,0,0,0
+"212230","Copper, nickel, lead, and zinc mining",0,0,0,0,0,0,0,0,0,0,0,0,0
+"212310","Stone mining and quarrying",0,0,0,0,0,0,0,0,0,0,0,0,0
+"2123A0","Other nonmetallic mineral mining and quarrying",0,0,0,0,0,0,0,0,0,0,0,0,0
+"213111","Drilling oil and gas wells",70951.200443787,0,0,0,0,0,0,0,0,0,0,0,0
+"21311A","Other support activities for mining",68213.799556213,2460.0578555646,0,0,0,0,0,0,0,0,0,0,0
+"221100","Electric power generation, transmission, and distribution",0,0,0,0,0,0,0,0,0,0,0,0,0
+"221200","Natural gas distribution",0,0,0,0,0,0,0,0,0,0,0,0,0
+"221300","Water, sewage and other systems",0,0,0,0,0,0,0,0,0,0,0,0,0
+"230301","Nonresidential maintenance and repair",0,0,0,0,0,0,0,0,0,0,0,0,0
+"230302","Residential maintenance and repair",0,0,0,0,0,0,0,0,0,0,0,0,0
+"233210","Health care structures",33426,0,0,0,419.901015889555,0,0,2500,0,0,6100,0,0
+"233230","Manufacturing structures",48344,0,0,0,500,0,0,1400,0,0,600,0,0
+"233240","Power and communication structures",97572,0,0,0,182.860119822871,0,0,1000,0,0,9800,0,0
+"233262","Educational and vocational structures",16161,0,0,0,158.478770513154,0,0,400,0,0,60900,0,0
+"233293","Highways and streets",237,0,0,0,281.74003646783,0,0,500,0,0,82400,0,0
+"2332A0","Commercial structures, including farm structures",74848,0,0,0,1292.888773118,0,0,1700,0,0,19700,0,0
+"2332B0","Other nonresidential structures",49753,0,0,0,2357.54102630893,0,0,3200,0,0,67000,0,0
+"233411","Single-family residential structures",0,0,0,167531.4,800,0,0,0,0,0,383.092969353593,0,0
+"233412","Multifamily residential structures",0,0,0,32356.6,415.160197968221,0,0,0,0,0,2708.88488282256,0,0
+"2334A0","Other residential structures",0,0,0,176996,91.4300599114353,0,0,0,0,0,1608.02214782385,0,0
+"321100","Sawmills and wood preservation",0,0,0,0,0,0,0,0,0,0,0,0,0
+"321200","Veneer, plywood, and engineered wood product manufacturing",0,0,0,0,0,0,0,0,0,0,0,0,0
+"321910","Millwork",0,0,0,0,0,0,0,0,0,0,0,0,0
+"3219A0","All other wood product manufacturing",0,0,0,2074.2186676703,0,0,0,0,49.6616798063195,0,0,0,0
+"327100","Clay product and refractory manufacturing",0,0,0,0,0,0,0,0,0,0,0,0,0
+"327200","Glass and glass product manufacturing",0,0,0,0,0,0,0,0,0,0,0,0,0
+"327310","Cement manufacturing",0,0,0,0,0,0,0,0,0,0,0,0,0
+"327320","Ready-mix concrete manufacturing",0,0,0,0,0,0,0,0,0,0,0,0,0
+"327330","Concrete pipe, brick, and block manufacturing",0,0,0,0,0,0,0,0,0,0,0,0,0
+"327390","Other concrete product manufacturing",0,0,0,0,0,0,0,0,0,0,0,0,0
+"327400","Lime and gypsum product manufacturing",0,0,0,0,0,0,0,0,0,0,0,0,0
+"327910","Abrasive product manufacturing",0,0,0,0,0,0,0,0,0,0,0,0,0
+"327991","Cut stone and stone product manufacturing",0,0,0,0,0,0,0,0,0,0,0,0,0
+"327992","Ground or treated mineral and earth manufacturing",0,0,0,0,0,0,0,0,0,0,0,0,0
+"327993","Mineral wool manufacturing",0,0,0,0,0,0,0,0,0,0,0,0,0
+"327999","Miscellaneous nonmetallic mineral products",0,0,0,0,0,0,0,0,0,0,0,0,0
+"331110","Iron and steel mills and ferroalloy manufacturing",0,0,0,0,0,0,0,0,0,0,0,0,0
+"331200","Steel product manufacturing from purchased steel",0,0,0,0,0,0,0,0,0,0,0,0,0
+"33131A","Alumina refining and primary aluminum production",0,0,0,0,0,0,0,0,0,0,0,0,0
+"33131B","Aluminum product manufacturing from purchased aluminum",0,0,0,0,0,0,0,0,0,0,0,0,0
+"331411","Primary smelting and refining of copper",0,0,0,0,0,0,0,0,0,0,0,0,0
+"331419","Primary smelting and refining of nonferrous metal (except copper and aluminum)",0,0,0,0,0,0,0,0,0,0,0,0,0
+"331420","Copper rolling, drawing, extruding and alloying",0,0,0,0,0,0,0,0,0,0,0,0,0
+"331490","Nonferrous metal (except copper and aluminum) rolling, drawing, extruding and alloying",0,0,0,0,0,0,0,0,0,0,0,0,0
+"331510","Ferrous metal foundries",0,0,0,0,0,0,0,0,0,0,0,0,0
+"331520","Nonferrous metal foundries",0,0,0,0,0,0,0,0,0,0,0,0,0
+"33211A","All other forging, stamping, and sintering",0,0,0,0,0,0,0,0,0,0,0,0,0
+"332114","Custom roll forming",0,0,0,0,0,0,0,0,0,0,0,0,0
+"33211B","Crown and closure manufacturing and metal stamping",0,0,0,0,0,0,0,0,0,0,0,0,0
+"332200","Cutlery and handtool manufacturing",0,288.810543774116,0,0,0,2.01635487845861,0,0,1.98646719225278,0,0,26.0294304736864,0
+"332310","Plate work and fabricated structural product manufacturing",0,137.926184336923,0,0,0,0,0,0,3.97293438450556,0,0,0,0
+"332320","Ornamental and architectural metal products manufacturing",0,468.044592749887,0,0,0,0,0,0,0,0,0,0,0
+"332410","Power boiler and heat exchanger manufacturing",0,3020.80954547753,0,0,0,0,0,0,50.6549134024458,0,0,0,0
+"332420","Metal tank (heavy gauge) manufacturing",0,4249.70923706962,0,0,0,0,0,0,0,0,0,2.51897714261482,0
+"332430","Metal can, box, and other metal container (light gauge) manufacturing",0,202.367106527125,0,0,0,2.01635487845861,0,0,16.8265456284941,0,0,30.3096436672352,0
+"332500","Hardware manufacturing",0,276.98291116841,0,0,0,0,0,0,0,0,0,0,0
+"332600","Spring and wire product manufacturing",0,0,0,0,0,0,0,0,0,0,0,0,0
+"332710","Machine shops",0,0,0,0,0,0,0,0,561.17698181141,0,0,0,0
+"332720","Turned product and screw, nut, and bolt manufacturing",0,0,0,0,0,0,0,0,0,0,0,0,0
+"332800","Coating, engraving, heat treating and allied activities",0,0,0,0,0,0,0,0,0,0,0,0,0
+"33291A","Valve and fittings other than plumbing",0,2775.48182415693,0,0,0,219.782681751988,0,0,0.993233596126389,0,0,118.256172443714,0
+"332913","Plumbing fixture fitting and trim manufacturing",0,0,0,0,0,0,0,0,0,0,0,0,0
+"332991","Ball and roller bearing manufacturing",0,0,0,0,0,0,0,0,0,0,0,0,0
+"33299A","Ammunition, arms, ordnance, and accessories manufacturing",0,0,0,0,0,2128.28272966904,0,0,0,0,0,0,0
+"332996","Fabricated pipe and pipe fitting manufacturing",0,879.562060771526,0,0,0,1.0081774392293,0,0,0,0,0,4.19829523769136,0
+"33299B","Other fabricated metal manufacturing",0,512.135750037918,0,0,0,4.03270975691722,0,0,178.78204730275,0,0,1001.71324371316,0
+"333111","Farm machinery and equipment manufacturing",0,35482.1809914709,0,0,0,1.0081774392293,0,0,116.42539504263,0,0,261.973622831941,0
+"333112","Lawn and garden equipment manufacturing",0,5126.6895011169,0,0,0,3.02453231768791,0,0,0.993233596126389,0,0,101.598744752131,0
+"333120","Construction machinery manufacturing",0,23076.2532265013,0,0,0,85.6950823344909,0,0,0.993233596126389,0,0,1978.23671600017,0
+"333130","Mining and oil and gas field machinery manufacturing",0,16084.745493662,0,0,0,0,0,0,0,0,0,0,0
+"33329A","Other industrial machinery manufacturing",0,16888.4222771557,0,0,0,13.9800604906464,0,0,18.8714383264014,0,0,213.273398074721,0
+"333220","Plastics and rubber industry machinery manufacturing",0,3957.07721390142,0,0,0,1.0081774392293,0,0,1.98646719225278,0,0,0,0
+"333295","Semiconductor machinery manufacturing",0,6114.00029082448,0,0,0,0,0,0,0,0,0,0,0
+"33331A","Vending, commercial laundry, and other commercial and service industry machinery manufacturing",0,10326.9412381217,0,0,0,222.807214069676,0,0,0.993233596126389,0,0,407.234638056062,0
+"333313","Office machinery manufacturing",0,1765.8605867637,0,0,0,0,0,0,18.7295478126691,0,0,679.42194633004,0
+"333314","Optical instrument and lens manufacturing",0,3141.95525589948,0,0,0,441.581718382435,0,0,0,0,0,25.1897714261482,0
+"333315","Photographic and photocopying equipment manufacturing",0,1627.08397180509,0,0,0,3.02453231768791,0,0,0.993233596126389,0,0,122.590220940588,0
+"33341A","Air purification and ventilation equipment manufacturing",0,3261.25545975203,0,0,0,0,0,0,0,0,0,4.03036342818371,0
+"333414","Heating equipment (except warm air furnaces) manufacturing",0,94.9663289067907,0,0,0,0,0,0,0,0,0,0,0
+"333415","Air conditioning, refrigeration, and warm air heating equipment manufacturing",0,7490.02742375381,0,0,0,195.586423210485,0,0,0,0,0,167.931809507654,0
+"333511","Industrial mold manufacturing",0,6222.94653582903,0,0,0,0,0,0,0,0,0,0,0
+"33351A","Metal cutting and forming machine tool manufacturing",0,7991.79400055873,0,0,0,5.04088719614652,0,0,28.969313220353,0,0,698.596327551843,0
+"333514","Special tool, die, jig, and fixture manufacturing",0,8447.23913954464,0,0,0,0,0,0,0,0,0,0,0
+"33351B","Cutting and machine tool accessory, rolling mill, and other metalworking machinery manufacturing",0,2472.41646878056,0,0,0,0,0,0,0,0,0,0,0
+"333611","Turbine and turbine generator set units manufacturing",0,6521.00333538137,0,0,0,58.4742914752997,0,0,114.221863554535,0,0,182.91775555532,0
+"333612","Speed changer, industrial high-speed drive, and gear manufacturing",0,0,0,0,0,0,0,0,0,0,0,0,0
+"333613","Mechanical power transmission equipment manufacturing",0,0,0,0,0,0,0,0,0,0,0,0,0
+"333618","Other engine equipment manufacturing",0,2566.1494777495,0,0,0,0,0,0,7.82171456949531,0,0,369.321924807273,0
+"33391A","Pump and pumping equipment manufacturing",0,10091.9252933044,0,0,0,256.077069564243,0,0,8.9391023651375,0,0,388.76213901022,0
+"333912","Air and gas compressor manufacturing",0,6877.79671470829,0,0,0,17.0269967514283,0,0,1.98646719225278,0,0,0,0
+"333920","Material handling equipment manufacturing",0,20513.806666192,0,0,0,59.334207526407,0,0,14.77434974238,0,0,513.031678045884,0
+"333991","Power-driven handtool manufacturing",0,2679.16772609982,0,0,0,0,0,0,0,0,0,288.714171955765,0
+"33399A","Other general purpose machinery manufacturing",0,12541.141670338,0,0,0,14.9966394085359,0,0,2.97970078837917,0,0,278.896801757072,0
+"333993","Packaging machinery manufacturing",0,4652.23286550443,0,0,0,0,0,0,1.98646719225278,0,0,0,0
+"333994","Industrial process furnace and oven manufacturing",0,1336.23211026496,0,0,0,0,0,0,0,0,0,18.6224381614738,0
+"33399B","Fluid power process machinery",0,432.376109257977,0,0,0,48.3925170830066,0,0,0,0,0,0,0
+"334111","Electronic computer manufacturing",0,34433.5419192159,0,0,0,1193.07440160886,0,0,1212.73822087032,0,0,3354.4378949154,0
+"334112","Computer storage device manufacturing",0,3303.60371484042,0,0,0,225.714839585151,0,0,21.8511391147806,0,0,269.530554259785,0
+"33411A","Computer terminals and other computer peripheral equipment manufacturing",0,10685.9096088535,0,0,0,301.536480931207,0,0,196.660252033025,0,0,1513.06560366397,0
+"334210","Telephone apparatus manufacturing",0,14246.1829384333,0,0,0,965.83309101483,0,0,418.15134396921,0,0,1961.4435350494,0
+"334220","Broadcast and wireless communications equipment",0,28947.4595694569,0,0,0,7578.67812763751,0,0,4549.00987025886,0,0,780.043255163055,0
+"334290","Other communications equipment manufacturing",0,711.521484761411,0,0,0,40.3270975691722,0,0,2.23477559128438,0,0,218.972901912557,0
+"334300","Audio and video equipment manufacturing",0,8645.90497903811,0,259.510496766058,0,0,0,0,0,0,0,2088.23205122768,0
+"33441A","Other electronic component manufacturing",0,0,0,0,0,0,0,0,4.96616798063194,0,0,60.4554514227556,0
+"334413","Semiconductor and related device manufacturing",0,0,0,0,0,0,0,0,0,0,0,0,0
+"334418","Printed circuit assembly (electronic assembly) manufacturing",0,0,0,0,0,0,0,0,0,0,0,0,0
+"334510","Electromedical and electrotherapeutic apparatus manufacturing",0,22547.0017022678,0,0,0,283.735582049045,0,0,189.70761686014,0,0,53.7381790424494,0
+"334511","Search, detection, and navigation instruments manufacturing",0,14603.5563901332,0,0,0,13853.7858676977,0,0,1315.04128127134,0,0,513.031678045884,0
+"334512","Automatic environmental control manufacturing",0,0,0,0,0,0,0,0,0,0,0,0,0
+"334513","Industrial process variable instruments manufacturing",0,6804.65470335074,0,0,0,2.83028012018998,0,0,4.96616798063194,0,0,426.455304302435,0
+"334514","Totalizing fluid meter and counting device manufacturing",0,2566.03197048878,0,0,0,0,0,0,0,0,0,197.420133968215,0
+"334515","Electricity and signal testing instruments manufacturing",0,4498.13307228731,0,0,0,1628.11863913928,0,0,33.7699422682972,0,0,90.7847487931098,0
+"334516","Analytical laboratory instrument manufacturing",0,10803.6336458654,0,0,0,0,0,0,0.993233596126389,0,0,172.969763792884,0
+"334517","Irradiation apparatus manufacturing",0,6214.59083756685,0,0,0,118.871765047979,0,0,35.0114842634552,0,0,92.5766364628103,0
+"33451A","Watch, clock, and other measuring and controlling device manufacturing",0,4657.9218797573,0,0,0,0,0,0,0,0,0,305.537830933416,0
+"334610","Manufacturing and reproducing magnetic and optical media",0,596.864338866628,0,0,0,0,0,0,0,0,0,0,0
+"335110","Electric lamp bulb and part manufacturing",0,0,0,0,0,0,0,0,0,0,0,0,0
+"335120","Lighting fixture manufacturing",0,1172.45678305667,0,0,0,0,0,0,0,0,0,30.2277257113778,0
+"335210","Small electrical appliance manufacturing",0,311.570692615913,0,1.17870597870598,0,4.03270975691722,0,0,10.9255695573903,0,0,174.649081887961,0
+"335221","Household cooking appliance manufacturing",0,26.2770463651975,0,1015.08297771456,0,2.01635487845861,0,0,0,0,0,161.94072873603,0
+"335222","Household refrigerator and home freezer manufacturing",0,170.175157412707,0,2030.06846846847,0,0,0,0,0,0,0,277.08748568763,0
+"335224","Household laundry equipment manufacturing",0,297.806525472238,0,0,0,0,0,0,0,0,0,5.03795428522963,0
+"335228","Other major household appliance manufacturing",0,53.8053806525472,0,531.160572337043,0,0,0,0,0,0,0,0,0
+"335311","Power, distribution, and specialty transformer manufacturing",0,6369.93012940133,0,0,0,0,0,0,170.836178533739,0,0,235.944192358255,0
+"335312","Motor and generator manufacturing",0,3019.19514209673,0,0,0,8.06541951383443,0,0,62.5737165559625,0,0,350.977481870998,0
+"335313","Switchgear and switchboard apparatus manufacturing",0,4784.98259353299,0,0,0,0,0,0,120.181265131293,0,0,86.4848818964421,0
+"335314","Relay and industrial control manufacturing",0,1201.44219768118,0,0,0,307.494118964938,0,0,91.1771016093216,0,0,179.68703617319,0
+"335911","Storage battery manufacturing",0,371.632512879221,0,0,0,0,0,0,0,0,0,0,0
+"335912","Primary battery manufacturing",0,0,0,0,0,0,0,0,0,0,0,0,0
+"335920","Communication and energy wire and cable manufacturing",0,256.427792171087,0,0,0,6.04906463537583,0,0,82.235884541416,0,0,0,0
+"335930","Wiring device manufacturing",0,71.3234115626789,0,0,0,0,0,0,0,0,0,0,0
+"335991","Carbon and graphite product manufacturing",0,0,0,0,0,0,0,0,0,0,0,0,0
+"335999","All other miscellaneous electrical equipment and component manufacturing",0,7376.68388087115,0,0,0,296.4718425899,0,0,43.7022782295611,0,0,476.0866799542,0
+"336111","Automobile manufacturing",0,45904.0990382053,0,0,0,8.78519710378118,0,0,15.8917375380222,0,0,256.096009499173,0
+"336112","Light truck and utility vehicle manufacturing",0,68840.2496743378,0,0,0,4.39259855189059,0,0,2.97970078837917,0,0,69.6717090635924,0
+"336120","Heavy duty truck manufacturing",0,22239.9523921833,0,0,0,250.40513959513,0,0,134.086535477063,0,0,4912.04416685182,0
+"336211","Motor vehicle body manufacturing",0,4672.61640835578,0,0,0,0,0,0,22.7616032445631,0,0,0,0
+"336212","Truck trailer manufacturing",0,10140.7829851752,0,0,0,44.4964528633073,0,0,2.97970078837917,0,0,0,0
+"336213","Motor home manufacturing",0,170.236038719285,0,0,0,0,0,0,0,0,0,0,0
+"336214","Travel trailer and camper manufacturing",0,773.638123603869,0,0,0,0,0,0,0,0,0,0,0
+"336310","Motor vehicle gasoline engine and engine parts manufacturing",0,0,0,0,0,0,0,0,0,0,0,0,0
+"336320","Motor vehicle electrical and electronic equipment manufacturing",0,0,0,0,0,0,0,0,0,0,0,0,0
+"3363A0","Motor vehicle steering, suspension component (except spring), and brake systems manufacturing",0,0,0,0,0,0,0,0,0,0,0,0,0
+"336350","Motor vehicle transmission and power train parts manufacturing",0,0,0,0,0,0,0,0,0,0,0,0,0
+"336360","Motor vehicle seating and interior trim manufacturing",0,821.368849984908,0,0,0,0,0,0,3.97293438450556,0,0,3.35863619015309,0
+"336370","Motor vehicle metal stamping",0,0,0,0,0,0,0,0,0,0,0,0,0
+"336390","Other motor vehicle parts manufacturing",0,0,0,0,0,0,0,0,0,0,0,0,0
+"336411","Aircraft manufacturing",0,28867.3406110608,0,0,0,20125.9402869329,0,0,172.784019975031,0,0,33.6254158107187,0
+"336412","Aircraft engine and engine parts manufacturing",0,548.705939564678,0,0,0,556.122528111671,0,0,0,0,0,0,0
+"336413","Other aircraft parts and auxiliary equipment manufacturing",0,0,0,0,0,0,0,0,0,0,0,0,0
+"336414","Guided missile and space vehicle manufacturing",0,102.396080832823,0,0,0,5302.34719962817,0,0,1735.1790924328,0,0,0,0
+"33641A","Propulsion units and parts for space vehicles and guided missiles",0,0,0,0,0,0,0,0,1386.55410019244,0,0,0,0
+"336500","Railroad rolling stock manufacturing",0,14377.6089637705,0,0,0,5.0201126307321,0,0,16.9372465865763,0,0,754.013824689369,0
+"336611","Ship building and repairing",0,4962.4745104659,0,0,0,9405.20355364639,0,0,42.7090446334347,0,0,24.3501123786099,0
+"336612","Boat building",0,928.876266036459,0,0,0,98.8479937518305,0,0,114.262906265118,0,0,26.8690895212247,0
+"336991","Motorcycle, bicycle, and parts manufacturing",0,278.081906180194,0,0,0,0,0,0,0,0,0,411.432933293753,0
+"336992","Military armored vehicle, tank, and tank component manufacturing",0,0,0,0,0,3424.34432823813,0,0,0,0,0,0,0
+"336999","All other transportation equipment manufacturing",0,1141.7401340283,0,0,0,29.5182622687047,0,0,0,0,0,111.67465332259,0
+"337110","Wood kitchen cabinet and countertop manufacturing",0,876.069025785909,0,0,0,0,0,0,0,0,0,0,0
+"337121","Upholstered household furniture manufacturing",0,532.829674144658,0,138.219450982142,0,0,0,0,6.95263517288472,0,0,27.0329254329395,0
+"337122","Nonupholstered wood household furniture manufacturing",0,669.406588933846,0,206.638684491658,0,0,0,0,41.7158110373083,0,0,64.8182159584184,0
+"33712A","Other household nonupholstered furniture",0,261.472909234563,0,46.222439774833,0,0,0,0,0,0,0,8.39659047538272,0
+"337127","Institutional furniture manufacturing",0,6494.32279154848,0,0,0,0,0,0,0.993233596126389,0,0,832.102116110428,0
+"33721A","Office furniture and custom architectural woodwork and millwork manufacturing",0,10309.7600019154,0,0,0,1.0081774392293,0,0,14.1143721554803,0,0,1548.33128366057,0
+"337215","Showcase, partition, shelving, and locker manufacturing",0,5651.19038448574,0,6.14006271464835,0,0,0,0,1.98646719225278,0,0,227.547601882872,0
+"337900","Other furniture related product manufacturing",0,869.779299446932,0,67.7867982050491,0,0,0,0,0,0,0,27.0490164599829,0
+"339112","Surgical and medical instrument manufacturing",0,21595.2157086735,0,0,0,58.7295262700413,0,0,4.76752126140667,0,0,102.438403799669,0
+"339113","Surgical appliance and supplies manufacturing",0,6658.33108578754,0,0,0,8.31746387364176,0,0,73.4992861133528,0,0,376.167253297146,0
+"339114","Dental equipment and supplies manufacturing",0,2011.81700147669,0,0,0,50.4088719614652,0,0,48.6684462101931,0,0,21.627581527501,0
+"339115","Ophthalmic goods manufacturing",0,0,0,0,0,0,0,0,0,0,0,0,0
+"339116","Dental laboratories",0,0,0,0,0,0,0,0,0,0,0,0,0
+"339910","Jewelry and silverware manufacturing",0,0,0,0,0,0,0,0,0,0,0,0,0
+"339920","Sporting and athletic goods manufacturing",0,1528.55919583023,0,0,0,0,0,0,0.993233596126389,0,0,365.598624208885,0
+"339930","Doll, toy, and game manufacturing",0,0,0,0,0,0,0,0,0,0,0,0,0
+"339940","Office supplies (except paper) manufacturing",0,45.7433447776516,0,0,0,0,0,0,0.993233596126389,0,0,207.395784741953,0
+"339950","Sign manufacturing",0,7320.14966492924,0,0,0,0,0,0,1.98646719225278,0,0,0,0
+"339990","All other miscellaneous manufacturing",0,5483.20476545046,0,0,0,12.4509913744819,0,0,0,0,0,112.514312370128,0
+"311111","Dog and cat food manufacturing",0,0,0,0,0,0,0,0,0,0,0,0,0
+"311119","Other animal food manufacturing",0,0,0,0,0,0,0,0,0,0,0,0,0
+"311210","Flour milling and malt manufacturing",0,0,0,0,0,0,0,0,0,0,0,0,0
+"311221","Wet corn milling",0,0,0,0,0,0,0,0,0,0,0,0,0
+"31122A","Soybean and other oilseed processing",0,0,0,0,0,0,0,0,0,0,0,0,0
+"311225","Fats and oils refining and blending",0,0,0,0,0,0,0,0,0,0,0,0,0
+"311230","Breakfast cereal manufacturing",0,0,0,0,0,0,0,0,0,0,0,0,0
+"311300","Sugar and confectionery product manufacturing",0,0,0,0,0,0,0,0,0,0,0,0,0
+"311410","Frozen food manufacturing",0,0,0,0,0,0,0,0,0,0,0,0,0
+"311420","Fruit and vegetable canning, pickling, and drying",0,0,0,0,0,0,0,0,0,0,0,0,0
+"31151A","Fluid milk and butter manufacturing",0,0,0,0,0,0,0,0,0,0,0,0,0
+"311513","Cheese manufacturing",0,0,0,0,0,0,0,0,0,0,0,0,0
+"311514","Dry, condensed, and evaporated dairy product manufacturing",0,0,0,0,0,0,0,0,0,0,0,0,0
+"311520","Ice cream and frozen dessert manufacturing",0,0,0,0,0,0,0,0,0,0,0,0,0
+"31161A","Animal (except poultry) slaughtering, rendering, and processing",0,0,0,0,0,0,0,0,0,0,0,0,0
+"311615","Poultry processing",0,0,0,0,0,0,0,0,0,0,0,0,0
+"311700","Seafood product preparation and packaging",0,0,0,0,0,0,0,0,0,0,0,0,0
+"311810","Bread and bakery product manufacturing",0,0,0,0,0,0,0,0,0,0,0,0,0
+"3118A0","Cookie, cracker, pasta, and tortilla manufacturing",0,0,0,0,0,0,0,0,0,0,0,0,0
+"311910","Snack food manufacturing",0,0,0,0,0,0,0,0,0,0,0,0,0
+"311920","Coffee and tea manufacturing",0,0,0,0,0,0,0,0,0,0,0,0,0
+"311930","Flavoring syrup and concentrate manufacturing",0,0,0,0,0,0,0,0,0,0,0,0,0
+"311940","Seasoning and dressing manufacturing",0,0,0,0,0,0,0,0,0,0,0,0,0
+"311990","All other food manufacturing",0,0,0,0,0,0,0,0,0,0,0,0,0
+"312110","Soft drink and ice manufacturing",0,0,0,0,0,0,0,0,0,0,0,0,0
+"312120","Breweries",0,0,0,0,0,0,0,0,0,0,0,0,0
+"312130","Wineries",0,0,0,0,0,0,0,0,0,0,0,0,0
+"312140","Distilleries",0,0,0,0,0,0,0,0,0,0,0,0,0
+"312200","Tobacco product manufacturing",0,0,0,0,0,0,0,0,0,0,0,0,0
+"313100","Fiber, yarn, and thread mills",0,0,0,0,0,0,0,0,0,0,0,0,0
+"313200","Fabric mills",0,3.56515264333582,0,0,0,0,0,0,0,0,0,0,0
+"313300","Textile and fabric finishing and fabric coating mills",0,0,0,0,0,0,0,0,0,0,0,0,0
+"314110","Carpet and rug mills",0,3082.07446016381,0,1634.90202702703,0,0,0,0,3.97293438450556,0,0,36.2968402304264,0
+"314120","Curtain and linen mills",0,0,0,0,0,0,0,0,0,0,0,0,0
+"314900","Other textile product mills",0,0,0,0,0,0,0,0,43.7022782295611,0,0,0,0
+"315000","Apparel manufacturing",0,0,0,0,0,0,0,0,0,0,0,0,0
+"316000","Leather and allied product manufacturing",0,0,0,0,0,0,0,0,0,0,0,0,0
+"322110","Pulp mills",0,0,0,0,0,0,0,0,0,0,0,0,0
+"322120","Paper mills",0,0,0,0,0,0,0,0,0,0,0,0,0
+"322130","Paperboard mills",0,0,0,0,0,0,0,0,0,0,0,0,0
+"322210","Paperboard container manufacturing",0,0,0,0,0,0,0,0,0,0,0,0,0
+"322220","Paper bag and coated and treated paper manufacturing",0,0,0,0,0,0,0,0,0,0,0,0,0
+"322230","Stationery product manufacturing",0,0,0,0,0,0,0,0,0,0,0,0,0
+"322291","Sanitary paper product manufacturing",0,0,0,0,0,0,0,0,0,0,0,0,0
+"322299","All other converted paper product manufacturing",0,0,0,0,0,0,0,0,0,0,0,0,0
+"323110","Printing",0,0,0,0,0,0,0,0,0,0,0,0,0
+"323120","Support activities for printing",0,0,0,0,0,0,0,0,0,0,0,0,0
+"324110","Petroleum refineries",0,0,0,0,0,0,0,0,0,0,0,0,0
+"324121","Asphalt paving mixture and block manufacturing",0,0,0,0,0,0,0,0,0,0,0,0,0
+"324122","Asphalt shingle and coating materials manufacturing",0,0,0,0,0,0,0,0,0,0,0,0,0
+"324190","Other petroleum and coal products manufacturing",0,0,0,0,0,0,0,0,0,0,0,0,0
+"325110","Petrochemical manufacturing",0,0,0,0,0,0,0,0,0,0,0,0,0
+"325120","Industrial gas manufacturing",0,0,0,0,0,0,0,0,0,0,0,0,0
+"325130","Synthetic dye and pigment manufacturing",0,0,0,0,0,0,0,0,0,0,0,0,0
+"325180","Other basic inorganic chemical manufacturing",0,4481.47044845542,0,0,0,0,0,0,0,0,0,0,0
+"325190","Other basic organic chemical manufacturing",0,0,0,0,0,0,0,0,0,0,0,0,0
+"325211","Plastics material and resin manufacturing",0,0,0,0,0,0,0,0,0,0,0,0,0
+"3252A0","Synthetic rubber and artificial and synthetic fibers and filaments manufacturing",0,0,0,0,0,0,0,0,0,0,0,0,0
+"325310","Fertilizer manufacturing",0,0,0,0,0,0,0,0,0,0,0,0,0
+"325320","Pesticide and other agricultural chemical manufacturing",0,0,0,0,0,0,0,0,0,0,0,0,0
+"325411","Medicinal and botanical manufacturing",0,0,0,0,0,0,0,0,0,0,0,0,0
+"325412","Pharmaceutical preparation manufacturing",0,0,0,0,0,0,0,0,0,0,0,0,0
+"325413","In-vitro diagnostic substance manufacturing",0,0,0,0,0,0,0,0,0,0,0,0,0
+"325414","Biological product (except diagnostic) manufacturing",0,0,0,0,0,0,0,0,0,0,0,0,0
+"325510","Paint and coating manufacturing",0,0,0,0,0,0,0,0,0,0,0,0,0
+"325520","Adhesive manufacturing",0,0,0,0,0,0,0,0,0,0,0,0,0
+"325610","Soap and cleaning compound manufacturing",0,0,0,0,0,0,0,0,0,0,0,0,0
+"325620","Toilet preparation manufacturing",0,0,0,0,0,0,0,0,0,0,0,0,0
+"325910","Printing ink manufacturing",0,0,0,0,0,0,0,0,0,0,0,0,0
+"3259A0","All other chemical product and preparation manufacturing",0,0,0,0,0,0,0,0,0,0,0,0,0
+"326110","Plastics packaging materials and unlaminated film and sheet manufacturing",0,0,0,0,0,0,0,0,0,0,0,0,0
+"326120","Plastics pipe, pipe fitting, and unlaminated profile shape manufacturing",0,0,0,0,0,0,0,0,0,0,0,0,0
+"326130","Laminated plastics plate, sheet (except packaging), and shape manufacturing",0,0,0,0,0,0,0,0,0,0,0,0,0
+"326140","Polystyrene foam product manufacturing",0,0,0,0,0,0,0,0,0,0,0,0,0
+"326150","Urethane and other foam product (except polystyrene) manufacturing",0,20.499627699181,0,104.960960960961,0,0,0,0,0,0,0,0,0
+"326160","Plastics bottle manufacturing",0,0,0,0,0,0,0,0,0,0,0,0,0
+"326190","Other plastics product manufacturing",0,0,0,0,0,0,0,0,0,0,0,0,0
+"326210","Tire manufacturing",0,0,0,0,0,0,0,0,0,0,0,0,0
+"326220","Rubber and plastics hoses and belting manufacturing",0,0,0,0,0,0,0,0,0,0,0,0,0
+"326290","Other rubber product manufacturing",0,137.600729811383,0,24.584438984439,0,0,0,0,20.76761155537,0,0,0,0
+"420000","Wholesale trade",0,124382.473541741,11281.0439221671,1530.13771993756,0,6366.32630447756,256.602195544232,0,2098.00143570838,336.275188829035,0,5009.99145996976,737.474262182567
+"441000","Motor vehicle and parts dealers",0,9595.1625254787,0,16.1930014007853,0,0,0,0,0,0,0,0,0
+"445000","Food and beverage stores",0,460.957963594894,0,1.07953342671902,0,0,0,0,0,0,0,0,0
+"452000","General merchandise stores",0,2136.45363331695,238.006699732926,201.872750796456,0,0,0,0,0,0,0,0,0
+"4A0000","Other retail",0,19243.0284358735,2987.51693246852,4592.3351972627,0,0,0,0,0,0,0,0,0
+"481000","Air transportation",0,2068.530654794,271.161861884777,30.5242549562066,0,187.150078383041,3.54749579093409,0,36.3748118470828,5.19982720382272,0,62.8374836262715,12.0109814687714
+"482000","Rail transportation",0,1617.42735945474,0,39.24547065798,0,22.4131830398851,0,0,2.94930906868238,0,0,51.1078200160342,0
+"483000","Water transportation",0,23.3732277377852,0,0,0,4.48263660797702,0,0,0.983103022894128,0,0,2.51349934505086,0
+"484000","Truck transportation",0,18774.9347341717,749.543487218619,482.937319485698,0,832.649749931732,16.5549803576924,0,173.026132029367,22.0992656162466,0,834.481782556886,46.8428277282086
+"485000","Transit and ground passenger transportation",0,0,0,0,0,0,0,0,0,0,0,0,0
+"486000","Pipeline transportation",0,0,0,0,0,0,0,0,0,0,0,0,0
+"48A000","Scenic and sightseeing transportation and support activities for transportation",0,0,0,0,0,0,0,0,0,0,0,0,0
+"492000","Couriers and messengers",0,0,0,0,0,0,0,0,0,0,0,0,0
+"493000","Warehousing and storage",0,0,0,0,0,0,0,0,0,0,0,0,0
+"511110","Newspaper publishers",0,0,0,0,0,0,0,0,0,0,0,0,0
+"511120","Periodical Publishers",0,0,218.541597613523,0,0,0,0,0,0,0,0,0,0
+"511130","Book publishers",0,0,9771.45840238648,0,0,0,0,0,0,0,0,0,0
+"5111A0","Directory, mailing list, and other publishers",0,0,482.72807293304,0,0,0,0,0,0,0,0,0,0
+"511200","Software publishers",0,0,62061.727096528,0,0,0,1487.58323499836,0,0,1945.68079735767,0,0,4272.306108442
+"512100","Motion picture and video industries",0,0,32435.0231662304,0,0,0,0,0,0,0,0,0,0
+"512200","Sound recording industries",0,0,4663.8612385174,0,0,0,0,0,0,0,0,0,0
+"515100","Radio and television broadcasting",0,0,9045.55127404241,0,0,0,0,0,0,0,0,0,0
+"515200","Cable and other subscription programming",0,0,13752.5691270755,0,0,0,0,0,0,0,0,0,0
+"517110","Wired telecommunications carriers",0,6749.38953318573,0,0,0,0,0,0,0,0,0,0,0
+"517210","Wireless telecommunications carriers (except satellite)",0,0,0,0,0,0,0,0,0,0,0,0,0
+"517A00","Satellite, telecommunications resellers, and all other telecommunications",0,0,0,0,0,0,0,0,0,0,0,0,0
+"518200","Data processing, hosting, and related services",0,0,0,0,0,0,0,0,0,0,0,0,0
+"5191A0","News syndicates, libraries, archives and all other information services",0,0,0,0,0,0,0,0,0,0,0,0,0
+"519130","Internet publishing and broadcasting and Web search portals",0,0,0,0,0,0,0,0,0,0,0,0,0
+"52A000","Monetary authorities and depository credit intermediation",0,0,0,0,0,0,0,0,0,0,0,0,0
+"522A00","Nondepository credit intermediation and related activities",0,0,0,0,0,0,0,0,0,0,0,0,0
+"523A00","Securities and commodity contracts intermediation and brokerage",0,0,0,0,0,0,0,0,0,0,0,0,0
+"523900","Other financial investment activities",0,0,0,0,0,0,0,0,0,0,0,0,0
+"524100","Insurance carriers",0,0,0,9307.02597402597,0,0,0,0,0,0,0,0,0
+"524200","Insurance agencies, brokerages, and related activities",0,0,0,0,0,0,0,0,0,0,0,0,0
+"525000","Funds, trusts, and other financial vehicles",0,0,0,0,0,0,0,0,0,0,0,0,0
+"5310HS","Housing",0,0,0,0,0,0,0,0,0,0,0,0,0
+"531ORE","Other real estate",0,0,0,95492.6363636364,0,0,0,0,0,0,0,0,0
+"532100","Automotive equipment rental and leasing",0,0,0,0,0,0,0,0,0,0,0,0,0
+"532A00","Consumer goods and general rental centers",0,0,0,0,0,0,0,0,0,0,0,0,0
+"532400","Commercial and industrial machinery and equipment rental and leasing",0,0,0,0,0,0,0,0,0,0,0,0,0
+"533000","Lessors of nonfinancial intangible assets",0,0,0,0,0,0,0,0,0,0,0,0,0
+"541100","Legal services",0,0,0,20908.9350649351,0,0,0,0,0,0,0,0,0
+"541511","Custom computer programming services",0,0,217003,0,0,0,5935.71209330878,0,0,15290.7449209932,0,0,8931.36582017845
+"541512","Computer systems design services",0,13687.7778198693,0,0,0,1299.80614519725,0,0,0,0,0,1118.42585132098,0
+"54151A","Other computer related services, including facilities management",0,0,0,0,0,0,0,0,0,0,0,0,0
+"541200","Accounting, tax preparation, bookkeeping, and payroll services",0,0,0,0,0,0,0,0,0,0,0,0,0
+"541300","Architectural, engineering, and related services",0,40845.9686296969,0,1912.4025974026,0,0,0,0,0,0,0,0,0
+"541400","Specialized design services",0,0,0,0,0,0,0,0,0,0,0,0,0
+"541610","Management consulting services",0,0,0,0,0,0,0,0,0,0,0,0,0
+"5416A0","Environmental and other technical consulting services",0,0,0,0,0,0,0,0,0,0,0,0,0
+"541700","Scientific research and development services",0,0,278465,0,0,0,60300,0,0,70000,0,0,19000
+"541800","Advertising, public relations, and related services",0,0,0,0,0,0,0,0,0,0,0,0,0
+"5419A0","Marketing research and all other miscellaneous professional, scientific, and technical services",0,0,0,0,0,0,0,0,0,0,0,0,0
+"541920","Photographic services",0,0,1057.56680289217,0,0,0,0,0,0,0,0,0,0
+"541940","Veterinary services",0,0,0,0,0,0,0,0,0,0,0,0,0
+"550000","Management of companies and enterprises",0,0,0,0,0,0,0,0,0,0,0,0,0
+"561100","Office administrative services",0,0,0,0,0,0,0,0,0,0,0,0,0
+"561200","Facilities support services",0,0,0,0,0,0,0,0,0,0,0,0,0
+"561300","Employment services",0,0,0,0,0,0,0,0,0,0,0,0,0
+"561400","Business support services",0,0,0,0,0,0,0,0,0,0,0,0,0
+"561500","Travel arrangement and reservation services",0,0,0,0,0,0,0,0,0,0,0,0,0
+"561600","Investigation and security services",0,0,0,0,0,0,0,0,0,0,0,0,0
+"561700","Services to buildings and dwellings",0,0,0,0,0,0,0,0,0,0,0,0,0
+"561900","Other support services",0,0,0,0,0,0,0,0,0,0,0,0,0
+"562000","Waste management and remediation services",0,0,0,0,0,0,0,0,0,0,0,0,0
+"611100","Elementary and secondary schools",0,0,0,0,0,0,0,0,0,0,0,0,0
+"611A00","Junior colleges, colleges, universities, and professional schools",0,0,0,0,0,0,0,0,0,0,0,0,0
+"611B00","Other educational services",0,0,0,0,0,0,0,0,0,0,0,0,0
+"621100","Offices of physicians",0,0,0,0,0,0,0,0,0,0,0,0,0
+"621200","Offices of dentists",0,0,0,0,0,0,0,0,0,0,0,0,0
+"621300","Offices of other health practitioners",0,0,0,0,0,0,0,0,0,0,0,0,0
+"621400","Outpatient care centers",0,0,0,0,0,0,0,0,0,0,0,0,0
+"621500","Medical and diagnostic laboratories",0,0,0,0,0,0,0,0,0,0,0,0,0
+"621600","Home health care services",0,0,0,0,0,0,0,0,0,0,0,0,0
+"621900","Other ambulatory health care services",0,0,0,0,0,0,0,0,0,0,0,0,0
+"622000","Hospitals",0,0,0,0,0,0,0,0,0,0,0,0,0
+"623A00","Nursing and community care facilities",0,0,0,0,0,0,0,0,0,0,0,0,0
+"623B00","Residential mental retardation, mental health, substance abuse and other facilities",0,0,0,0,0,0,0,0,0,0,0,0,0
+"624100","Individual and family services",0,0,0,0,0,0,0,0,0,0,0,0,0
+"624A00","Community food, housing, and other relief services, including rehabilitation services",0,0,0,0,0,0,0,0,0,0,0,0,0
+"624400","Child day care services",0,0,0,0,0,0,0,0,0,0,0,0,0
+"711100","Performing arts companies",0,0,3107.54973673102,0,0,0,0,0,0,0,0,0,0
+"711200","Spectator sports",0,0,0,0,0,0,0,0,0,0,0,0,0
+"711A00","Promoters of performing arts and sports and agents for public figures",0,0,0,0,0,0,0,0,0,0,0,0,0
+"711500","Independent artists, writers, and performers",0,0,341.15058157812,0,0,0,0,0,0,0,0,0,0
+"712000","Museums, historical sites, zoos, and parks",0,0,0,0,0,0,0,0,0,0,0,0,0
+"713100","Amusement parks and arcades",0,0,0,0,0,0,0,0,0,0,0,0,0
+"713200","Gambling industries (except casino hotels)",0,0,0,0,0,0,0,0,0,0,0,0,0
+"713900","Other amusement and recreation industries",0,0,0,0,0,0,0,0,0,0,0,0,0
+"721000","Accommodation",0,0,0,0,0,0,0,0,0,0,0,0,0
+"722110","Full-service restaurants",0,0,0,0,0,0,0,0,0,0,0,0,0
+"722211","Limited-service restaurants",0,0,0,0,0,0,0,0,0,0,0,0,0
+"722A00","All other food and drinking places",0,0,0,0,0,0,0,0,0,0,0,0,0
+"811100","Automotive repair and maintenance",0,0,0,0,0,0,0,0,0,0,0,0,0
+"811200","Electronic and precision equipment repair and maintenance",0,0,0,0,0,0,0,0,0,0,0,0,0
+"811300","Commercial and industrial machinery and equipment repair and maintenance",0,0,0,0,0,0,0,0,0,0,0,0,0
+"811400","Personal and household goods repair and maintenance",0,0,0,0,0,0,0,0,0,0,0,0,0
+"812100","Personal care services",0,0,0,0,0,0,0,0,0,0,0,0,0
+"812200","Death care services",0,0,0,0,0,0,0,0,0,0,0,0,0
+"812300","Dry-cleaning and laundry services",0,0,0,0,0,0,0,0,0,0,0,0,0
+"812900","Other personal services",0,0,0,0,0,0,0,0,0,0,0,0,0
+"813100","Religious organizations",0,0,0,0,0,0,0,0,0,0,0,0,0
+"813A00","Grantmaking, giving, and social advocacy organizations",0,0,0,0,0,0,0,0,0,0,0,0,0
+"813B00","Civic, social, professional, and similar organizations",0,0,0,0,0,0,0,0,0,0,0,0,0
+"814000","Private households",0,0,0,0,0,0,0,0,0,0,0,0,0
+"S00500","Federal general government (defense)",0,0,0,0,0,0,0,0,0,0,0,0,0
+"S00600","Federal general government (nondefense)",0,0,0,0,0,0,0,0,0,0,0,0,0
+"491000","Postal service",0,0,0,0,0,0,0,0,0,0,0,0,0
+"S00102","Other federal government enterprises",0,0,0,0,0,0,0,0,0,0,0,0,0
+"S00700","State and local general government",0,0,0,0,0,0,0,0,0,0,0,0,0
+"S00203","Other state and local government enterprises",0,0,0,0,0,0,0,0,0,0,0,0,0
+"S00401","Scrap",0,0,0,0,0,0,0,0,0,0,0,0,0
+"S00402","Used and secondhand goods",0,0,0,0,0,0,0,0,0,0,0,0,0
+"S00300","Noncomparable imports",0,0,0,0,0,0,0,0,0,0,0,0,0
+"S00900","Rest of the world adjustment",0,0,0,0,0,0,0,0,0,0,0,0,0

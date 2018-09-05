@@ -1,0 +1,52 @@
+rp_fa_code,rp_fa_type,rp_fa,rp_cat,inv
+53105sfoo,Households,"  Owner-occupied, 1-4 units, new",Single-family* residential structures,292734
+53105asoo,Households,"  Owner-occupied, 1-4 units, additions and alterations",Other residential structures,106492
+53105msoo,Households,"  Owner-occupied, 1-4 units, major replacements",Other residential structures,32405
+53105mfoo,Households,"  Owner-occupied, 5+ units, new",Multifamily residential structures,17153
+53105amoo,Households,"  Owner-occupied, 5+ units, additions and alterations",Other residential structures,1173
+53105mmoo,Households,"  Owner-occupied, 5+ units, major replacements",Other residential structures,714
+53105mhoo,Households,"  Owner-occupied, manufactured homes",Manufactured homes,6274
+53105acoo,Households,"  Owner-occupied, acquisition costs",Cost of business,21430
+53105dcoo,Households,"  Owner-occupied, disposal costs",Cost of business,96801
+53105sfto,Households,"  Tenant-occupied, 1-4 units, new",Single-family* residential structures,9963
+53105asto,Households,"  Tenant-occupied, 1-4 units, additions and alterations",Other residential structures,11376
+53105msto,Households,"  Tenant-occupied, 1-4 units, major replacements",Other residential structures,3921
+53105mfto,Households,"  Tenant-occupied, 5+ units, new",Multifamily residential structures,4937
+53105amto,Households,"  Tenant-occupied, 5+ units, additions and alterations",Other residential structures,836
+53105mmto,Households,"  Tenant-occupied, 5+ units, major replacements",Other residential structures,551
+53105acto,Households,"  Tenant-occupied, acquisition costs",Cost of business,2375
+53105dcto,Households,"  Tenant-occupied, disposal costs",Cost of business,7810
+53105e1to,Households,"  Tenant-occupied, 1-4 units, equipment",Equipment,1761
+53105e5to,Households,"  Tenant-occupied, 5+ units, equipment",Equipment,1202
+53102sfto,Corporate,"  Tenant-occupied, 1-4 units, new",Single-family* residential structures,926
+53102asto,Corporate,"  Tenant-occupied, 1-4 units, additions and alterations",Other residential structures,1067
+53102msto,Corporate,"  Tenant-occupied, 1-4 units, major replacements",Other residential structures,368
+53102mfto,Corporate,"  Tenant-occupied, 5+ units, new",Multifamily residential structures,2221
+53102amto,Corporate,"  Tenant-occupied, 5+ units, additions and alterations",Other residential structures,376
+53102mmto,Corporate,"  Tenant-occupied, 5+ units, major replacements",Other residential structures,248
+53102acto,Corporate,"  Tenant-occupied, acquisition costs",Cost of business,477
+53102dcto,Corporate,"  Tenant-occupied, disposal costs",Cost of business,1568
+53102e1to,Corporate,"  Tenant-occupied, 1-4 units, equipment",Equipment,411
+53102e5to,Corporate,"  Tenant-occupied, 5+ units, equipment",Equipment,281
+53104sfto,Sole proprietors and partnerships,"  Tenant-occupied, 1-4 units, new",Single-family* residential structures,4089
+53104asto,Sole proprietors and partnerships,"  Tenant-occupied, 1-4 units, additions and alterations",Other residential structures,4622
+53104msto,Sole proprietors and partnerships,"  Tenant-occupied, 1-4 units, major replacements",Other residential structures,1593
+53104mfto,Sole proprietors and partnerships,"  Tenant-occupied, 5+ units, new",Multifamily residential structures,16538
+53104amto,Sole proprietors and partnerships,"  Tenant-occupied, 5+ units, additions and alterations",Other residential structures,2802
+53104mmto,Sole proprietors and partnerships,"  Tenant-occupied, 5+ units, major replacements",Other residential structures,1845
+53104mhto,Sole proprietors and partnerships,"  Tenant-occupied, manufactured homes",Manufactured homes,3121
+53104acto,Sole proprietors and partnerships,"  Tenant-occupied, acquisition costs",Cost of business,3079
+53104dcto,Sole proprietors and partnerships,"  Tenant-occupied, disposal costs",Cost of business,10126
+53104e1to,Sole proprietors and partnerships,"  Tenant-occupied, 1-4 units, equipment",Equipment,3522
+53104e5to,Sole proprietors and partnerships,"  Tenant-occupied, 5+ units, equipment",Equipment,2404
+53108sfto,Nonprofit institutions,"  Tenant-occupied, 1-4 units, new",Single-family* residential structures,617
+53108asto,Nonprofit institutions,"  Tenant-occupied, 1-4 units, additions and alterations",Other residential structures,711
+53108msto,Nonprofit institutions,"  Tenant-occupied, 1-4 units, major replacements",Other residential structures,245
+53108mfto,Nonprofit institutions,"  Tenant-occupied, 5+ units, new",Multifamily residential structures,987
+53108amto,Nonprofit institutions,"  Tenant-occupied, 5+ units, additions and alterations",Other residential structures,167
+53108mmto,Nonprofit institutions,"  Tenant-occupied, 5+ units, major replacements",Other residential structures,110
+53108acto,Nonprofit institutions,"  Tenant-occupied, acquisition costs",Cost of business,246
+53108dcto,Nonprofit institutions,"  Tenant-occupied, disposal costs",Cost of business,808
+53108e1to,Nonprofit institutions,"  Tenant-occupied, 1-4 units, equipment",Equipment,176
+53108e5to,Nonprofit institutions,"  Tenant-occupied, 5+ units, equipment",Equipment,120
+53108osto,Nonprofit institutions,  Other residential structures,Other residential structures,2900

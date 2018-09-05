@@ -1,0 +1,17 @@
+yk,yk_desc,line,item,491000,S00101,S00102,S00201,S00202,S00203
+9,Federal nondefense: Gross investment in equipment,39,Equipment,0.211,0.063,0.727,0.000,0.000,0.000
+8,Federal nondefense: Gross investment in structures,41,Office,0.211,0.063,0.727,0.000,0.000,0.000
+8,Federal nondefense: Gross investment in structures,42,Commercial,0.211,0.063,0.727,0.000,0.000,0.000
+8,Federal nondefense: Gross investment in structures,48,Power,0.000,1.000,0.000,0.000,0.000,0.000
+8,Federal nondefense: Gross investment in structures,50,Conservation and development,0.000,0.000,1.000,0.000,0.000,0.000
+10,Federal nondefense: Gross investment in intellectual property products,53,Software,0.211,0.063,0.727,0.000,0.000,0.000
+12,State and local: Gross investment in equipment,56,Equipment,0.000,0.000,0.000,0.221,0.016,0.763
+11,State and local: Gross investment in structures,58,Residential,0.000,0.000,0.000,0.000,0.000,1.000
+11,State and local: Gross investment in structures,60,Commercial,0.000,0.000,0.000,0.000,0.000,1.000
+11,State and local: Gross investment in structures,65,Transportation,0.000,0.000,0.000,0.228,0.000,0.772
+11,State and local: Gross investment in structures,66,Power,0.000,0.000,0.000,0.000,1.000,0.000
+11,State and local: Gross investment in structures,67,Highways and streets,0.000,0.000,0.000,0.000,0.000,1.000
+11,State and local: Gross investment in structures,68,Sewer systems,0.000,0.000,0.000,0.000,0.000,1.000
+11,State and local: Gross investment in structures,69,Water systems,0.000,0.000,0.000,0.000,0.000,1.000
+11,State and local: Gross investment in structures,71,Other structures 5,0.000,0.000,0.000,0.000,0.000,1.000
+13,State and local: Gross investment in intellectual property products,73,Software,0.000,0.000,0.000,0.221,0.016,0.763

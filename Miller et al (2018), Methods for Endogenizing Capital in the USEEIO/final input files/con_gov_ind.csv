@@ -1,0 +1,43 @@
+yk,yk_code,yk_desc,line,item,class,dig_gen,gov_gen_2007,gov_gen_2013,gov_ent_2007,gov_ent_2013
+6,F06E00,Federal national defense: Gross investment in equipment,24,Aircraft,General government,S00500,1.000,1.000,0.000,0.000
+6,F06E00,Federal national defense: Gross investment in equipment,25,Missiles,General government,S00500,1.000,1.000,0.000,0.000
+6,F06E00,Federal national defense: Gross investment in equipment,26,Ships,General government,S00500,1.000,1.000,0.000,0.000
+6,F06E00,Federal national defense: Gross investment in equipment,27,Vehicles,General government,S00500,1.000,1.000,0.000,0.000
+6,F06E00,Federal national defense: Gross investment in equipment,28,Electronics,General government,S00500,1.000,1.000,0.000,0.000
+6,F06E00,Federal national defense: Gross investment in equipment,29,Other equipment,General government,S00500,1.000,1.000,0.000,0.000
+5,F06S00,Federal national defense: Gross investment in structures,32,Residential,General government,S00500,1.000,1.000,0.000,0.000
+5,F06S00,Federal national defense: Gross investment in structures,33,Industrial,General government,S00500,1.000,1.000,0.000,0.000
+5,F06S00,Federal national defense: Gross investment in structures,34,Military facilities 3,General government,S00500,1.000,1.000,0.000,0.000
+7,F06N00,Federal national defense: Gross investment in intellectual property products,36,Software,General government,S00500,1.000,1.000,0.000,0.000
+7,F06N00,Federal national defense: Gross investment in intellectual property products,37,Research and development,General government,S00500,1.000,1.000,0.000,0.000
+9,F07E00,Federal nondefense: Gross investment in equipment,39,Equipment,Mix of general government and government enterprises,S00600,0.780,0.766,0.220,0.234
+8,F07S00,Federal nondefense: Gross investment in structures,41,Office,Mix of general government and government enterprises,S00600,0.808,0.815,0.192,0.185
+8,F07S00,Federal nondefense: Gross investment in structures,42,Commercial,Mix of general government and government enterprises,S00600,0.808,0.815,0.192,0.185
+8,F07S00,Federal nondefense: Gross investment in structures,43,Health care,General government,S00600,1.000,1.000,0.000,0.000
+8,F07S00,Federal nondefense: Gross investment in structures,44,Educational,General government,S00600,1.000,1.000,0.000,0.000
+8,F07S00,Federal nondefense: Gross investment in structures,45,Public safety,General government,S00600,1.000,1.000,0.000,0.000
+8,F07S00,Federal nondefense: Gross investment in structures,46,Amusement and recreation,General government,S00600,1.000,1.000,0.000,0.000
+8,F07S00,Federal nondefense: Gross investment in structures,47,Transportation,General government,S00600,1.000,1.000,0.000,0.000
+8,F07S00,Federal nondefense: Gross investment in structures,48,Power,Government enterprises,S00600,0.000,0.000,1.000,1.000
+8,F07S00,Federal nondefense: Gross investment in structures,49,Highways and streets,General government,S00600,1.000,1.000,0.000,0.000
+8,F07S00,Federal nondefense: Gross investment in structures,50,Conservation and development,Mix of general government and government enterprises,S00600,0.808,0.815,0.192,0.185
+8,F07S00,Federal nondefense: Gross investment in structures,51,Other structures 4,General government,S00600,1.000,1.000,0.000,0.000
+10,F07N00,Federal nondefense: Gross investment in intellectual property products,53,Software,Mix of general government and government enterprises,S00600,0.886,0.883,0.114,0.117
+10,F07N00,Federal nondefense: Gross investment in intellectual property products,54,Research and development,General government,S00600,1.000,1.000,0.000,0.000
+12,F10E00,State and local: Gross investment in equipment,56,Equipment,Mix of general government and government enterprises,S00700,0.780,0.766,0.220,0.234
+11,F10S00,State and local: Gross investment in structures,58,Residential,Government enterprises,S00700,0.000,0.000,1.000,1.000
+11,F10S00,State and local: Gross investment in structures,59,Office,General government,S00700,1.000,1.000,0.000,0.000
+11,F10S00,State and local: Gross investment in structures,60,Commercial,Government enterprises,S00700,0.000,0.000,1.000,1.000
+11,F10S00,State and local: Gross investment in structures,61,Health care,General government,S00700,1.000,1.000,0.000,0.000
+11,F10S00,State and local: Gross investment in structures,62,Educational,General government,S00700,1.000,1.000,0.000,0.000
+11,F10S00,State and local: Gross investment in structures,63,Public safety,General government,S00700,1.000,1.000,0.000,0.000
+11,F10S00,State and local: Gross investment in structures,64,Amusement and recreation,General government,S00700,1.000,1.000,0.000,0.000
+11,F10S00,State and local: Gross investment in structures,65,Transportation,Government enterprises,S00700,0.000,0.000,1.000,1.000
+11,F10S00,State and local: Gross investment in structures,66,Power,Government enterprises,S00700,0.000,0.000,1.000,1.000
+11,F10S00,State and local: Gross investment in structures,67,Highways and streets,Mix of general government and government enterprises,S00700,0.808,0.815,0.192,0.185
+11,F10S00,State and local: Gross investment in structures,68,Sewer systems,Mix of general government and government enterprises,S00700,0.808,0.815,0.192,0.185
+11,F10S00,State and local: Gross investment in structures,69,Water systems,Government enterprises,S00700,0.000,0.000,1.000,1.000
+11,F10S00,State and local: Gross investment in structures,70,Conservation and development,General government,S00700,1.000,1.000,0.000,0.000
+11,F10S00,State and local: Gross investment in structures,71,Other structures 5,Government enterprises,S00700,0.000,0.000,1.000,1.000
+13,F10N00,State and local: Gross investment in intellectual property products,73,Software,Mix of general government and government enterprises,S00700,0.886,0.883,0.114,0.117
+13,F10N00,State and local: Gross investment in intellectual property products,74,Research and development,General government,S00700,1.000,1.000,0.000,0.000

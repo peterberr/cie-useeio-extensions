@@ -1,0 +1,10 @@
+dig_desc,dig_code,who,ret,tra
+Wholesale trade,420000,1,0,0
+Motor vehicle and parts dealers,441000,0,1,0
+Food and beverage stores,445000,0,1,0
+General merchandise stores,452000,0,1,0
+Air transportation,481000,0,0,1
+Rail transportation,482000,0,0,1
+Water transportation,483000,0,0,1
+Truck transportation,484000,0,0,1
+Other retail,4A0000,0,1,0

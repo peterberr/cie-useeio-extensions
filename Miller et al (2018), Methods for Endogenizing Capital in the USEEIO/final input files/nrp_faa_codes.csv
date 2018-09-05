@@ -1,0 +1,97 @@
+asset_cat,asset_code,asset_desc
+Equipment,EP1A,Mainframes
+Equipment,EP1B,PCs
+Equipment,EP1C,DASDs
+Equipment,EP1D,Printers
+Equipment,EP1E,Terminals
+Equipment,EP1F,Tape drives
+Equipment,EP1G,Storage devices
+Equipment,EP1H,System integrators
+Equipment,EP20,Communications
+Equipment,EP34,Nonelectro medical instruments
+Equipment,EP35,Electro medical instruments
+Equipment,EP36,Nonmedical instruments
+Equipment,EP31,Photocopy and related equipment
+Equipment,EP12,Office and accounting equipment
+Equipment,EI11,Nuclear fuel
+Equipment,EI12,Other fabricated metals
+Equipment,EI21,Steam engines
+Equipment,EI22,Internal combustion engines
+Equipment,EI30,Metalworking machinery
+Equipment,EI40,Special industrial machinery
+Equipment,EI50,General industrial equipment
+Equipment,EI60,Electric transmission and distribution
+Equipment,ET11,Light trucks (including utility vehicles)
+Equipment,ET12,"Other trucks, buses and truck trailers"
+Equipment,ET20,Autos
+Equipment,ET30,Aircraft
+Equipment,ET40,Ships and boats
+Equipment,ET50,Railroad equipment
+Equipment,EO11,Household furniture
+Equipment,EO12,Other furniture
+Equipment,EO30,Other agricultural machinery
+Equipment,EO21,Farm tractors
+Equipment,EO40,Other construction machinery
+Equipment,EO22,Construction tractors
+Equipment,EO50,Mining and oilfield machinery
+Equipment,EO60,Service industry machinery
+Equipment,EO71,Household appliances
+Equipment,EO72,Other electrical
+Equipment,EO80,Other
+Structures,SOO1,Office                                    
+Structures,SB31,Hospitals                             
+Structures,SB32,Special care                          
+Structures,SOO2,Medical buildings                       
+Structures,SC03,Multimerchandise shopping            
+Structures,SC04,Food and beverage establishments
+Structures,SC01,Warehouses                                
+Structures,SOMO ,Mobile structures
+Structures,SC02,Other commercial
+Structures,SI00,Manufacturing                               
+Structures,SU30,Electric                                
+Structures,SU60,Wind and solar
+Structures,SU40,Gas
+Structures,SU50,Petroleum pipelines
+Structures,SU20,Communication                             
+Structures,SM01,Petroleum and natural gas          
+Structures,SM02,Mining                                    
+Structures,SB10,Religious                                 
+Structures,SB20,Educational and vocational       
+Structures,SB41,Lodging                                   
+Structures,SB42,Amusement and recreation         
+Structures,SB43,Air transportation
+Structures,SB45,Other transportation
+Structures,SU11,Other railroad
+Structures,SU12,Track replacement
+Structures,SB44,Local transit structures
+Structures,SB46,Other land transportation                       
+Structures,SN00,Farm                                      
+Structures,SO01,Water supply
+Structures,SO02,Sewage and waste disposal
+Structures,SO03,Public safety
+Structures,SO04,Highway and conservation and development
+IPP,ENS1,Prepackaged software
+IPP,ENS2,Custom software
+IPP,ENS3,Own account software
+IPP,RD11,Pharmaceutical and medicine manufacturing     
+IPP,RD12,"Chemical manufacturing, ex. pharma and med"
+IPP,RD23,Semiconductor and other component manufacturing   
+IPP,RD21,Computers and peripheral equipment manufacturing
+IPP,RD22,Communications equipment manufacturing 
+IPP,RD24,Navigational and other instruments manufacturing
+IPP,RD25,"Other computer and electronic manufacturing, n.e.c."
+IPP,RD31,Motor vehicles and parts manufacturing 
+IPP,RD32,Aerospace products and parts manufacturing             
+IPP,RDOM,Other manufacturing                                          
+IPP,RD70,Scientific research and development services            
+IPP,RD40,Software publishers
+IPP,RD50,Financial and real estate services
+IPP,RD60,Computer systems design and related services
+IPP,RD80,"All other nonmanufacturing, n.e.c.                            "
+IPP,RD91,Private universities and colleges                            
+IPP,RD92,Other nonprofit institutions                                 
+IPP,AE10,Theatrical movies
+IPP,AE20,Long-lived television programs                           
+IPP,AE30,Books
+IPP,AE40,Music                                           
+IPP,AE50,Other entertainment originals                                  

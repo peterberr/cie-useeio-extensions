@@ -1,0 +1,43 @@
+yk,yk_code,yk_desc,line,Item,2007,2013
+6,F06E00,Federal national defense: Gross investment in equipment,24,Aircraft,12.90,21.60
+6,F06E00,Federal national defense: Gross investment in equipment,25,Missiles,4.30,6.40
+6,F06E00,Federal national defense: Gross investment in equipment,26,Ships,10.30,12.50
+6,F06E00,Federal national defense: Gross investment in equipment,27,Vehicles,6.20,3.90
+6,F06E00,Federal national defense: Gross investment in equipment,28,Electronics,10.30,7.30
+6,F06E00,Federal national defense: Gross investment in equipment,29,Other equipment,26.70,27.00
+5,F06S00,Federal national defense: Gross investment in structures,32,Residential,1.70,0.80
+5,F06S00,Federal national defense: Gross investment in structures,33,Industrial,0.30,0.50
+5,F06S00,Federal national defense: Gross investment in structures,34,Military facilities 3,8.00,5.20
+7,F06N00,Federal national defense: Gross investment in intellectual property products,36,Software,6.50,7.70
+7,F06N00,Federal national defense: Gross investment in intellectual property products,37,Research and development,65.40,60.30
+9,F07E00,Federal nondefense: Gross investment in equipment,39,Equipment,16.10,16.00
+8,F07S00,Federal nondefense: Gross investment in structures,41,Office,2.10,1.40
+8,F07S00,Federal nondefense: Gross investment in structures,42,Commercial,1.20,0.30
+8,F07S00,Federal nondefense: Gross investment in structures,43,Health care,1.00,2.50
+8,F07S00,Federal nondefense: Gross investment in structures,44,Educational,0.40,0.40
+8,F07S00,Federal nondefense: Gross investment in structures,45,Public safety,0.50,0.30
+8,F07S00,Federal nondefense: Gross investment in structures,46,Amusement and recreation,0.20,0.10
+8,F07S00,Federal nondefense: Gross investment in structures,47,Transportation,0.30,0.20
+8,F07S00,Federal nondefense: Gross investment in structures,48,Power,0.40,1.00
+8,F07S00,Federal nondefense: Gross investment in structures,49,Highways and streets,0.70,0.50
+8,F07S00,Federal nondefense: Gross investment in structures,50,Conservation and development,5.00,2.60
+8,F07S00,Federal nondefense: Gross investment in structures,51,Other structures 4,1.60,1.40
+10,F07N00,Federal nondefense: Gross investment in intellectual property products,53,Software,14.20,17.60
+10,F07N00,Federal nondefense: Gross investment in intellectual property products,54,Research and development,57.20,70.00
+12,F10E00,State and local: Gross investment in equipment,56,Equipment,43.80,39.60
+11,F10S00,State and local: Gross investment in structures,58,Residential,5.60,4.70
+11,F10S00,State and local: Gross investment in structures,59,Office,20.80,19.30
+11,F10S00,State and local: Gross investment in structures,60,Commercial,0.50,0.40
+11,F10S00,State and local: Gross investment in structures,61,Health care,5.90,6.10
+11,F10S00,State and local: Gross investment in structures,62,Educational,78.20,60.90
+11,F10S00,State and local: Gross investment in structures,63,Public safety,4.80,3.80
+11,F10S00,State and local: Gross investment in structures,64,Amusement and recreation,7.30,4.80
+11,F10S00,State and local: Gross investment in structures,65,Transportation,18.00,22.30
+11,F10S00,State and local: Gross investment in structures,66,Power,11.00,9.80
+11,F10S00,State and local: Gross investment in structures,67,Highways and streets,76.40,82.40
+11,F10S00,State and local: Gross investment in structures,68,Sewer systems,21.00,18.40
+11,F10S00,State and local: Gross investment in structures,69,Water systems,17.20,15.10
+11,F10S00,State and local: Gross investment in structures,70,Conservation and development,3.30,2.60
+11,F10S00,State and local: Gross investment in structures,71,Other structures 5,1.30,0.60
+13,F10N00,State and local: Gross investment in intellectual property products,73,Software,11.70,14.00
+13,F10N00,State and local: Gross investment in intellectual property products,74,Research and development,14.10,19.00
