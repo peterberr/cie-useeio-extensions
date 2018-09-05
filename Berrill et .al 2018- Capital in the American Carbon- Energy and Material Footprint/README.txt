@@ -1,1 +1,0 @@
-This Folder contains the data files and scripts associated with the research on impacts of capital in footprints of US consumption. The work builds on the USSEEIO model, and previous work by Miller et al. 2018 in endogenizing capital in USEEIO.
