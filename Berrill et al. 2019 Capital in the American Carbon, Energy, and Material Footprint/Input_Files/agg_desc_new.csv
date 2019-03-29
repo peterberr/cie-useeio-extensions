@@ -1,0 +1,27 @@
+agg_code,agg_desc,short_desc
+11,"Agri, Forestry, Fishing","Agri, Forestry, Fishing"
+21,"Mining, Fossil Extraction","Mining, Fossil Extraction"
+22,"Electricity, Water","Electricity, Water"
+2334,Residential Construction,Residential Construction
+23,Non-residential Construction,Non-res. Construction
+31,"Food, Drink, Textile, Apparel","Food, Drink, Textile, Apparel"
+32,"Bio, Chemical, Mineral Products","Bio, Chem, Mineral Products"
+33,"Metal, Vehicles, Machinery","Metal, Vehicles, Machinery"
+42,Wholesale Trade,Wholesale Trade
+4X,Retail Trade,Retail Trade
+48,Transport,Transport
+49,"Delivery, Warehousing","Delivery, Warehousing"
+51,Information Industries,Information Industries
+52,"Finance, Insurance","Finance, Insurance"
+53,"Housing, Real Estate","Housing, Real Estate"
+54,"Science, Prof. Services","Science, Prof. Services"
+55,Management,Management
+56,"Admin, Support, Waste Services","Admin, Support, Waste"
+61,Education,Education
+62,"Healthcare, Social assistance","Healthcare, Social assist."
+71,"Arts, Entertainment, Recreation","Arts, Entertain., Recreation"
+72,"Accommodation, Restaurants","Accomm., Restaurants"
+81,"Repair, Personal services","Repair, Personal services"
+S0,"Govt., Reuse, Trade Adjustments","Government, Misc."
+91,Residential fuel,Residential fuel
+92,Personal transport fuel,Personal transport fuel
