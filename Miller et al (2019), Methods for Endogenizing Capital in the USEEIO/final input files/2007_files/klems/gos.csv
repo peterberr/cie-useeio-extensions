@@ -1,0 +1,406 @@
+dig_desc,dig_code,intermed,gos
+Oilseed farming,1111A0,13594,9967
+Grain farming,1111B0,44804,12968
+Vegetable and melon farming,111200,9249,6414
+Fruit and tree nut farming,111300,6901,7783
+"Greenhouse, nursery, and floriculture production",111400,9099,4191
+Other crop farming,111900,10943,6176
+Dairy cattle and milk production,112120,24194,8980
+"Beef cattle ranching and farming, including feedlots and dual-purpose ranching and farming",1121A0,33411,20483
+Poultry and egg production,112300,28641,2486
+"Animal production, except cattle and poultry and eggs",112A00,5982,14757
+Forestry and logging,113000,8947,3132
+"Fishing, hunting and trapping",114000,2125,3586
+Support activities for agriculture and forestry,115000,5090,3898
+Oil and gas extraction,211000,71027,155520
+Coal mining,212100,18194,14786
+"Copper, nickel, lead, and zinc mining",212230,5757,5424
+"Iron, gold, silver, and other metal ore mining",2122A0,7052,5013
+Stone mining and quarrying,212310,8333,7596
+Other nonmetallic mineral mining and quarrying,2123A0,7194,4337
+Drilling oil and gas wells,213111,19976,10826
+Other support activities for mining,21311A,24055,14000
+"Electric power generation, transmission, and distribution",221100,141179,86707
+Natural gas distribution,221200,75131,27965
+"Water, sewage and other systems",221300,3377,2559
+Health care structures,233210,21233,9348
+Educational and vocational structures,233262,38484,19562
+Nonresidential maintenance and repair,230301,62190,28857
+Residential maintenance and repair,230302,29066,13971
+Office and commercial structures,2332A0,53882,17185
+Multifamily residential structures,233412,25600,15141
+Other residential structures,2334A0,123624,54792
+Manufacturing structures,233230,11603,3653
+Other nonresidential structures,2332D0,47077,18613
+Power and communication structures,233240,24850,23474
+Single-family residential structures,233411,136483,41270
+Transportation structures and highways and streets,2332C0,49714,21173
+Sawmills and wood preservation,321100,20909,995
+"Veneer, plywood, and engineered wood product manufacturing",321200,16016,919
+Millwork,321910,19486,1244
+All other wood product manufacturing,3219A0,17813,1583
+Clay product and refractory manufacturing,327100,4651,1333
+Glass and glass product manufacturing,327200,12423,3992
+Cement manufacturing,327310,6911,1822
+Ready-mix concrete manufacturing,327320,26208,1994
+"Concrete pipe, brick, and block manufacturing",327330,5531,1466
+Other concrete product manufacturing,327390,7636,1272
+Lime and gypsum product manufacturing,327400,4896,1362
+Abrasive product manufacturing,327910,1392,2208
+Cut stone and stone product manufacturing,327991,2415,605
+Ground or treated mineral and earth manufacturing,327992,1358,1008
+Mineral wool manufacturing,327993,3128,1274
+Miscellaneous nonmetallic mineral products,327999,1670,907
+Iron and steel mills and ferroalloy manufacturing,331110,79015,12767
+Steel product manufacturing from purchased steel,331200,15933,1996
+Secondary smelting and alloying of aluminum,331314,7199,281
+Alumina refining and primary aluminum production,331313,6208,488
+Aluminum product manufacturing from purchased aluminum,33131B,21205,1712
+Nonferrous Metal (except Aluminum) Smelting and Refining,331410,8474,3831
+"Copper rolling, drawing, extruding and alloying",331420,22711,342
+"Nonferrous metal (except copper and aluminum) rolling, drawing, extruding and alloying",331490,12158,3486
+Ferrous metal foundries,331510,10101,3410
+Nonferrous metal foundries,331520,8811,1506
+Custom roll forming,332114,6230,1384
+"All other forging, stamping, and sintering",33211A,8161,1343
+"Metal crown, closure, and other metal stamping (except automotive)",332119,7672,1410
+Cutlery and handtool manufacturing,332200,5647,1993
+Plate work and fabricated structural product manufacturing,332310,30789,3339
+Ornamental and architectural metal products manufacturing,332320,29085,3231
+Power boiler and heat exchanger manufacturing,332410,2927,862
+Metal tank (heavy gauge) manufacturing,332420,5645,1077
+"Metal can, box, and other metal container (light gauge) manufacturing",332430,12337,1964
+Hardware manufacturing,332500,6114,1311
+Spring and wire product manufacturing,332600,6016,752
+Machine shops,332710,18798,2639
+"Turned product and screw, nut, and bolt manufacturing",332720,12972,6341
+"Coating, engraving, heat treating and allied activities",332800,14621,4493
+Plumbing fixture fitting and trim manufacturing,332913,2878,791
+Valve and fittings other than plumbing,33291A,12915,4708
+Ball and roller bearing manufacturing,332991,3394,1273
+Fabricated pipe and pipe fitting manufacturing,332996,4066,1113
+"Ammunition, arms, ordnance, and accessories manufacturing",33299A,3444,2014
+Other fabricated metal manufacturing,332999,14258,1219
+Farm machinery and equipment manufacturing,333111,12532,4526
+Lawn and garden equipment manufacturing,333112,5495,835
+Construction machinery manufacturing,333120,22519,4193
+Mining and oil and gas field machinery manufacturing,333130,13119,1342
+Semiconductor machinery manufacturing,333242,9869,1827
+Other industrial machinery manufacturing,33329A,16423,2846
+Optical instrument and lens manufacturing,333314,2145,65
+Photographic and photocopying equipment manufacturing,333316,835,281
+Other commercial and service industry machinery manufacturing,333318,11123,2479
+Heating equipment (except warm air furnaces) manufacturing,333414,3251,674
+"Air conditioning, refrigeration, and warm air heating equipment manufacturing",333415,19712,4253
+Industrial and commercial fan and blower and air purification equipment manufacturing,333413,3066,595
+Industrial mold manufacturing,333511,2948,319
+"Special tool, die, jig, and fixture manufacturing",333514,4127,122
+Machine tool manufacturing,333517,3579,506
+"Cutting and machine tool accessory, rolling mill, and other metalworking machinery manufacturing",33351B,4945,712
+Turbine and turbine generator set units manufacturing,333611,5372,1610
+"Speed changer, industrial high-speed drive, and gear manufacturing",333612,1954,558
+Mechanical power transmission equipment manufacturing,333613,2476,670
+Other engine equipment manufacturing,333618,19330,2107
+Air and gas compressor manufacturing,333912,6290,1350
+Pump and pumping equipment manufacturing,33391A,8319,2466
+Material handling equipment manufacturing,333920,17439,4385
+Power-driven handtool manufacturing,333991,1192,702
+Packaging machinery manufacturing,333993,2327,585
+Industrial process furnace and oven manufacturing,333994,1263,296
+Other general purpose machinery manufacturing,33399A,10482,2511
+Fluid power process machinery,33399B,5269,792
+Electronic computer manufacturing,334111,27196,4227
+Computer storage device manufacturing,334112,3461,710
+Computer terminals and other computer peripheral equipment manufacturing,334118,5451,4743
+Telephone apparatus manufacturing,334210,13783,4610
+Broadcast and wireless communications equipment,334220,23411,12881
+Other communications equipment manufacturing,334290,2701,530
+Semiconductor and related device manufacturing,334413,31267,24787
+Printed circuit assembly (electronic assembly) manufacturing,334418,14403,4773
+Other electronic component manufacturing,33441A,13703,2377
+Electromedical and electrotherapeutic apparatus manufacturing,334510,12800,6997
+"Search, detection, and navigation instruments manufacturing",334511,21463,10283
+Automatic environmental control manufacturing,334512,1692,136
+Industrial process variable instruments manufacturing,334513,4821,181
+Totalizing fluid meter and counting device manufacturing,334514,3164,1632
+Electricity and signal testing instruments manufacturing,334515,7789,1194
+Analytical laboratory instrument manufacturing,334516,6455,3313
+Irradiation apparatus manufacturing,334517,3724,909
+"Watch, clock, and other measuring and controlling device manufacturing",33451A,4500,2384
+Audio and video equipment manufacturing,334300,9617,1718
+Manufacturing and reproducing magnetic and optical media,334610,4706,1208
+Electric lamp bulb and part manufacturing,335110,1415,45
+Lighting fixture manufacturing,335120,6764,1648
+Small electrical appliance manufacturing,335210,2303,364
+Household cooking appliance manufacturing,335221,2654,901
+Household refrigerator and home freezer manufacturing,335222,3952,502
+Household laundry equipment manufacturing,335224,2809,167
+Other major household appliance manufacturing,335228,2515,1298
+"Power, distribution, and specialty transformer manufacturing",335311,4714,531
+Motor and generator manufacturing,335312,7779,1539
+Switchgear and switchboard apparatus manufacturing,335313,6173,1607
+Relay and industrial control manufacturing,335314,5511,190
+Storage battery manufacturing,335911,3040,1287
+Primary battery manufacturing,335912,1076,1094
+Communication and energy wire and cable manufacturing,335920,11941,2104
+Wiring device manufacturing,335930,6279,2862
+Carbon and graphite product manufacturing,335991,1559,654
+All other miscellaneous electrical equipment and component manufacturing,335999,5533,1316
+Automobile manufacturing,336111,66057,8327
+Light truck and utility vehicle manufacturing,336112,130257,24120
+Heavy duty truck manufacturing,336120,17784,1247
+Motor vehicle body manufacturing,336211,6665,62
+Truck trailer manufacturing,336212,5266,336
+Motor home manufacturing,336213,4226,98
+Travel trailer and camper manufacturing,336214,8416,746
+Motor vehicle gasoline engine and engine parts manufacturing,336310,19998,2271
+Motor vehicle electrical and electronic equipment manufacturing,336320,13237,934
+Motor vehicle transmission and power train parts manufacturing,336350,28566,1760
+Motor vehicle seating and interior trim manufacturing,336360,15690,774
+Motor vehicle metal stamping,336370,21167,2755
+Other Motor Vehicle Parts Manufacturing,336390,34732,4877
+"Motor vehicle steering, suspension component (except spring), and brake systems manufacturing",3363A0,16088,1198
+Aircraft manufacturing,336411,57175,21116
+Aircraft engine and engine parts manufacturing,336412,18894,9405
+Other aircraft parts and auxiliary equipment manufacturing,336413,14123,6859
+Guided missile and space vehicle manufacturing,336414,8589,129
+Propulsion units and parts for space vehicles and guided missiles,33641A,3954,784
+Railroad rolling stock manufacturing,336500,9481,1645
+Ship building and repairing,336611,10403,1113
+Boat building,336612,8534,419
+"Motorcycle, bicycle, and parts manufacturing",336991,3560,1598
+"Military armored vehicle, tank, and tank component manufacturing",336992,8368,1901
+All other transportation equipment manufacturing,336999,6433,1224
+Wood kitchen cabinet and countertop manufacturing,337110,12130,594
+Upholstered household furniture manufacturing,337121,9307,359
+Nonupholstered wood household furniture manufacturing,337122,4849,518
+Institutional furniture manufacturing,337127,3844,510
+Other household nonupholstered furniture,33712N,2407,129
+"Showcase, partition, shelving, and locker manufacturing",337215,5361,186
+Office furniture and custom architectural woodwork and millwork manufacturing,33721A,9745,3950
+Other furniture related product manufacturing,337900,5519,2052
+Surgical and medical instrument manufacturing,339112,12932,6837
+Surgical appliance and supplies manufacturing,339113,16875,8246
+Dental equipment and supplies manufacturing,339114,2428,796
+Ophthalmic goods manufacturing,339115,3289,2340
+Dental laboratories,339116,2272,242
+Jewelry and silverware manufacturing,339910,7812,1604
+Sporting and athletic goods manufacturing,339920,8900,1244
+"Doll, toy, and game manufacturing",339930,2044,215
+Office supplies (except paper) manufacturing,339940,2588,344
+Sign manufacturing,339950,8395,608
+All other miscellaneous manufacturing,339990,19440,3146
+Dog and cat food manufacturing,311111,9284,2417
+Other animal food manufacturing,311119,19729,1250
+Flour milling and malt manufacturing,311210,10139,1205
+Wet corn milling,311221,9486,702
+Fats and oils refining and blending,311225,11761,802
+Soybean and other oilseed processing,311224,18399,1834
+Breakfast cereal manufacturing,311230,5573,2334
+Sugar and confectionery product manufacturing,311300,20109,2850
+Frozen food manufacturing,311410,18323,2268
+"Fruit and vegetable canning, pickling, and drying",311420,28046,2435
+Cheese manufacturing,311513,29084,1122
+"Dry, condensed, and evaporated dairy product manufacturing",311514,9449,2148
+Fluid milk and butter manufacturing,31151A,29060,1853
+Ice cream and frozen dessert manufacturing,311520,7279,347
+Poultry processing,311615,40268,2732
+"Animal (except poultry) slaughtering, rendering, and processing",31161A,94048,4513
+Seafood product preparation and packaging,311700,8921,415
+Bread and bakery product manufacturing,311810,20511,2554
+"Cookie, cracker, pasta, and tortilla manufacturing",3118A0,13342,2875
+Snack food manufacturing,311910,14796,5690
+Coffee and tea manufacturing,311920,5337,1497
+Flavoring syrup and concentrate manufacturing,311930,3317,2686
+Seasoning and dressing manufacturing,311940,10562,1819
+All other food manufacturing,311990,14149,1604
+Soft drink and ice manufacturing,312110,36653,2723
+Breweries,312120,12165,5756
+Wineries,312130,8374,1920
+Distilleries,312140,4106,2157
+Tobacco product manufacturing,312200,14217,25725
+"Fiber, yarn, and thread mills",313100,7681,269
+Fabric mills,313200,11327,1761
+Textile and fabric finishing and fabric coating mills,313300,6749,110
+Carpet and rug mills,314110,10971,869
+Curtain and linen mills,314120,2742,394
+Other textile product mills,314900,5642,772
+Apparel manufacturing,315000,12469,831
+Leather and allied product manufacturing,316000,5538,42
+Pulp mills,322110,3313,1010
+Paper mills,322120,32770,8774
+Paperboard mills,322130,16421,5448
+Paperboard container manufacturing,322210,36604,2173
+Paper Bag and Coated and Treated Paper Manufacturing,322220,14484,2152
+Stationery product manufacturing,322230,6040,393
+Sanitary paper product manufacturing,322291,5674,1956
+All other converted paper product manufacturing,322299,3197,603
+Printing,323110,53539,12577
+Support activities for printing,323120,2281,888
+Petroleum refineries,324110,433968,123391
+Asphalt paving mixture and block manufacturing,324121,7793,2903
+Asphalt shingle and coating materials manufacturing,324122,3912,3342
+Other petroleum and coal products manufacturing,324190,6235,6546
+Petrochemical manufacturing,325110,59553,12919
+Industrial gas manufacturing,325120,7136,96
+Synthetic dye and pigment manufacturing,325130,6070,1075
+Other Basic Inorganic Chemical Manufacturing,325180,19392,7129
+Other basic organic chemical manufacturing,325190,82213,11523
+Plastics material and resin manufacturing,325211,68877,10289
+Synthetic rubber and artificial and synthetic fibers and filaments manufacturing,3252A0,12837,898
+Medicinal and botanical manufacturing,325411,6988,3436
+Pharmaceutical preparation manufacturing,325412,72864,51554
+In-vitro diagnostic substance manufacturing,325413,5553,4616
+Biological product (except diagnostic) manufacturing,325414,6535,13423
+Fertilizer manufacturing,325310,10435,5584
+Pesticide and other agricultural chemical manufacturing,325320,5775,3970
+Paint and coating manufacturing,325510,15711,4527
+Adhesive manufacturing,325520,6935,1965
+Soap and cleaning compound manufacturing,325610,23645,17980
+Toilet preparation manufacturing,325620,19997,13772
+Printing ink manufacturing,325910,3612,575
+All other chemical product and preparation manufacturing,3259A0,26816,6910
+Plastics packaging materials and unlaminated film and sheet manufacturing,326110,24089,4126
+"Plastics pipe, pipe fitting, and unlaminated profile shape manufacturing",326120,9174,1464
+"Laminated plastics plate, sheet (except packaging), and shape manufacturing",326130,2380,339
+Polystyrene foam product manufacturing,326140,5454,774
+Urethane and other foam product (except polystyrene) manufacturing,326150,7204,654
+Plastics bottle manufacturing,326160,8752,1177
+Other plastics product manufacturing,326190,62002,9423
+Tire manufacturing,326210,11413,1180
+Rubber and plastics hoses and belting manufacturing,326220,2467,259
+Other rubber product manufacturing,326290,10017,1762
+Motor vehicle and motor vehicle parts and supplies,423100,27585,13920
+Professional and commercial equipment and supplies,423400,38299,19452
+Household appliances and electrical and electronic goods ,423600,39454,38292
+"Machinery, equipment, and supplies",423800,34388,19969
+Other durable goods merchant wholesalers,423A00,90240,28396
+Drugs and druggists’ sundries,424200,19482,35236
+Grocery and related product wholesalers ,424400,48873,19908
+Petroleum and petroleum products,424700,7128,26555
+Other nondurable goods merchant wholesalers,424A00,89939,45561
+Wholesale electronic markets and agents and brokers,425000,17639,8762
+Customs duties,4200ID,,
+Motor vehicle and parts dealers,441000,53018,30980
+Food and beverage stores,445000,64103,27739
+General merchandise stores,452000,73845,9979
+Building material and garden equipment and supplies dealers,444000,38600,17971
+Health and personal care stores,446000,25265,5981
+Gasoline stations,447000,26307,16351
+Clothing and clothing accessories stores,448000,57817,8854
+Nonstore retailers,454000,51763,44870
+All other retail,4B0000,74027,19051
+Air transportation,481000,88064,16455
+Rail transportation,482000,28293,13409
+Water transportation,483000,33317,8256
+Truck transportation,484000,155376,43307
+Transit and ground passenger transportation,485000,18688,10948
+Pipeline transportation,486000,12730,6535
+Scenic and sightseeing transportation and support activities for transportation,48A000,47833,12735
+Couriers and messengers,492000,40058,11196
+Warehousing and storage,493000,27770,9413
+Newspaper publishers,511110,16998,14543
+Periodical Publishers,511120,20347,15060
+Book publishers,511130,19360,12880
+"Directory, mailing list, and other publishers",5111A0,12705,8984
+Software publishers,511200,49993,50681
+Motion picture and video industries,512100,52807,33894
+Sound recording industries,512200,7784,9923
+Radio and television broadcasting,515100,28035,22277
+Cable and other subscription programming,515200,22451,24355
+Wired telecommunications carriers,517110,129253,113738
+Wireless telecommunications carriers (except satellite),517210,88880,54391
+"Satellite, telecommunications resellers, and all other telecommunications",517A00,11933,5551
+"Data processing, hosting, and related services",518200,38504,17753
+Internet publishing and broadcasting and Web search portals,519130,12978,11333
+"News syndicates, libraries, archives and all other information services",5191A0,1830,3002
+Nondepository credit intermediation and related activities,522A00,98595,46516
+Monetary authorities and depository credit intermediation,52A000,212594,132795
+Other financial investment activities,523900,155113,-18118
+Securities and commodity contracts intermediation and brokerage,523A00,148221,-5301
+Direct life insurance carriers,524113,2299,33959
+"Insurance carriers, except direct life",5241XX,204596,129385
+"Insurance agencies, brokerages, and related activities",524200,79182,30704
+"Funds, trusts, and other financial vehicles",525000,91918,20835
+Owner-occupied housing,531HSO,157467,872447
+Tenant-occupied housing,531HST,6112,284351
+Other real estate,531ORE,571763,224630
+Automotive equipment rental and leasing,532100,20612,15939
+Commercial and industrial machinery and equipment rental and leasing,532400,20915,21270
+General and consumer goods rental,532A00,13745,7335
+Lessors of nonfinancial intangible assets,533000,50723,74387
+Legal services,541100,72988,86049
+Custom computer programming services,541511,34187,5816
+Computer systems design services,541512,33319,9921
+"Other computer related services, including facilities management",54151A,22355,7236
+"Accounting, tax preparation, bookkeeping, and payroll services",541200,24704,34646
+"Architectural, engineering, and related services",541300,127693,23343
+Management consulting services,541610,55509,22496
+Environmental and other technical consulting services,5416A0,10516,3173
+Scientific research and development services,541700,82526,8421
+"Advertising, public relations, and related services",541800,48870,43697
+Specialized design services,541400,11707,10138
+Photographic services,541920,5664,3937
+Veterinary services,541940,6535,7534
+"All other miscellaneous professional, scientific, and technical services ",5419A0,22999,28435
+Management of companies and enterprises,550000,182267,23515
+Employment services,561300,37690,32368
+Services to buildings and dwellings,561700,53181,35495
+Office administrative services,561100,14408,720
+Facilities support services,561200,11761,5751
+Business support services,561400,25442,7921
+Travel arrangement and reservation services,561500,20545,6345
+Investigation and security services,561600,13363,4370
+Other support services,561900,17358,5990
+Waste management and remediation services,562000,41057,12236
+Elementary and secondary schools,611100,12114,813
+"Junior colleges, colleges, universities, and professional schools",611A00,44004,22563
+Other educational services,611B00,28962,908
+Offices of physicians,621100,130645,25218
+Offices of dentists,621200,36503,18181
+Offices of other health practitioners,621300,21165,15413
+Outpatient care centers,621400,32444,14333
+Medical and diagnostic laboratories,621500,11852,7787
+Home health care services,621600,17550,3890
+Other ambulatory health care services,621900,15371,3975
+Hospitals,622000,219044,32682
+Nursing and community care facilities,623A00,57404,2879
+"Residential mental health, substance abuse, and other residential care facilities",623B00,12747,722
+Individual and family services,624100,23705,43
+Child day care services,624400,11991,12832
+"Community food, housing, and other relief services, including rehabilitation services",624A00,17487,443
+Performing arts companies,711100,9246,4365
+Spectator sports,711200,12855,5403
+"Independent artists, writers, and performers",711500,7210,12653
+Promoters of performing arts and sports and agents for public figures,711A00,15744,5928
+"Museums, historical sites, zoos, and parks",712000,6014,1598
+Amusement parks and arcades,713100,6343,4374
+Gambling industries (except casino hotels),713200,13195,6411
+Other amusement and recreation industries,713900,33492,4600
+Accommodation,721000,68321,41703
+Full-service restaurants,722110,103814,22787
+Limited-service restaurants,722211,124255,22944
+All other food and drinking places,722A00,21913,4062
+Automotive repair and maintenance,811100,45805,14254
+Electronic and precision equipment repair and maintenance,811200,6343,579
+Commercial and industrial machinery and equipment repair and maintenance,811300,9714,2783
+Personal and household goods repair and maintenance,811400,4848,10348
+Personal care services,812100,22029,16021
+Death care services,812200,5589,3700
+Dry-cleaning and laundry services,812300,11937,638
+Other personal services,812900,16605,18456
+Religious organizations,813100,58826,6119
+"Grantmaking, giving, and social advocacy organizations",813A00,6191,6509
+"Civic, social, professional, and similar organizations",813B00,15963,2626
+Private households,814000,,
+Federal general government (defense),S00500,218877,129590
+Federal general government (nondefense),S00600,85969,77088
+Postal service,491000,21763,-1161
+Federal electric utilities,S00101,6443,4147
+Other federal government enterprises,S00102,5028,5279
+State and local government educational services,GSLGE,181609,51339
+State and local government hospitals and health services,GSLGH,97501,11886
+State and local government other services,GSLGO,299237,82210
+State and local government passenger transit,S00201,15480,-28825
+State and local government electric utilities,S00202,19187,6759
+Other state and local government enterprises,S00203,94709,47839

@@ -1,0 +1,34 @@
+asset_code,asset_nipa,dig_code,dig_desc,inv
+SB10,Religious                                 ,2332D0,Other nonresidential structures,3819
+SB20,Educational and vocational       ,233262,Educational and vocational structures,16260
+SB31,Hospitals                             ,233210,Health care structures,23888
+SB32,Special care                          ,233210,Health care structures,4266
+SB41,Lodging                                   ,2332D0,Other nonresidential structures,12621
+SB42,Amusement and recreation         ,2332D0,Other nonresidential structures,7460
+SB43,Air transportation,2332C0,Transportation structures and highways and streets,1045
+SB44,Local transit structures,2332C0,Transportation structures and highways and streets,1
+SB45,Other transportation,2332C0,Transportation structures and highways and streets,29
+SB46,Other land transportation                       ,2332C0,Transportation structures and highways and streets,532
+SC01,Warehouses                                ,2332A0,Office and commercial structures,7047
+SC02,Other commercial,531ORE,Other real estate,8092
+SC03,Multimerchandise shopping            ,2332A0,Office and commercial structures,14903
+SC04,Food and beverage establishments,2332A0,Office and commercial structures,5844
+SI00,Manufacturing                               ,233230,Manufacturing structures,46268
+SM01,Petroleum and natural gas          ,213111,Drilling oil and gas wells,47549
+SM01,Petroleum and natural gas          ,21311A,Other support activities for mining,94156
+SM02,Mining                                    ,21311A,Other support activities for mining,11012
+SN00,Farm                                      ,2332D0,Other nonresidential structures,7748
+SO01,Water supply,2332D0,Other nonresidential structures,464
+SO02,Sewage and waste disposal,2332D0,Other nonresidential structures,714
+SO03,Public safety,2332D0,Other nonresidential structures,132
+SO04,Highway and conservation and development,2332C0,Transportation structures and highways and streets,292
+SOMO,Mobile structures,2332A0,Office and commercial structures,286
+SOO1,Office                                    ,2332A0,Office and commercial structures,30948
+SOO2,Medical buildings                       ,233210,Health care structures,7220
+SU11,Other railroad,2332C0,Transportation structures and highways and streets,1643
+SU12,Track replacement,2332C0,Transportation structures and highways and streets,7514
+SU20,Communication                             ,233240,Power and communication structures,15954
+SU30,Electric                                ,233240,Power and communication structures,36342
+SU40,Gas,233240,Power and communication structures,10317
+SU50,Petroleum pipelines,233240,Power and communication structures,7119
+SU60,Wind and solar,233240,Power and communication structures,29967

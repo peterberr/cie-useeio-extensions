@@ -1,0 +1,406 @@
+dig_code,dig_desc,asset_cat
+111200,Vegetable and melon farming,NA
+111300,Fruit and tree nut farming,NA
+111400,"Greenhouse, nursery, and floriculture production",NA
+111900,Other crop farming,NA
+112120,Dairy cattle and milk production,NA
+112300,Poultry and egg production,NA
+113000,Forestry and logging,NA
+114000,"Fishing, hunting and trapping",NA
+115000,Support activities for agriculture and forestry,NA
+211000,Oil and gas extraction,NA
+212100,Coal mining,NA
+212230,"Copper, nickel, lead, and zinc mining",NA
+212310,Stone mining and quarrying,NA
+213111,Drilling oil and gas wells,Structures
+221100,"Electric power generation, transmission, and distribution",NA
+221200,Natural gas distribution,NA
+221300,"Water, sewage and other systems",NA
+230301,Nonresidential maintenance and repair,NA
+230302,Residential maintenance and repair,NA
+233210,Health care structures,Structures
+233230,Manufacturing structures,Structures
+233240,Power and communication structures,Structures
+233262,Educational and vocational structures,Structures
+233411,Single-family residential structures,Structures
+233412,Multifamily residential structures,Structures
+311111,Dog and cat food manufacturing,NA
+311119,Other animal food manufacturing,NA
+311210,Flour milling and malt manufacturing,NA
+311221,Wet corn milling,NA
+311225,Fats and oils refining and blending,NA
+311230,Breakfast cereal manufacturing,NA
+311300,Sugar and confectionery product manufacturing,NA
+311410,Frozen food manufacturing,NA
+311420,"Fruit and vegetable canning, pickling, and drying",NA
+311513,Cheese manufacturing,NA
+311514,"Dry, condensed, and evaporated dairy product manufacturing",NA
+311520,Ice cream and frozen dessert manufacturing,NA
+311615,Poultry processing,NA
+311700,Seafood product preparation and packaging,NA
+311810,Bread and bakery product manufacturing,NA
+311910,Snack food manufacturing,NA
+311920,Coffee and tea manufacturing,NA
+311930,Flavoring syrup and concentrate manufacturing,NA
+311940,Seasoning and dressing manufacturing,NA
+311990,All other food manufacturing,NA
+312110,Soft drink and ice manufacturing,NA
+312120,Breweries,NA
+312130,Wineries,NA
+312140,Distilleries,NA
+312200,Tobacco product manufacturing,NA
+313100,"Fiber, yarn, and thread mills",NA
+313200,Fabric mills,Equipment
+313300,Textile and fabric finishing and fabric coating mills,NA
+314110,Carpet and rug mills,Equipment
+314120,Curtain and linen mills,NA
+314900,Other textile product mills,Equipment
+315000,Apparel manufacturing,NA
+316000,Leather and allied product manufacturing,NA
+321100,Sawmills and wood preservation,NA
+321200,"Veneer, plywood, and engineered wood product manufacturing",NA
+321910,Millwork,NA
+322110,Pulp mills,NA
+322120,Paper mills,NA
+322130,Paperboard mills,NA
+322210,Paperboard container manufacturing,NA
+322220,Paper Bag and Coated and Treated Paper Manufacturing,NA
+322230,Stationery product manufacturing,NA
+322291,Sanitary paper product manufacturing,NA
+322299,All other converted paper product manufacturing,NA
+323110,Printing,NA
+323120,Support activities for printing,NA
+324110,Petroleum refineries,NA
+324121,Asphalt paving mixture and block manufacturing,NA
+324122,Asphalt shingle and coating materials manufacturing,NA
+324190,Other petroleum and coal products manufacturing,NA
+325110,Petrochemical manufacturing,NA
+325120,Industrial gas manufacturing,NA
+325130,Synthetic dye and pigment manufacturing,NA
+325180,Other Basic Inorganic Chemical Manufacturing,Equipment
+325190,Other basic organic chemical manufacturing,NA
+325211,Plastics material and resin manufacturing,NA
+325310,Fertilizer manufacturing,NA
+325320,Pesticide and other agricultural chemical manufacturing,NA
+325411,Medicinal and botanical manufacturing,NA
+325412,Pharmaceutical preparation manufacturing,NA
+325413,In-vitro diagnostic substance manufacturing,NA
+325414,Biological product (except diagnostic) manufacturing,NA
+325510,Paint and coating manufacturing,NA
+325520,Adhesive manufacturing,NA
+325610,Soap and cleaning compound manufacturing,NA
+325620,Toilet preparation manufacturing,NA
+325910,Printing ink manufacturing,NA
+326110,Plastics packaging materials and unlaminated film and sheet manufacturing,NA
+326120,"Plastics pipe, pipe fitting, and unlaminated profile shape manufacturing",NA
+326130,"Laminated plastics plate, sheet (except packaging), and shape manufacturing",NA
+326140,Polystyrene foam product manufacturing,NA
+326150,Urethane and other foam product (except polystyrene) manufacturing,Equipment
+326160,Plastics bottle manufacturing,NA
+326190,Other plastics product manufacturing,NA
+326210,Tire manufacturing,NA
+326220,Rubber and plastics hoses and belting manufacturing,NA
+326290,Other rubber product manufacturing,Equipment
+327100,Clay product and refractory manufacturing,NA
+327200,Glass and glass product manufacturing,NA
+327310,Cement manufacturing,NA
+327320,Ready-mix concrete manufacturing,NA
+327330,"Concrete pipe, brick, and block manufacturing",NA
+327390,Other concrete product manufacturing,NA
+327400,Lime and gypsum product manufacturing,NA
+327910,Abrasive product manufacturing,NA
+327991,Cut stone and stone product manufacturing,NA
+327992,Ground or treated mineral and earth manufacturing,NA
+327993,Mineral wool manufacturing,NA
+327999,Miscellaneous nonmetallic mineral products,NA
+331110,Iron and steel mills and ferroalloy manufacturing,NA
+331200,Steel product manufacturing from purchased steel,NA
+331420,"Copper rolling, drawing, extruding and alloying",NA
+331490,"Nonferrous metal (except copper and aluminum) rolling, drawing, extruding and alloying",NA
+331510,Ferrous metal foundries,NA
+331520,Nonferrous metal foundries,NA
+332114,Custom roll forming,NA
+332200,Cutlery and handtool manufacturing,Equipment
+332310,Plate work and fabricated structural product manufacturing,Equipment
+332320,Ornamental and architectural metal products manufacturing,Equipment
+332410,Power boiler and heat exchanger manufacturing,Equipment
+332420,Metal tank (heavy gauge) manufacturing,Equipment
+332430,"Metal can, box, and other metal container (light gauge) manufacturing",Equipment
+332500,Hardware manufacturing,Equipment
+332600,Spring and wire product manufacturing,NA
+332710,Machine shops,Equipment
+332720,"Turned product and screw, nut, and bolt manufacturing",NA
+332800,"Coating, engraving, heat treating and allied activities",NA
+332913,Plumbing fixture fitting and trim manufacturing,NA
+332991,Ball and roller bearing manufacturing,NA
+332996,Fabricated pipe and pipe fitting manufacturing,Equipment
+333111,Farm machinery and equipment manufacturing,Equipment
+333112,Lawn and garden equipment manufacturing,Equipment
+333120,Construction machinery manufacturing,Equipment
+333130,Mining and oil and gas field machinery manufacturing,Equipment
+333314,Optical instrument and lens manufacturing,Equipment
+333414,Heating equipment (except warm air furnaces) manufacturing,Equipment
+333415,"Air conditioning, refrigeration, and warm air heating equipment manufacturing",Equipment
+333511,Industrial mold manufacturing,Equipment
+333514,"Special tool, die, jig, and fixture manufacturing",Equipment
+333611,Turbine and turbine generator set units manufacturing,Equipment
+333612,"Speed changer, industrial high-speed drive, and gear manufacturing",NA
+333613,Mechanical power transmission equipment manufacturing,NA
+333618,Other engine equipment manufacturing,Equipment
+333912,Air and gas compressor manufacturing,Equipment
+333920,Material handling equipment manufacturing,Equipment
+333991,Power-driven handtool manufacturing,Equipment
+333993,Packaging machinery manufacturing,Equipment
+333994,Industrial process furnace and oven manufacturing,Equipment
+334111,Electronic computer manufacturing,Equipment
+334112,Computer storage device manufacturing,Equipment
+334210,Telephone apparatus manufacturing,Equipment
+334220,Broadcast and wireless communications equipment,Equipment
+334290,Other communications equipment manufacturing,Equipment
+334300,Audio and video equipment manufacturing,Equipment
+334413,Semiconductor and related device manufacturing,NA
+334418,Printed circuit assembly (electronic assembly) manufacturing,NA
+334510,Electromedical and electrotherapeutic apparatus manufacturing,Equipment
+334511,"Search, detection, and navigation instruments manufacturing",Equipment
+334512,Automatic environmental control manufacturing,NA
+334513,Industrial process variable instruments manufacturing,Equipment
+334514,Totalizing fluid meter and counting device manufacturing,Equipment
+334515,Electricity and signal testing instruments manufacturing,Equipment
+334516,Analytical laboratory instrument manufacturing,Equipment
+334517,Irradiation apparatus manufacturing,Equipment
+334610,Manufacturing and reproducing magnetic and optical media,Equipment
+335110,Electric lamp bulb and part manufacturing,NA
+335120,Lighting fixture manufacturing,Equipment
+335210,Small electrical appliance manufacturing,Equipment
+335221,Household cooking appliance manufacturing,Equipment
+335222,Household refrigerator and home freezer manufacturing,Equipment
+335224,Household laundry equipment manufacturing,Equipment
+335228,Other major household appliance manufacturing,Equipment
+335311,"Power, distribution, and specialty transformer manufacturing",Equipment
+335312,Motor and generator manufacturing,Equipment
+335313,Switchgear and switchboard apparatus manufacturing,Equipment
+335314,Relay and industrial control manufacturing,Equipment
+335911,Storage battery manufacturing,Equipment
+335912,Primary battery manufacturing,NA
+335920,Communication and energy wire and cable manufacturing,Equipment
+335930,Wiring device manufacturing,Equipment
+335991,Carbon and graphite product manufacturing,NA
+335999,All other miscellaneous electrical equipment and component manufacturing,Equipment
+336111,Automobile manufacturing,Equipment
+336112,Light truck and utility vehicle manufacturing,Equipment
+336120,Heavy duty truck manufacturing,Equipment
+336211,Motor vehicle body manufacturing,Equipment
+336212,Truck trailer manufacturing,Equipment
+336213,Motor home manufacturing,Equipment
+336214,Travel trailer and camper manufacturing,Equipment
+336310,Motor vehicle gasoline engine and engine parts manufacturing,NA
+336320,Motor vehicle electrical and electronic equipment manufacturing,NA
+336350,Motor vehicle transmission and power train parts manufacturing,NA
+336360,Motor vehicle seating and interior trim manufacturing,Equipment
+336370,Motor vehicle metal stamping,NA
+336390,Other Motor Vehicle Parts Manufacturing,NA
+336411,Aircraft manufacturing,Equipment
+336412,Aircraft engine and engine parts manufacturing,Equipment
+336413,Other aircraft parts and auxiliary equipment manufacturing,NA
+336414,Guided missile and space vehicle manufacturing,Equipment
+336500,Railroad rolling stock manufacturing,Equipment
+336611,Ship building and repairing,Equipment
+336612,Boat building,Equipment
+336991,"Motorcycle, bicycle, and parts manufacturing",Equipment
+336992,"Military armored vehicle, tank, and tank component manufacturing",Equipment
+336999,All other transportation equipment manufacturing,Equipment
+337110,Wood kitchen cabinet and countertop manufacturing,Equipment
+337121,Upholstered household furniture manufacturing,Equipment
+337122,Nonupholstered wood household furniture manufacturing,Equipment
+337127,Institutional furniture manufacturing,Equipment
+337215,"Showcase, partition, shelving, and locker manufacturing",Equipment
+337900,Other furniture related product manufacturing,Equipment
+339112,Surgical and medical instrument manufacturing,Equipment
+339113,Surgical appliance and supplies manufacturing,Equipment
+339114,Dental equipment and supplies manufacturing,Equipment
+339115,Ophthalmic goods manufacturing,NA
+339116,Dental laboratories,NA
+339910,Jewelry and silverware manufacturing,NA
+339920,Sporting and athletic goods manufacturing,Equipment
+339930,"Doll, toy, and game manufacturing",NA
+339940,Office supplies (except paper) manufacturing,Equipment
+339950,Sign manufacturing,Equipment
+339990,All other miscellaneous manufacturing,Equipment
+441000,Motor vehicle and parts dealers,NA
+445000,Food and beverage stores,NA
+452000,General merchandise stores,NA
+481000,Air transportation,NA
+482000,Rail transportation,NA
+483000,Water transportation,NA
+484000,Truck transportation,NA
+485000,Transit and ground passenger transportation,NA
+486000,Pipeline transportation,NA
+491000,Postal service,NA
+492000,Couriers and messengers,NA
+493000,Warehousing and storage,NA
+511110,Newspaper publishers,NA
+511120,Periodical Publishers,IPP
+511130,Book publishers,IPP
+511200,Software publishers,IPP
+512100,Motion picture and video industries,IPP
+512200,Sound recording industries,IPP
+515100,Radio and television broadcasting,IPP
+515200,Cable and other subscription programming,IPP
+517110,Wired telecommunications carriers,Equipment
+517210,Wireless telecommunications carriers (except satellite),NA
+518200,"Data processing, hosting, and related services",NA
+519130,Internet publishing and broadcasting and Web search portals,NA
+523900,Other financial investment activities,NA
+524200,"Insurance agencies, brokerages, and related activities",NA
+525000,"Funds, trusts, and other financial vehicles",NA
+532100,Automotive equipment rental and leasing,NA
+532400,Commercial and industrial machinery and equipment rental and leasing,NA
+533000,Lessors of nonfinancial intangible assets,NA
+541100,Legal services,NA
+541200,"Accounting, tax preparation, bookkeeping, and payroll services",NA
+541300,"Architectural, engineering, and related services",Equipment
+541400,Specialized design services,NA
+541511,Custom computer programming services,IPP
+541512,Computer systems design services,Equipment
+541610,Management consulting services,NA
+541700,Scientific research and development services,IPP
+541800,"Advertising, public relations, and related services",NA
+541920,Photographic services,IPP
+541940,Veterinary services,NA
+550000,Management of companies and enterprises,NA
+561100,Office administrative services,NA
+561200,Facilities support services,NA
+561300,Employment services,NA
+561400,Business support services,NA
+561500,Travel arrangement and reservation services,NA
+561600,Investigation and security services,NA
+561700,Services to buildings and dwellings,NA
+561900,Other support services,NA
+562000,Waste management and remediation services,NA
+611100,Elementary and secondary schools,NA
+621100,Offices of physicians,NA
+621200,Offices of dentists,NA
+621300,Offices of other health practitioners,NA
+621400,Outpatient care centers,NA
+621500,Medical and diagnostic laboratories,NA
+621600,Home health care services,NA
+621900,Other ambulatory health care services,NA
+622000,Hospitals,NA
+624100,Individual and family services,NA
+624400,Child day care services,NA
+711100,Performing arts companies,IPP
+711200,Spectator sports,NA
+711500,"Independent artists, writers, and performers",IPP
+712000,"Museums, historical sites, zoos, and parks",NA
+713100,Amusement parks and arcades,NA
+713200,Gambling industries (except casino hotels),NA
+713900,Other amusement and recreation industries,NA
+721000,Accommodation,NA
+722110,Full-service restaurants,NA
+722211,Limited-service restaurants,NA
+811100,Automotive repair and maintenance,NA
+811200,Electronic and precision equipment repair and maintenance,NA
+811300,Commercial and industrial machinery and equipment repair and maintenance,NA
+811400,Personal and household goods repair and maintenance,NA
+812100,Personal care services,NA
+812200,Death care services,NA
+812300,Dry-cleaning and laundry services,NA
+812900,Other personal services,NA
+813100,Religious organizations,NA
+814000,Private households,NA
+1111A0,Oilseed farming,NA
+1111B0,Grain farming,NA
+1121A0,"Beef cattle ranching and farming, including feedlots and dual-purpose ranching and farming",NA
+112A00,"Animal production, except cattle and poultry and eggs",NA
+2122A0,"Iron, gold, silver, and other metal ore mining",Equipment
+2123A0,Other nonmetallic mineral mining and quarrying,NA
+21311A,Other support activities for mining,Structures
+2332A0,Office and commercial structures,Structures
+2334A0,Other residential structures,Structures
+31151A,Fluid milk and butter manufacturing,NA
+31161A,"Animal (except poultry) slaughtering, rendering, and processing",NA
+3118A0,"Cookie, cracker, pasta, and tortilla manufacturing",NA
+3219A0,All other wood product manufacturing,Structures
+3252A0,Synthetic rubber and artificial and synthetic fibers and filaments manufacturing,NA
+3259A0,All other chemical product and preparation manufacturing,NA
+33131B,Aluminum product manufacturing from purchased aluminum,NA
+33211A,"All other forging, stamping, and sintering",NA
+33291A,Valve and fittings other than plumbing,Equipment
+33299A,"Ammunition, arms, ordnance, and accessories manufacturing",NA
+33329A,Other industrial machinery manufacturing,Equipment
+33351B,"Cutting and machine tool accessory, rolling mill, and other metalworking machinery manufacturing",Equipment
+33391A,Pump and pumping equipment manufacturing,Equipment
+33399A,Other general purpose machinery manufacturing,Equipment
+33399B,Fluid power process machinery,Equipment
+33441A,Other electronic component manufacturing,Equipment
+33451A,"Watch, clock, and other measuring and controlling device manufacturing",Equipment
+3363A0,"Motor vehicle steering, suspension component (except spring), and brake systems manufacturing",NA
+33641A,Propulsion units and parts for space vehicles and guided missiles,Equipment
+33721A,Office furniture and custom architectural woodwork and millwork manufacturing,Equipment
+48A000,Scenic and sightseeing transportation and support activities for transportation,NA
+5111A0,"Directory, mailing list, and other publishers",IPP
+517A00,"Satellite, telecommunications resellers, and all other telecommunications",NA
+5191A0,"News syndicates, libraries, archives and all other information services",NA
+522A00,Nondepository credit intermediation and related activities,NA
+523A00,Securities and commodity contracts intermediation and brokerage,NA
+52A000,Monetary authorities and depository credit intermediation,NA
+531ORE,Other real estate,Structures
+532A00,General and consumer goods rental,NA
+54151A,"Other computer related services, including facilities management",NA
+5416A0,Environmental and other technical consulting services,NA
+5419A0,"All other miscellaneous professional, scientific, and technical services ",NA
+611A00,"Junior colleges, colleges, universities, and professional schools",NA
+611B00,Other educational services,NA
+623A00,Nursing and community care facilities,NA
+623B00,"Residential mental health, substance abuse, and other residential care facilities",NA
+624A00,"Community food, housing, and other relief services, including rehabilitation services",NA
+711A00,Promoters of performing arts and sports and agents for public figures,NA
+722A00,All other food and drinking places,NA
+813A00,"Grantmaking, giving, and social advocacy organizations",NA
+813B00,"Civic, social, professional, and similar organizations",NA
+S00102,Other federal government enterprises,NA
+S00203,Other state and local government enterprises,NA
+S00300,Noncomparable imports,NA
+S00401,Scrap,NA
+S00402,Used and secondhand goods,NA
+S00500,Federal general government (defense),NA
+S00600,Federal general government (nondefense),NA
+S00900,Rest of the world adjustment,NA
+2332D0,Other nonresidential structures,Structures
+2332C0,Transportation structures and highways and streets,Structures
+331313,Alumina refining and primary aluminum production,NA
+331410,Nonferrous Metal (except Aluminum) Smelting and Refining,NA
+332119,"Metal crown, closure, and other metal stamping (except automotive)",NA
+332999,Other fabricated metal manufacturing,Equipment
+333242,Semiconductor machinery manufacturing,Equipment
+333316,Photographic and photocopying equipment manufacturing,Equipment
+333318,Other commercial and service industry machinery manufacturing,Equipment
+333413,Industrial and commercial fan and blower and air purification equipment manufacturing,Equipment
+333517,Machine tool manufacturing,Equipment
+334118,Computer terminals and other computer peripheral equipment manufacturing,Equipment
+33712N,Other household nonupholstered furniture,Equipment
+311224,Soybean and other oilseed processing,NA
+423100,Motor vehicle and motor vehicle parts and supplies,NA
+423400,Professional and commercial equipment and supplies,NA
+423600,Household appliances and electrical and electronic goods ,NA
+423800,"Machinery, equipment, and supplies",NA
+423A00,Other durable goods merchant wholesalers,NA
+424200,Drugs and druggists’ sundries,NA
+424400,Grocery and related product wholesalers ,NA
+424700,Petroleum and petroleum products,NA
+424A00,Other nondurable goods merchant wholesalers,NA
+425000,Wholesale electronic markets and agents and brokers,NA
+4200ID,Customs duties,NA
+444000,Building material and garden equipment and supplies dealers,NA
+446000,Health and personal care stores,NA
+447000,Gasoline stations,NA
+448000,Clothing and clothing accessories stores,NA
+454000,Nonstore retailers,NA
+4B0000,All other retail,NA
+524113,Direct life insurance carriers,NA
+5241XX,"Insurance carriers, except direct life",NA
+531HSO,Owner-occupied housing,NA
+531HST,Tenant-occupied housing,NA
+GSLGE,State and local government educational services,NA
+GSLGH,State and local government hospitals and health services,NA
+GSLGO,State and local government other services,NA

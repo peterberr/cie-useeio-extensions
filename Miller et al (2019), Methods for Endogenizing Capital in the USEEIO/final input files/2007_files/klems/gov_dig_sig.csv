@@ -1,0 +1,12 @@
+dig_code,dig_desc,sig_code,sig_desc
+S00500,Federal general government (defense),GFGD,Federal general government (defense)
+S00600,Federal general government (nondefense),GFGN,Federal general government (nondefense)
+491000,Postal service,GFE,Federal government enterprises
+S00101,Federal electric utilities,GFE,Federal government enterprises
+S00102,Other federal government enterprises,GFE,Federal government enterprises
+GSLGE,State and local government educational services,GSLG,State and local general government
+GSLGH,State and local government hospitals and health services,GSLG,State and local general government
+GSLGO,State and local government other services,GSLG,State and local general government
+S00201,State and local government passenger transit,GSLE,State and local government enterprises
+S00202,State and local government electric utilities,GSLE,State and local government enterprises
+S00203,Other state and local government enterprises,GSLE,State and local government enterprises

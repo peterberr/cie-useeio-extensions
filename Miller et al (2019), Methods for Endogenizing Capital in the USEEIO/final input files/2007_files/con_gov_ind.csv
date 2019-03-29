@@ -1,0 +1,43 @@
+line,item,gov_gen
+24,      Aircraft,1
+25,      Missiles,1
+26,      Ships,1
+27,      Vehicles,1
+28,      Electronics,1
+29,      Other equipment,1
+32,        Residential,1
+33,        Industrial,1
+34,      Military facilities 3,1
+36,      Software,1
+37,      Research and development,1
+39,    Equipment,0.779
+41,      Office,0.812
+42,      Commercial,0.812
+43,      Health care,1
+44,      Educational,1
+45,      Public safety,1
+46,      Amusement and recreation,1
+47,      Transportation,1
+48,      Power,0
+49,      Highways and streets,1
+50,      Conservation and development,0.812
+51,      Other structures 4,1
+53,      Software,0.888
+54,      Research and development,1
+56,  Equipment,0.779
+58,    Residential,0
+59,    Office,1
+60,    Commercial,0
+61,    Health care,1
+62,    Educational,1
+63,    Public safety,1
+64,    Amusement and recreation,1
+65,    Transportation,0
+66,    Power,0
+67,    Highways and streets,0.812
+68,    Sewer systems,0.812
+69,    Water systems,0
+70,    Conservation and development,1
+71,    Other structures 5,0
+73,    Software,0.888
+74,    Research and development,1

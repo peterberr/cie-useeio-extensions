@@ -1,0 +1,52 @@
+rp_fa_code_inv,rp_fa_code,rp_fa_type,rp_cat,531HSO,531HST
+ i3r53105sfoo,53105sfoo,"  Owner-occupied, 1-4 units, new",Single-family* residential structures,292734,
+ i3r53105asoo,53105asoo,"  Owner-occupied, 1-4 units, additions and alterations",Other residential structures,110220,
+ i3r53105msoo,53105msoo,"  Owner-occupied, 1-4 units, major replacements",Other residential structures,33539,
+ i3r53105mfoo,53105mfoo,"  Owner-occupied, 5+ units, new",Multifamily residential structures,17153,
+ i3r53105amoo,53105amoo,"  Owner-occupied, 5+ units, additions and alterations",Other residential structures,1214,
+ i3r53105mmoo,53105mmoo,"  Owner-occupied, 5+ units, major replacements",Other residential structures,739,
+ i3r53105mhoo,53105mhoo,"  Owner-occupied, manufactured homes",Manufactured homes,6617,
+ i3r53105acoo,53105acoo,"  Owner-occupied, acquisition costs",Cost of business,20717,
+ i3r53105dcoo,53105dcoo,"  Owner-occupied, disposal costs",Cost of business,93496,
+ i3r53105sfto,53105sfto,"  Tenant-occupied, 1-4 units, new",Single-family* residential structures,,9963
+ i3r53105asto,53105asto,"  Tenant-occupied, 1-4 units, additions and alterations",Other residential structures,,11774
+ i3r53105msto,53105msto,"  Tenant-occupied, 1-4 units, major replacements",Other residential structures,,4058
+ i3r53105mfto,53105mfto,"  Tenant-occupied, 5+ units, new",Multifamily residential structures,,4937
+ i3r53105amto,53105amto,"  Tenant-occupied, 5+ units, additions and alterations",Other residential structures,,866
+ i3r53105mmto,53105mmto,"  Tenant-occupied, 5+ units, major replacements",Other residential structures,,570
+ i3r53105acto,53105acto,"  Tenant-occupied, acquisition costs",Cost of business,,2329
+ i3r53105dcto,53105dcto,"  Tenant-occupied, disposal costs",Cost of business,,7593
+ i3r53105e1to,53105e1to,"  Tenant-occupied, 1-4 units, equipment",Equipment,,1761
+ i3r53105e5to,53105e5to,"  Tenant-occupied, 5+ units, equipment",Equipment,,1202
+ i3r53102sfto,53102sfto,"  Tenant-occupied, 1-4 units, new",Single-family* residential structures,,926
+ i3r53102asto,53102asto,"  Tenant-occupied, 1-4 units, additions and alterations",Other residential structures,,1104
+ i3r53102msto,53102msto,"  Tenant-occupied, 1-4 units, major replacements",Other residential structures,,380
+ i3r53102mfto,53102mfto,"  Tenant-occupied, 5+ units, new",Multifamily residential structures,,2221
+ i3r53102amto,53102amto,"  Tenant-occupied, 5+ units, additions and alterations",Other residential structures,,390
+ i3r53102mmto,53102mmto,"  Tenant-occupied, 5+ units, major replacements",Other residential structures,,257
+ i3r53102acto,53102acto,"  Tenant-occupied, acquisition costs",Cost of business,,468
+ i3r53102dcto,53102dcto,"  Tenant-occupied, disposal costs",Cost of business,,1525
+ i3r53102e1to,53102e1to,"  Tenant-occupied, 1-4 units, equipment",Equipment,,411
+ i3r53102e5to,53102e5to,"  Tenant-occupied, 5+ units, equipment",Equipment,,281
+ i3r53104sfto,53104sfto,"  Tenant-occupied, 1-4 units, new",Single-family* residential structures,,4089
+ i3r53104asto,53104asto,"  Tenant-occupied, 1-4 units, additions and alterations",Other residential structures,,4783
+ i3r53104msto,53104msto,"  Tenant-occupied, 1-4 units, major replacements",Other residential structures,,1649
+ i3r53104mfto,53104mfto,"  Tenant-occupied, 5+ units, new",Multifamily residential structures,,16538
+ i3r53104amto,53104amto,"  Tenant-occupied, 5+ units, additions and alterations",Other residential structures,,2900
+ i3r53104mmto,53104mmto,"  Tenant-occupied, 5+ units, major replacements",Other residential structures,,1910
+ i3r53104mhto,53104mhto,"  Tenant-occupied, manufactured homes",Manufactured homes,,3292
+ i3r53104acto,53104acto,"  Tenant-occupied, acquisition costs",Cost of business,,3019
+ i3r53104dcto,53104dcto,"  Tenant-occupied, disposal costs",Cost of business,,9845
+ i3r53104e1to,53104e1to,"  Tenant-occupied, 1-4 units, equipment",Equipment,,3522
+ i3r53104e5to,53104e5to,"  Tenant-occupied, 5+ units, equipment",Equipment,,2404
+ i3r53108sfto,53108sfto,"  Tenant-occupied, 1-4 units, new",Single-family* residential structures,,617
+ i3r53108asto,53108asto,"  Tenant-occupied, 1-4 units, additions and alterations",Other residential structures,,736
+ i3r53108msto,53108msto,"  Tenant-occupied, 1-4 units, major replacements",Other residential structures,,254
+ i3r53108mfto,53108mfto,"  Tenant-occupied, 5+ units, new",Multifamily residential structures,,987
+ i3r53108amto,53108amto,"  Tenant-occupied, 5+ units, additions and alterations",Other residential structures,,173
+ i3r53108mmto,53108mmto,"  Tenant-occupied, 5+ units, major replacements",Other residential structures,,114
+ i3r53108acto,53108acto,"  Tenant-occupied, acquisition costs",Cost of business,,241
+ i3r53108dcto,53108dcto,"  Tenant-occupied, disposal costs",Cost of business,,786
+ i3r53108e1to,53108e1to,"  Tenant-occupied, 1-4 units, equipment",Equipment,,176
+ i3r53108e5to,53108e5to,"  Tenant-occupied, 5+ units, equipment",Equipment,,120
+ i3r53108osto,53108osto,  Other residential structures,Other residential structures,,2900

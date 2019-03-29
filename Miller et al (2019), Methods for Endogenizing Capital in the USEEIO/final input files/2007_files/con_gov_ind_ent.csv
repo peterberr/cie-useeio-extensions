@@ -1,0 +1,17 @@
+line,govt_1,govt_2,cat_1,type,item,491000,S00101,S00102,S00201,S00202,S00203
+39,Federal,Nondefense,Equipment,Mix of general government and government enterprises,    Equipment,0.77,0.20,0.03,,,
+41,Federal,Nondefense,Structures,Mix of general government and government enterprises,      Office,0.77,0.20,0.03,,,
+42,Federal,Nondefense,Structures,Mix of general government and government enterprises,      Commercial,0.77,0.20,0.03,,,
+48,Federal,Nondefense,Structures,Government enterprises,      Power,0.00,1.00,0.00,,,
+50,Federal,Nondefense,Structures,Mix of general government and government enterprises,      Conservation and development,0.00,0.00,1.00,,,
+53,Federal,Nondefense,Intellectual property products,Mix of general government and government enterprises,      Software,0.77,0.20,0.03,,,
+56,State and local,,Equipment,Mix of general government and government enterprises,  Equipment,,,,0.27,0.20,0.53
+58,State and local,,Structures,Government enterprises,    Residential,,,,0.00,0.00,1.00
+60,State and local,,Structures,Government enterprises,    Commercial,,,,0.00,0.00,1.00
+65,State and local,,Structures,Government enterprises,    Transportation,,,,0.30,0.00,0.70
+66,State and local,,Structures,Government enterprises,    Power,,,,0.00,1.00,0.00
+67,State and local,,Structures,Mix of general government and government enterprises,    Highways and streets,,,,0.00,0.00,1.00
+68,State and local,,Structures,Mix of general government and government enterprises,    Sewer systems,,,,0.00,0.00,1.00
+69,State and local,,Structures,Government enterprises,    Water systems,,,,0.00,0.00,1.00
+71,State and local,,Structures,Government enterprises,    Other structures 5,,,,0.27,0.20,0.53
+73,State and local,,Intellectual property products,Mix of general government and government enterprises,    Software,,,,0.27,0.20,0.53

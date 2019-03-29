@@ -1,0 +1,557 @@
+yk_code,yk_desc,dig_code,dig_desc,pro,tra,who,ret,pur
+F02E00,Nonresidential private fixed investment in equipment,2122A0,"Iron, gold, silver, and other metal ore mining",264,36,10,0,310
+F02E00,Nonresidential private fixed investment in equipment,21311A,Other support activities for mining,3775,0,0,0,3775
+F02E00,Nonresidential private fixed investment in equipment,332200,Cutlery and handtool manufacturing,122,4,47,4,176
+F02E00,Nonresidential private fixed investment in equipment,332310,Plate work and fabricated structural product manufacturing,239,6,23,0,269
+F02E00,Nonresidential private fixed investment in equipment,332320,Ornamental and architectural metal products manufacturing,358,10,36,0,404
+F02E00,Nonresidential private fixed investment in equipment,332410,Power boiler and heat exchanger manufacturing,3289,88,1084,0,4461
+F02E00,Nonresidential private fixed investment in equipment,332420,Metal tank (heavy gauge) manufacturing,4194,114,106,0,4414
+F02E00,Nonresidential private fixed investment in equipment,332430,"Metal can, box, and other metal container (light gauge) manufacturing",238,6,23,0,268
+F02E00,Nonresidential private fixed investment in equipment,332500,Hardware manufacturing,199,6,76,0,281
+F02E00,Nonresidential private fixed investment in equipment,33291A,Valve and fittings other than plumbing,2766,74,911,0,3751
+F02E00,Nonresidential private fixed investment in equipment,332996,Fabricated pipe and pipe fitting manufacturing,855,23,174,0,1052
+F02E00,Nonresidential private fixed investment in equipment,332999,Other fabricated metal manufacturing,471,13,96,0,579
+F02E00,Nonresidential private fixed investment in equipment,333111,Farm machinery and equipment manufacturing,29178,809,10568,0,40555
+F02E00,Nonresidential private fixed investment in equipment,333112,Lawn and garden equipment manufacturing,4906,134,1815,10176,17032
+F02E00,Nonresidential private fixed investment in equipment,333120,Construction machinery manufacturing,27450,763,8403,0,36616
+F02E00,Nonresidential private fixed investment in equipment,333130,Mining and oil and gas field machinery manufacturing,21119,573,6523,0,28215
+F02E00,Nonresidential private fixed investment in equipment,333242,Semiconductor machinery manufacturing,6362,172,1142,0,7676
+F02E00,Nonresidential private fixed investment in equipment,33329A,Other industrial machinery manufacturing,18119,489,3243,0,21851
+F02E00,Nonresidential private fixed investment in equipment,333314,Optical instrument and lens manufacturing,3663,98,821,0,4583
+F02E00,Nonresidential private fixed investment in equipment,333316,Photographic and photocopying equipment manufacturing,1052,28,1203,693,2978
+F02E00,Nonresidential private fixed investment in equipment,333318,Other commercial and service industry machinery manufacturing,11696,330,7376,1198,20600
+F02E00,Nonresidential private fixed investment in equipment,333414,Heating equipment (except warm air furnaces) manufacturing,80,2,26,0,108
+F02E00,Nonresidential private fixed investment in equipment,333415,"Air conditioning, refrigeration, and warm air heating equipment manufacturing",7009,188,2667,0,9864
+F02E00,Nonresidential private fixed investment in equipment,333413,Industrial and commercial fan and blower and air purification equipment manufacturing,2506,68,779,0,3353
+F02E00,Nonresidential private fixed investment in equipment,333511,Industrial mold manufacturing,5846,157,1050,0,7053
+F02E00,Nonresidential private fixed investment in equipment,333514,"Special tool, die, jig, and fixture manufacturing",7592,204,1363,0,9159
+F02E00,Nonresidential private fixed investment in equipment,333517,Machine tool manufacturing,9412,253,1685,0,11349
+F02E00,Nonresidential private fixed investment in equipment,33351B,"Cutting and machine tool accessory, rolling mill, and other metalworking machinery manufacturing",2583,70,464,0,3116
+F02E00,Nonresidential private fixed investment in equipment,333611,Turbine and turbine generator set units manufacturing,10147,278,1822,0,12247
+F02E00,Nonresidential private fixed investment in equipment,333618,Other engine equipment manufacturing,2835,78,509,74,3496
+F02E00,Nonresidential private fixed investment in equipment,333912,Air and gas compressor manufacturing,6124,165,1099,0,7388
+F02E00,Nonresidential private fixed investment in equipment,33391A,Pump and pumping equipment manufacturing,10199,277,1831,0,12307
+F02E00,Nonresidential private fixed investment in equipment,333920,Material handling equipment manufacturing,20830,563,3740,0,25134
+F02E00,Nonresidential private fixed investment in equipment,333991,Power-driven handtool manufacturing,2996,81,538,3407,7022
+F02E00,Nonresidential private fixed investment in equipment,333993,Packaging machinery manufacturing,4556,123,818,0,5497
+F02E00,Nonresidential private fixed investment in equipment,333994,Industrial process furnace and oven manufacturing,1402,38,252,0,1692
+F02E00,Nonresidential private fixed investment in equipment,33399A,Other general purpose machinery manufacturing,12866,353,2309,0,15528
+F02E00,Nonresidential private fixed investment in equipment,33399B,Fluid power process machinery,490,13,88,0,592
+F02E00,Nonresidential private fixed investment in equipment,334111,Electronic computer manufacturing,36048,378,13569,5455,55450
+F02E00,Nonresidential private fixed investment in equipment,334112,Computer storage device manufacturing,6687,70,2392,727,9876
+F02E00,Nonresidential private fixed investment in equipment,334118,Computer terminals and other computer peripheral equipment manufacturing,11725,118,4192,1125,17160
+F02E00,Nonresidential private fixed investment in equipment,334210,Telephone apparatus manufacturing,5818,58,2517,1285,9678
+F02E00,Nonresidential private fixed investment in equipment,334220,Broadcast and wireless communications equipment,37159,368,13516,0,51044
+F02E00,Nonresidential private fixed investment in equipment,334290,Other communications equipment manufacturing,707,19,341,0,1067
+F02E00,Nonresidential private fixed investment in equipment,334510,Electromedical and electrotherapeutic apparatus manufacturing,20025,206,7074,0,27306
+F02E00,Nonresidential private fixed investment in equipment,334511,"Search, detection, and navigation instruments manufacturing",15887,162,2195,0,18245
+F02E00,Nonresidential private fixed investment in equipment,334513,Industrial process variable instruments manufacturing,6592,67,911,0,7570
+F02E00,Nonresidential private fixed investment in equipment,334514,Totalizing fluid meter and counting device manufacturing,2657,72,367,0,3097
+F02E00,Nonresidential private fixed investment in equipment,334515,Electricity and signal testing instruments manufacturing,3773,102,509,0,4384
+F02E00,Nonresidential private fixed investment in equipment,334516,Analytical laboratory instrument manufacturing,9606,257,1305,0,11168
+F02E00,Nonresidential private fixed investment in equipment,334517,Irradiation apparatus manufacturing,7587,78,2329,0,9995
+F02E00,Nonresidential private fixed investment in equipment,33451A,"Watch, clock, and other measuring and controlling device manufacturing",5120,139,707,0,5967
+F02E00,Nonresidential private fixed investment in equipment,334300,Audio and video equipment manufacturing,8098,82,2239,1222,11641
+F02E00,Nonresidential private fixed investment in equipment,334610,Manufacturing and reproducing magnetic and optical media,164,2,53,0,219
+F02E00,Nonresidential private fixed investment in equipment,335120,Lighting fixture manufacturing,1383,206,397,0,1986
+F02E00,Nonresidential private fixed investment in equipment,335210,Small electrical appliance manufacturing,387,60,107,0,554
+F02E00,Nonresidential private fixed investment in equipment,335221,Household cooking appliance manufacturing,21,0,6,0,27
+F02E00,Nonresidential private fixed investment in equipment,335222,Household refrigerator and home freezer manufacturing,128,2,36,0,166
+F02E00,Nonresidential private fixed investment in equipment,335224,Household laundry equipment manufacturing,224,3,62,0,289
+F02E00,Nonresidential private fixed investment in equipment,335228,Other major household appliance manufacturing,50,1,14,0,65
+F02E00,Nonresidential private fixed investment in equipment,335311,"Power, distribution, and specialty transformer manufacturing",5645,64,1622,0,7330
+F02E00,Nonresidential private fixed investment in equipment,335312,Motor and generator manufacturing,2863,29,822,0,3714
+F02E00,Nonresidential private fixed investment in equipment,335313,Switchgear and switchboard apparatus manufacturing,5838,66,1677,0,7581
+F02E00,Nonresidential private fixed investment in equipment,335314,Relay and industrial control manufacturing,1198,12,344,0,1555
+F02E00,Nonresidential private fixed investment in equipment,335911,Storage battery manufacturing,405,4,55,0,465
+F02E00,Nonresidential private fixed investment in equipment,335920,Communication and energy wire and cable manufacturing,247,2,71,0,320
+F02E00,Nonresidential private fixed investment in equipment,335930,Wiring device manufacturing,84,1,12,0,97
+F02E00,Nonresidential private fixed investment in equipment,335999,All other miscellaneous electrical equipment and component manufacturing,7359,77,1809,0,9246
+F02E00,Nonresidential private fixed investment in equipment,336111,Automobile manufacturing,64919,2130,15620,6265,88933
+F02E00,Nonresidential private fixed investment in equipment,336112,Light truck and utility vehicle manufacturing,90608,1476,830,4818,97732
+F02E00,Nonresidential private fixed investment in equipment,336120,Heavy duty truck manufacturing,23699,372,719,0,24790
+F02E00,Nonresidential private fixed investment in equipment,336211,Motor vehicle body manufacturing,2425,46,833,37,3341
+F02E00,Nonresidential private fixed investment in equipment,336212,Truck trailer manufacturing,7435,72,2693,0,10201
+F02E00,Nonresidential private fixed investment in equipment,336213,Motor home manufacturing,64,1,3,249,317
+F02E00,Nonresidential private fixed investment in equipment,336214,Travel trailer and camper manufacturing,582,6,24,26,639
+F02E00,Nonresidential private fixed investment in equipment,336360,Motor vehicle seating and interior trim manufacturing,1892,23,33,0,1948
+F02E00,Nonresidential private fixed investment in equipment,336411,Aircraft manufacturing,27676,280,1186,0,29141
+F02E00,Nonresidential private fixed investment in equipment,336412,Aircraft engine and engine parts manufacturing,497,5,22,0,524
+F02E00,Nonresidential private fixed investment in equipment,336414,Guided missile and space vehicle manufacturing,5856,59,245,0,6159
+F02E00,Nonresidential private fixed investment in equipment,336500,Railroad rolling stock manufacturing,11275,380,470,0,12125
+F02E00,Nonresidential private fixed investment in equipment,336611,Ship building and repairing,5124,55,209,127,5515
+F02E00,Nonresidential private fixed investment in equipment,336612,Boat building,449,4,18,343,815
+F02E00,Nonresidential private fixed investment in equipment,336991,"Motorcycle, bicycle, and parts manufacturing",182,2,29,252,465
+F02E00,Nonresidential private fixed investment in equipment,336999,All other transportation equipment manufacturing,992,10,77,818,1898
+F02E00,Nonresidential private fixed investment in equipment,337110,Wood kitchen cabinet and countertop manufacturing,604,28,79,0,712
+F02E00,Nonresidential private fixed investment in equipment,337121,Upholstered household furniture manufacturing,554,83,115,62,813
+F02E00,Nonresidential private fixed investment in equipment,337122,Nonupholstered wood household furniture manufacturing,551,82,114,63,810
+F02E00,Nonresidential private fixed investment in equipment,337127,Institutional furniture manufacturing,7832,1165,1604,724,11325
+F02E00,Nonresidential private fixed investment in equipment,33712N,Other household nonupholstered furniture,268,40,56,23,388
+F02E00,Nonresidential private fixed investment in equipment,337215,"Showcase, partition, shelving, and locker manufacturing",5254,831,1069,89,7244
+F02E00,Nonresidential private fixed investment in equipment,33721A,Office furniture and custom architectural woodwork and millwork manufacturing,8556,1276,1774,427,12033
+F02E00,Nonresidential private fixed investment in equipment,337900,Other furniture related product manufacturing,852,132,303,28,1315
+F02E00,Nonresidential private fixed investment in equipment,339112,Surgical and medical instrument manufacturing,20906,215,7386,0,28507
+F02E00,Nonresidential private fixed investment in equipment,339113,Surgical appliance and supplies manufacturing,6238,64,2204,0,8506
+F02E00,Nonresidential private fixed investment in equipment,339114,Dental equipment and supplies manufacturing,1783,18,630,0,2431
+F02E00,Nonresidential private fixed investment in equipment,339920,Sporting and athletic goods manufacturing,1559,235,631,0,2426
+F02E00,Nonresidential private fixed investment in equipment,339940,Office supplies (except paper) manufacturing,38,6,4,1,49
+F02E00,Nonresidential private fixed investment in equipment,339950,Sign manufacturing,7166,1084,2313,0,10563
+F02E00,Nonresidential private fixed investment in equipment,339990,All other miscellaneous manufacturing,4143,626,3333,282,8384
+F02E00,Nonresidential private fixed investment in equipment,313200,Fabric mills,10,0,1,36,48
+F02E00,Nonresidential private fixed investment in equipment,314110,Carpet and rug mills,831,39,397,3013,4280
+F02E00,Nonresidential private fixed investment in equipment,325180,Other Basic Inorganic Chemical Manufacturing,3175,0,0,0,3175
+F02E00,Nonresidential private fixed investment in equipment,326140,Polystyrene foam product manufacturing,0,0,0,0,1
+F02E00,Nonresidential private fixed investment in equipment,326150,Urethane and other foam product (except polystyrene) manufacturing,18,0,10,64,92
+F02E00,Nonresidential private fixed investment in equipment,326290,Other rubber product manufacturing,123,2,25,33,184
+F02E00,Nonresidential private fixed investment in equipment,423100,Motor vehicle and motor vehicle parts and supplies,23498,0,0,0,0
+F02E00,Nonresidential private fixed investment in equipment,423400,Professional and commercial equipment and supplies,51589,0,0,0,0
+F02E00,Nonresidential private fixed investment in equipment,423600,Household appliances and electrical and electronic goods ,30804,0,0,0,0
+F02E00,Nonresidential private fixed investment in equipment,423800,"Machinery, equipment, and supplies",56778,0,0,0,0
+F02E00,Nonresidential private fixed investment in equipment,423A00,Other durable goods merchant wholesalers,10739,0,0,0,0
+F02E00,Nonresidential private fixed investment in equipment,424200,Drugs and druggists’ sundries,105,0,0,0,0
+F02E00,Nonresidential private fixed investment in equipment,424400,Grocery and related product wholesalers ,75,0,0,0,0
+F02E00,Nonresidential private fixed investment in equipment,424700,Petroleum and petroleum products,62,0,0,0,0
+F02E00,Nonresidential private fixed investment in equipment,424A00,Other nondurable goods merchant wholesalers,1333,0,0,0,0
+F02E00,Nonresidential private fixed investment in equipment,425000,Wholesale electronic markets and agents and brokers,5377,0,0,0,0
+F02E00,Nonresidential private fixed investment in equipment,441000,Motor vehicle and parts dealers,16406,0,0,0,0
+F02E00,Nonresidential private fixed investment in equipment,445000,Food and beverage stores,175,0,0,0,0
+F02E00,Nonresidential private fixed investment in equipment,452000,General merchandise stores,2541,0,0,0,0
+F02E00,Nonresidential private fixed investment in equipment,444000,Building material and garden equipment and supplies dealers,11022,0,0,0,0
+F02E00,Nonresidential private fixed investment in equipment,446000,Health and personal care stores,41,0,0,0,0
+F02E00,Nonresidential private fixed investment in equipment,447000,Gasoline stations,19,0,0,0,0
+F02E00,Nonresidential private fixed investment in equipment,448000,Clothing and clothing accessories stores,31,0,0,0,0
+F02E00,Nonresidential private fixed investment in equipment,454000,Nonstore retailers,6978,0,0,0,0
+F02E00,Nonresidential private fixed investment in equipment,4B0000,All other retail,9324,0,0,0,0
+F02E00,Nonresidential private fixed investment in equipment,481000,Air transportation,321,0,0,0,0
+F02E00,Nonresidential private fixed investment in equipment,482000,Rail transportation,2715,0,0,0,0
+F02E00,Nonresidential private fixed investment in equipment,483000,Water transportation,10,0,0,0,0
+F02E00,Nonresidential private fixed investment in equipment,484000,Truck transportation,20117,0,0,0,0
+F02E00,Nonresidential private fixed investment in equipment,517110,Wired telecommunications carriers,7155,0,0,0,7155
+F02E00,Nonresidential private fixed investment in equipment,541512,Computer systems design services,18701,0,0,0,18701
+F02E00,Nonresidential private fixed investment in equipment,541300,"Architectural, engineering, and related services",42239,0,0,0,42239
+F02E00,Nonresidential private fixed investment in equipment,S00401,Scrap,-21736,0,0,0,-21736
+F02E00,Nonresidential private fixed investment in equipment,S00402,Used and secondhand goods,-78431,2920,9326,3388,-62797
+F02N00,Nonresidential private fixed investment in intellectual property products,423100,Motor vehicle and motor vehicle parts and supplies,0,0,0,0,0
+F02N00,Nonresidential private fixed investment in intellectual property products,423400,Professional and commercial equipment and supplies,15251,0,0,0,0
+F02N00,Nonresidential private fixed investment in intellectual property products,423600,Household appliances and electrical and electronic goods ,1131,0,0,0,0
+F02N00,Nonresidential private fixed investment in intellectual property products,423800,"Machinery, equipment, and supplies",6,0,0,0,0
+F02N00,Nonresidential private fixed investment in intellectual property products,423A00,Other durable goods merchant wholesalers,219,0,0,0,0
+F02N00,Nonresidential private fixed investment in intellectual property products,424200,Drugs and druggists’ sundries,0,0,0,0,0
+F02N00,Nonresidential private fixed investment in intellectual property products,424A00,Other nondurable goods merchant wholesalers,75,0,0,0,0
+F02N00,Nonresidential private fixed investment in intellectual property products,425000,Wholesale electronic markets and agents and brokers,559,0,0,0,0
+F02N00,Nonresidential private fixed investment in intellectual property products,452000,General merchandise stores,269,0,0,0,0
+F02N00,Nonresidential private fixed investment in intellectual property products,444000,Building material and garden equipment and supplies dealers,1,0,0,0,0
+F02N00,Nonresidential private fixed investment in intellectual property products,454000,Nonstore retailers,2283,0,0,0,0
+F02N00,Nonresidential private fixed investment in intellectual property products,4B0000,All other retail,2034,0,0,0,0
+F02N00,Nonresidential private fixed investment in intellectual property products,481000,Air transportation,28,0,0,0,0
+F02N00,Nonresidential private fixed investment in intellectual property products,483000,Water transportation,0,0,0,0,0
+F02N00,Nonresidential private fixed investment in intellectual property products,484000,Truck transportation,557,0,0,0,0
+F02N00,Nonresidential private fixed investment in intellectual property products,511120,Periodical Publishers,117,0,0,0,117
+F02N00,Nonresidential private fixed investment in intellectual property products,511130,Book publishers,9103,0,0,0,9103
+F02N00,Nonresidential private fixed investment in intellectual property products,5111A0,"Directory, mailing list, and other publishers",432,0,0,0,432
+F02N00,Nonresidential private fixed investment in intellectual property products,511200,Software publishers,59581,586,17241,4586,81994
+F02N00,Nonresidential private fixed investment in intellectual property products,512100,Motion picture and video industries,28989,0,0,0,28989
+F02N00,Nonresidential private fixed investment in intellectual property products,512200,Sound recording industries,2972,0,0,0,2972
+F02N00,Nonresidential private fixed investment in intellectual property products,515100,Radio and television broadcasting,10084,0,0,0,10084
+F02N00,Nonresidential private fixed investment in intellectual property products,515200,Cable and other subscription programming,13153,0,0,0,13153
+F02N00,Nonresidential private fixed investment in intellectual property products,518200,"Data processing, hosting, and related services",14168,0,0,0,14168
+F02N00,Nonresidential private fixed investment in intellectual property products,541511,Custom computer programming services,169328,0,0,0,169328
+F02N00,Nonresidential private fixed investment in intellectual property products,541700,Scientific research and development services,313449,0,0,0,313449
+F02N00,Nonresidential private fixed investment in intellectual property products,541920,Photographic services,1133,0,0,0,1133
+F02N00,Nonresidential private fixed investment in intellectual property products,711100,Performing arts companies,3706,0,0,0,3706
+F02N00,Nonresidential private fixed investment in intellectual property products,711500,"Independent artists, writers, and performers",493,0,0,0,493
+F02N00,Nonresidential private fixed investment in intellectual property products,S00300,Noncomparable imports,6570,0,0,0,6570
+F02R00,Residential private fixed investment,233412,Multifamily residential structures,22510,0,0,0,22510
+F02R00,Residential private fixed investment,2334A0,Other residential structures,159222,0,0,0,159222
+F02R00,Residential private fixed investment,233411,Single-family residential structures,132015,0,0,0,132015
+F02R00,Residential private fixed investment,3219A0,All other wood product manufacturing,2974,122,391,1470,4956
+F02R00,Residential private fixed investment,334300,Audio and video equipment manufacturing,289,3,80,47,420
+F02R00,Residential private fixed investment,335210,Small electrical appliance manufacturing,25,4,7,11,46
+F02R00,Residential private fixed investment,335221,Household cooking appliance manufacturing,1901,28,526,836,3291
+F02R00,Residential private fixed investment,335222,Household refrigerator and home freezer manufacturing,2000,32,553,880,3465
+F02R00,Residential private fixed investment,335228,Other major household appliance manufacturing,643,10,178,283,1114
+F02R00,Residential private fixed investment,337121,Upholstered household furniture manufacturing,65,10,14,8,96
+F02R00,Residential private fixed investment,337122,Nonupholstered wood household furniture manufacturing,83,12,17,10,123
+F02R00,Residential private fixed investment,33712N,Other household nonupholstered furniture,138,21,29,17,204
+F02R00,Residential private fixed investment,337215,"Showcase, partition, shelving, and locker manufacturing",1,0,0,0,2
+F02R00,Residential private fixed investment,337900,Other furniture related product manufacturing,120,18,25,14,178
+F02R00,Residential private fixed investment,314110,Carpet and rug mills,268,13,128,973,1382
+F02R00,Residential private fixed investment,326150,Urethane and other foam product (except polystyrene) manufacturing,5,0,3,161,168
+F02R00,Residential private fixed investment,326290,Other rubber product manufacturing,10,0,2,35,47
+F02R00,Residential private fixed investment,423100,Motor vehicle and motor vehicle parts and supplies,7,0,0,0,0
+F02R00,Residential private fixed investment,423400,Professional and commercial equipment and supplies,179,0,0,0,0
+F02R00,Residential private fixed investment,423600,Household appliances and electrical and electronic goods ,1134,0,0,0,0
+F02R00,Residential private fixed investment,423800,"Machinery, equipment, and supplies",3,0,0,0,0
+F02R00,Residential private fixed investment,423A00,Other durable goods merchant wholesalers,715,0,0,0,0
+F02R00,Residential private fixed investment,424200,Drugs and druggists’ sundries,1,0,0,0,0
+F02R00,Residential private fixed investment,424400,Grocery and related product wholesalers ,2,0,0,0,0
+F02R00,Residential private fixed investment,424700,Petroleum and petroleum products,7,0,0,0,0
+F02R00,Residential private fixed investment,424A00,Other nondurable goods merchant wholesalers,22,0,0,0,0
+F02R00,Residential private fixed investment,425000,Wholesale electronic markets and agents and brokers,58,0,0,0,0
+F02R00,Residential private fixed investment,441000,Motor vehicle and parts dealers,6,0,0,0,0
+F02R00,Residential private fixed investment,445000,Food and beverage stores,9,0,0,0,0
+F02R00,Residential private fixed investment,452000,General merchandise stores,429,0,0,0,0
+F02R00,Residential private fixed investment,444000,Building material and garden equipment and supplies dealers,1081,0,0,0,0
+F02R00,Residential private fixed investment,446000,Health and personal care stores,3,0,0,0,0
+F02R00,Residential private fixed investment,447000,Gasoline stations,0,0,0,0,0
+F02R00,Residential private fixed investment,448000,Clothing and clothing accessories stores,6,0,0,0,0
+F02R00,Residential private fixed investment,454000,Nonstore retailers,316,0,0,0,0
+F02R00,Residential private fixed investment,4B0000,All other retail,2976,0,0,0,0
+F02R00,Residential private fixed investment,481000,Air transportation,3,0,0,0,0
+F02R00,Residential private fixed investment,482000,Rail transportation,24,0,0,0,0
+F02R00,Residential private fixed investment,483000,Water transportation,0,0,0,0,0
+F02R00,Residential private fixed investment,484000,Truck transportation,315,0,0,0,0
+F02R00,Residential private fixed investment,5241XX,"Insurance carriers, except direct life",5584,0,0,0,5584
+F02R00,Residential private fixed investment,531ORE,Other real estate,82654,0,0,0,82654
+F02R00,Residential private fixed investment,541100,Legal services,14388,0,0,0,14388
+F02R00,Residential private fixed investment,541300,"Architectural, engineering, and related services",1210,0,0,0,1210
+F02R00,Residential private fixed investment,S00402,Used and secondhand goods,-1386,71,176,80,-1059
+F02S00,Nonresidential private fixed investment in structures,213111,Drilling oil and gas wells,47549,0,0,0,47549
+F02S00,Nonresidential private fixed investment in structures,21311A,Other support activities for mining,105363,0,0,0,105363
+F02S00,Nonresidential private fixed investment in structures,233210,Health care structures,35375,0,0,0,35375
+F02S00,Nonresidential private fixed investment in structures,233262,Educational and vocational structures,16160,0,0,0,16160
+F02S00,Nonresidential private fixed investment in structures,2332A0,Office and commercial structures,68109,0,0,0,68109
+F02S00,Nonresidential private fixed investment in structures,233230,Manufacturing structures,46774,0,0,0,46774
+F02S00,Nonresidential private fixed investment in structures,2332D0,Other nonresidential structures,32965,0,0,0,32965
+F02S00,Nonresidential private fixed investment in structures,233240,Power and communication structures,102355,0,0,0,102355
+F02S00,Nonresidential private fixed investment in structures,2332C0,Transportation structures and highways and streets,11172,0,0,0,11172
+F02S00,Nonresidential private fixed investment in structures,3219A0,All other wood product manufacturing,327,15,43,0,385
+F02S00,Nonresidential private fixed investment in structures,423400,Professional and commercial equipment and supplies,0,0,0,0,0
+F02S00,Nonresidential private fixed investment in structures,423600,Household appliances and electrical and electronic goods ,0,0,0,0,0
+F02S00,Nonresidential private fixed investment in structures,423800,"Machinery, equipment, and supplies",0,0,0,0,0
+F02S00,Nonresidential private fixed investment in structures,423A00,Other durable goods merchant wholesalers,42,0,0,0,0
+F02S00,Nonresidential private fixed investment in structures,424A00,Other nondurable goods merchant wholesalers,0,0,0,0,0
+F02S00,Nonresidential private fixed investment in structures,425000,Wholesale electronic markets and agents and brokers,1,0,0,0,0
+F02S00,Nonresidential private fixed investment in structures,484000,Truck transportation,15,0,0,0,0
+F02S00,Nonresidential private fixed investment in structures,531ORE,Other real estate,14605,0,0,0,14605
+F02S00,Nonresidential private fixed investment in structures,S00402,Used and secondhand goods,-1375,0,0,0,-1375
+F06E00,Federal national defense: Gross investment in equipment,332200,Cutlery and handtool manufacturing,3,0,1,0,4
+F06E00,Federal national defense: Gross investment in equipment,332430,"Metal can, box, and other metal container (light gauge) manufacturing",2,0,0,0,2
+F06E00,Federal national defense: Gross investment in equipment,33291A,Valve and fittings other than plumbing,248,7,76,0,331
+F06E00,Federal national defense: Gross investment in equipment,332996,Fabricated pipe and pipe fitting manufacturing,1,0,0,0,2
+F06E00,Federal national defense: Gross investment in equipment,33299A,"Ammunition, arms, ordnance, and accessories manufacturing",1862,50,592,0,2505
+F06E00,Federal national defense: Gross investment in equipment,332999,Other fabricated metal manufacturing,3,0,1,0,4
+F06E00,Federal national defense: Gross investment in equipment,333111,Farm machinery and equipment manufacturing,1,0,0,0,1
+F06E00,Federal national defense: Gross investment in equipment,333112,Lawn and garden equipment manufacturing,2,0,1,0,3
+F06E00,Federal national defense: Gross investment in equipment,333120,Construction machinery manufacturing,86,2,25,0,114
+F06E00,Federal national defense: Gross investment in equipment,33329A,Other industrial machinery manufacturing,16,0,3,0,19
+F06E00,Federal national defense: Gross investment in equipment,333314,Optical instrument and lens manufacturing,532,14,115,0,662
+F06E00,Federal national defense: Gross investment in equipment,333316,Photographic and photocopying equipment manufacturing,3,0,1,0,4
+F06E00,Federal national defense: Gross investment in equipment,333318,Other commercial and service industry machinery manufacturing,253,7,107,0,367
+F06E00,Federal national defense: Gross investment in equipment,333415,"Air conditioning, refrigeration, and warm air heating equipment manufacturing",230,6,71,0,307
+F06E00,Federal national defense: Gross investment in equipment,333517,Machine tool manufacturing,6,0,1,0,7
+F06E00,Federal national defense: Gross investment in equipment,333611,Turbine and turbine generator set units manufacturing,66,2,12,0,80
+F06E00,Federal national defense: Gross investment in equipment,333912,Air and gas compressor manufacturing,18,0,3,0,22
+F06E00,Federal national defense: Gross investment in equipment,33391A,Pump and pumping equipment manufacturing,284,8,49,0,341
+F06E00,Federal national defense: Gross investment in equipment,333920,Material handling equipment manufacturing,67,2,12,0,81
+F06E00,Federal national defense: Gross investment in equipment,333991,Power-driven handtool manufacturing,0,0,0,0,1
+F06E00,Federal national defense: Gross investment in equipment,33399A,Other general purpose machinery manufacturing,16,0,3,0,19
+F06E00,Federal national defense: Gross investment in equipment,33399B,Fluid power process machinery,56,2,10,0,67
+F06E00,Federal national defense: Gross investment in equipment,334111,Electronic computer manufacturing,1023,11,291,0,1325
+F06E00,Federal national defense: Gross investment in equipment,334112,Computer storage device manufacturing,175,2,50,0,227
+F06E00,Federal national defense: Gross investment in equipment,334118,Computer terminals and other computer peripheral equipment manufacturing,141,1,40,0,182
+F06E00,Federal national defense: Gross investment in equipment,334210,Telephone apparatus manufacturing,1306,13,593,0,1912
+F06E00,Federal national defense: Gross investment in equipment,334220,Broadcast and wireless communications equipment,7111,71,3286,0,10468
+F06E00,Federal national defense: Gross investment in equipment,334290,Other communications equipment manufacturing,41,1,19,0,60
+F06E00,Federal national defense: Gross investment in equipment,334510,Electromedical and electrotherapeutic apparatus manufacturing,319,3,108,0,431
+F06E00,Federal national defense: Gross investment in equipment,334511,"Search, detection, and navigation instruments manufacturing",15502,158,2066,0,17726
+F06E00,Federal national defense: Gross investment in equipment,334513,Industrial process variable instruments manufacturing,4,0,1,0,5
+F06E00,Federal national defense: Gross investment in equipment,334515,Electricity and signal testing instruments manufacturing,2658,74,354,0,3086
+F06E00,Federal national defense: Gross investment in equipment,334517,Irradiation apparatus manufacturing,130,1,38,0,169
+F06E00,Federal national defense: Gross investment in equipment,335210,Small electrical appliance manufacturing,3,0,1,0,4
+F06E00,Federal national defense: Gross investment in equipment,335221,Household cooking appliance manufacturing,2,0,1,0,3
+F06E00,Federal national defense: Gross investment in equipment,335311,"Power, distribution, and specialty transformer manufacturing",0,0,0,0,0
+F06E00,Federal national defense: Gross investment in equipment,335312,Motor and generator manufacturing,8,0,2,0,11
+F06E00,Federal national defense: Gross investment in equipment,335314,Relay and industrial control manufacturing,322,3,90,0,415
+F06E00,Federal national defense: Gross investment in equipment,335920,Communication and energy wire and cable manufacturing,7,0,2,0,9
+F06E00,Federal national defense: Gross investment in equipment,335999,All other miscellaneous electrical equipment and component manufacturing,545,6,152,0,703
+F06E00,Federal national defense: Gross investment in equipment,336111,Automobile manufacturing,809,26,192,0,1027
+F06E00,Federal national defense: Gross investment in equipment,336112,Light truck and utility vehicle manufacturing,7,0,0,0,7
+F06E00,Federal national defense: Gross investment in equipment,336120,Heavy duty truck manufacturing,365,6,21,0,392
+F06E00,Federal national defense: Gross investment in equipment,336212,Truck trailer manufacturing,54,1,18,0,73
+F06E00,Federal national defense: Gross investment in equipment,336411,Aircraft manufacturing,18667,189,788,0,19643
+F06E00,Federal national defense: Gross investment in equipment,336412,Aircraft engine and engine parts manufacturing,516,5,22,0,544
+F06E00,Federal national defense: Gross investment in equipment,336414,Guided missile and space vehicle manufacturing,5591,56,236,0,5883
+F06E00,Federal national defense: Gross investment in equipment,336500,Railroad rolling stock manufacturing,9,0,0,0,9
+F06E00,Federal national defense: Gross investment in equipment,336611,Ship building and repairing,8871,88,343,0,9302
+F06E00,Federal national defense: Gross investment in equipment,336612,Boat building,93,1,4,0,98
+F06E00,Federal national defense: Gross investment in equipment,336992,"Military armored vehicle, tank, and tank component manufacturing",4063,56,163,0,4282
+F06E00,Federal national defense: Gross investment in equipment,336999,All other transportation equipment manufacturing,44,0,2,0,46
+F06E00,Federal national defense: Gross investment in equipment,337122,Nonupholstered wood household furniture manufacturing,0,0,0,0,0
+F06E00,Federal national defense: Gross investment in equipment,337127,Institutional furniture manufacturing,0,0,0,0,0
+F06E00,Federal national defense: Gross investment in equipment,337215,"Showcase, partition, shelving, and locker manufacturing",0,0,0,0,0
+F06E00,Federal national defense: Gross investment in equipment,33721A,Office furniture and custom architectural woodwork and millwork manufacturing,1,0,0,0,1
+F06E00,Federal national defense: Gross investment in equipment,339112,Surgical and medical instrument manufacturing,45,0,15,0,61
+F06E00,Federal national defense: Gross investment in equipment,339113,Surgical appliance and supplies manufacturing,7,0,2,0,9
+F06E00,Federal national defense: Gross investment in equipment,339114,Dental equipment and supplies manufacturing,47,0,16,0,63
+F06E00,Federal national defense: Gross investment in equipment,339920,Sporting and athletic goods manufacturing,0,0,0,0,0
+F06E00,Federal national defense: Gross investment in equipment,339950,Sign manufacturing,0,0,0,0,0
+F06E00,Federal national defense: Gross investment in equipment,339990,All other miscellaneous manufacturing,13,2,8,0,23
+F06E00,Federal national defense: Gross investment in equipment,423100,Motor vehicle and motor vehicle parts and supplies,235,0,0,0,0
+F06E00,Federal national defense: Gross investment in equipment,423400,Professional and commercial equipment and supplies,906,0,0,0,0
+F06E00,Federal national defense: Gross investment in equipment,423600,Household appliances and electrical and electronic goods ,5875,0,0,0,0
+F06E00,Federal national defense: Gross investment in equipment,423800,"Machinery, equipment, and supplies",2085,0,0,0,0
+F06E00,Federal national defense: Gross investment in equipment,423A00,Other durable goods merchant wholesalers,756,0,0,0,0
+F06E00,Federal national defense: Gross investment in equipment,424200,Drugs and druggists’ sundries,1,0,0,0,0
+F06E00,Federal national defense: Gross investment in equipment,424400,Grocery and related product wholesalers ,1,0,0,0,0
+F06E00,Federal national defense: Gross investment in equipment,424700,Petroleum and petroleum products,0,0,0,0,0
+F06E00,Federal national defense: Gross investment in equipment,424A00,Other nondurable goods merchant wholesalers,28,0,0,0,0
+F06E00,Federal national defense: Gross investment in equipment,425000,Wholesale electronic markets and agents and brokers,118,0,0,0,0
+F06E00,Federal national defense: Gross investment in equipment,481000,Air transportation,34,0,0,0,0
+F06E00,Federal national defense: Gross investment in equipment,482000,Rail transportation,47,0,0,0,0
+F06E00,Federal national defense: Gross investment in equipment,483000,Water transportation,3,0,0,0,0
+F06E00,Federal national defense: Gross investment in equipment,484000,Truck transportation,794,0,0,0,0
+F06E00,Federal national defense: Gross investment in equipment,541512,Computer systems design services,2086,0,0,0,2086
+F06E00,Federal national defense: Gross investment in equipment,S00402,Used and secondhand goods,0,0,0,0,0
+F06N00,Federal national defense: Gross investment in intellectual property products,423100,Motor vehicle and motor vehicle parts and supplies,0,0,0,0,0
+F06N00,Federal national defense: Gross investment in intellectual property products,423400,Professional and commercial equipment and supplies,305,0,0,0,0
+F06N00,Federal national defense: Gross investment in intellectual property products,423600,Household appliances and electrical and electronic goods ,23,0,0,0,0
+F06N00,Federal national defense: Gross investment in intellectual property products,423800,"Machinery, equipment, and supplies",0,0,0,0,0
+F06N00,Federal national defense: Gross investment in intellectual property products,423A00,Other durable goods merchant wholesalers,4,0,0,0,0
+F06N00,Federal national defense: Gross investment in intellectual property products,424200,Drugs and druggists’ sundries,0,0,0,0,0
+F06N00,Federal national defense: Gross investment in intellectual property products,424A00,Other nondurable goods merchant wholesalers,1,0,0,0,0
+F06N00,Federal national defense: Gross investment in intellectual property products,425000,Wholesale electronic markets and agents and brokers,11,0,0,0,0
+F06N00,Federal national defense: Gross investment in intellectual property products,481000,Air transportation,1,0,0,0,0
+F06N00,Federal national defense: Gross investment in intellectual property products,483000,Water transportation,0,0,0,0,0
+F06N00,Federal national defense: Gross investment in intellectual property products,484000,Truck transportation,11,0,0,0,0
+F06N00,Federal national defense: Gross investment in intellectual property products,511200,Software publishers,1189,12,344,0,1545
+F06N00,Federal national defense: Gross investment in intellectual property products,518200,"Data processing, hosting, and related services",676,0,0,0,676
+F06N00,Federal national defense: Gross investment in intellectual property products,541511,Custom computer programming services,6816,0,0,0,6816
+F06N00,Federal national defense: Gross investment in intellectual property products,541700,Scientific research and development services,61470,0,0,0,61470
+F06S00,Federal national defense: Gross investment in structures,233210,Health care structures,188,0,0,0,188
+F06S00,Federal national defense: Gross investment in structures,233262,Educational and vocational structures,675,0,0,0,675
+F06S00,Federal national defense: Gross investment in structures,2332A0,Office and commercial structures,1593,0,0,0,1593
+F06S00,Federal national defense: Gross investment in structures,233412,Multifamily residential structures,1148,0,0,0,1148
+F06S00,Federal national defense: Gross investment in structures,2334A0,Other residential structures,140,0,0,0,140
+F06S00,Federal national defense: Gross investment in structures,233230,Manufacturing structures,2,0,0,0,2
+F06S00,Federal national defense: Gross investment in structures,2332D0,Other nonresidential structures,2801,0,0,0,2801
+F06S00,Federal national defense: Gross investment in structures,233240,Power and communication structures,747,0,0,0,747
+F06S00,Federal national defense: Gross investment in structures,233411,Single-family residential structures,215,0,0,0,215
+F06S00,Federal national defense: Gross investment in structures,2332C0,Transportation structures and highways and streets,598,0,0,0,598
+F06S00,Federal national defense: Gross investment in structures,S00402,Used and secondhand goods,-4,0,0,0,-4
+F07E00,Federal nondefense: Gross investment in equipment,3219A0,All other wood product manufacturing,79,4,10,0,92
+F07E00,Federal nondefense: Gross investment in equipment,332200,Cutlery and handtool manufacturing,3,0,1,0,4
+F07E00,Federal nondefense: Gross investment in equipment,332310,Plate work and fabricated structural product manufacturing,5,0,1,0,6
+F07E00,Federal nondefense: Gross investment in equipment,332410,Power boiler and heat exchanger manufacturing,82,2,25,0,109
+F07E00,Federal nondefense: Gross investment in equipment,332430,"Metal can, box, and other metal container (light gauge) manufacturing",26,1,2,0,29
+F07E00,Federal nondefense: Gross investment in equipment,332710,Machine shops,909,25,0,0,934
+F07E00,Federal nondefense: Gross investment in equipment,33291A,Valve and fittings other than plumbing,1,0,0,0,2
+F07E00,Federal nondefense: Gross investment in equipment,332996,Fabricated pipe and pipe fitting manufacturing,0,0,0,0,0
+F07E00,Federal nondefense: Gross investment in equipment,332999,Other fabricated metal manufacturing,265,7,52,0,325
+F07E00,Federal nondefense: Gross investment in equipment,333111,Farm machinery and equipment manufacturing,174,5,63,0,242
+F07E00,Federal nondefense: Gross investment in equipment,333112,Lawn and garden equipment manufacturing,1,0,0,0,1
+F07E00,Federal nondefense: Gross investment in equipment,333120,Construction machinery manufacturing,1,0,0,0,2
+F07E00,Federal nondefense: Gross investment in equipment,33329A,Other industrial machinery manufacturing,31,1,5,0,38
+F07E00,Federal nondefense: Gross investment in equipment,333316,Photographic and photocopying equipment manufacturing,1,0,0,0,1
+F07E00,Federal nondefense: Gross investment in equipment,333318,Other commercial and service industry machinery manufacturing,28,1,9,0,37
+F07E00,Federal nondefense: Gross investment in equipment,333517,Machine tool manufacturing,47,1,8,0,57
+F07E00,Federal nondefense: Gross investment in equipment,333611,Turbine and turbine generator set units manufacturing,182,5,32,0,219
+F07E00,Federal nondefense: Gross investment in equipment,333618,Other engine equipment manufacturing,12,0,2,0,14
+F07E00,Federal nondefense: Gross investment in equipment,333912,Air and gas compressor manufacturing,2,0,0,0,3
+F07E00,Federal nondefense: Gross investment in equipment,33391A,Pump and pumping equipment manufacturing,14,0,2,0,17
+F07E00,Federal nondefense: Gross investment in equipment,333920,Material handling equipment manufacturing,23,1,4,0,28
+F07E00,Federal nondefense: Gross investment in equipment,333993,Packaging machinery manufacturing,2,0,0,0,2
+F07E00,Federal nondefense: Gross investment in equipment,33399A,Other general purpose machinery manufacturing,4,0,1,0,5
+F07E00,Federal nondefense: Gross investment in equipment,334111,Electronic computer manufacturing,836,9,237,0,1083
+F07E00,Federal nondefense: Gross investment in equipment,334112,Computer storage device manufacturing,14,0,4,0,18
+F07E00,Federal nondefense: Gross investment in equipment,334118,Computer terminals and other computer peripheral equipment manufacturing,71,1,20,0,92
+F07E00,Federal nondefense: Gross investment in equipment,334210,Telephone apparatus manufacturing,584,6,257,0,847
+F07E00,Federal nondefense: Gross investment in equipment,334220,Broadcast and wireless communications equipment,4155,41,1890,0,6086
+F07E00,Federal nondefense: Gross investment in equipment,334290,Other communications equipment manufacturing,3,0,2,0,5
+F07E00,Federal nondefense: Gross investment in equipment,334418,Printed circuit assembly (electronic assembly) manufacturing,0,0,0,0,1
+F07E00,Federal nondefense: Gross investment in equipment,33441A,Other electronic component manufacturing,7,0,1,0,8
+F07E00,Federal nondefense: Gross investment in equipment,334510,Electromedical and electrotherapeutic apparatus manufacturing,305,3,104,0,412
+F07E00,Federal nondefense: Gross investment in equipment,334511,"Search, detection, and navigation instruments manufacturing",2069,21,274,0,2364
+F07E00,Federal nondefense: Gross investment in equipment,334513,Industrial process variable instruments manufacturing,7,0,1,0,8
+F07E00,Federal nondefense: Gross investment in equipment,334515,Electricity and signal testing instruments manufacturing,51,1,7,0,60
+F07E00,Federal nondefense: Gross investment in equipment,334516,Analytical laboratory instrument manufacturing,1,0,0,0,1
+F07E00,Federal nondefense: Gross investment in equipment,334517,Irradiation apparatus manufacturing,58,1,18,0,76
+F07E00,Federal nondefense: Gross investment in equipment,335210,Small electrical appliance manufacturing,16,2,4,0,23
+F07E00,Federal nondefense: Gross investment in equipment,335311,"Power, distribution, and specialty transformer manufacturing",270,3,75,0,349
+F07E00,Federal nondefense: Gross investment in equipment,335312,Motor and generator manufacturing,100,1,28,0,129
+F07E00,Federal nondefense: Gross investment in equipment,335313,Switchgear and switchboard apparatus manufacturing,191,2,53,0,247
+F07E00,Federal nondefense: Gross investment in equipment,335314,Relay and industrial control manufacturing,143,1,40,0,185
+F07E00,Federal nondefense: Gross investment in equipment,335920,Communication and energy wire and cable manufacturing,130,1,36,0,168
+F07E00,Federal nondefense: Gross investment in equipment,335999,All other miscellaneous electrical equipment and component manufacturing,70,1,19,0,90
+F07E00,Federal nondefense: Gross investment in equipment,336111,Automobile manufacturing,23,1,5,0,29
+F07E00,Federal nondefense: Gross investment in equipment,336112,Light truck and utility vehicle manufacturing,4,0,0,0,4
+F07E00,Federal nondefense: Gross investment in equipment,336120,Heavy duty truck manufacturing,216,3,6,0,226
+F07E00,Federal nondefense: Gross investment in equipment,336211,Motor vehicle body manufacturing,31,1,9,0,41
+F07E00,Federal nondefense: Gross investment in equipment,336212,Truck trailer manufacturing,3,0,1,0,5
+F07E00,Federal nondefense: Gross investment in equipment,336360,Motor vehicle seating and interior trim manufacturing,5,0,1,0,6
+F07E00,Federal nondefense: Gross investment in equipment,336411,Aircraft manufacturing,277,3,12,0,291
+F07E00,Federal nondefense: Gross investment in equipment,336414,Guided missile and space vehicle manufacturing,1654,17,62,0,1732
+F07E00,Federal nondefense: Gross investment in equipment,33641A,Propulsion units and parts for space vehicles and guided missiles,1149,12,49,0,1209
+F07E00,Federal nondefense: Gross investment in equipment,336500,Railroad rolling stock manufacturing,28,1,1,0,30
+F07E00,Federal nondefense: Gross investment in equipment,336611,Ship building and repairing,69,1,3,0,72
+F07E00,Federal nondefense: Gross investment in equipment,336612,Boat building,185,2,7,0,194
+F07E00,Federal nondefense: Gross investment in equipment,337121,Upholstered household furniture manufacturing,10,2,2,0,14
+F07E00,Federal nondefense: Gross investment in equipment,337122,Nonupholstered wood household furniture manufacturing,62,9,13,0,84
+F07E00,Federal nondefense: Gross investment in equipment,337127,Institutional furniture manufacturing,1,0,0,0,1
+F07E00,Federal nondefense: Gross investment in equipment,33712N,Other household nonupholstered furniture,0,0,0,0,0
+F07E00,Federal nondefense: Gross investment in equipment,337215,"Showcase, partition, shelving, and locker manufacturing",2,0,0,0,3
+F07E00,Federal nondefense: Gross investment in equipment,33721A,Office furniture and custom architectural woodwork and millwork manufacturing,22,3,4,0,30
+F07E00,Federal nondefense: Gross investment in equipment,339112,Surgical and medical instrument manufacturing,7,0,2,0,9
+F07E00,Federal nondefense: Gross investment in equipment,339113,Surgical appliance and supplies manufacturing,118,1,40,0,160
+F07E00,Federal nondefense: Gross investment in equipment,339114,Dental equipment and supplies manufacturing,78,1,27,0,106
+F07E00,Federal nondefense: Gross investment in equipment,339920,Sporting and athletic goods manufacturing,1,0,0,0,1
+F07E00,Federal nondefense: Gross investment in equipment,339940,Office supplies (except paper) manufacturing,1,0,0,0,1
+F07E00,Federal nondefense: Gross investment in equipment,339950,Sign manufacturing,2,0,1,0,3
+F07E00,Federal nondefense: Gross investment in equipment,314110,Carpet and rug mills,6,0,3,0,9
+F07E00,Federal nondefense: Gross investment in equipment,314900,Other textile product mills,60,3,35,0,98
+F07E00,Federal nondefense: Gross investment in equipment,326290,Other rubber product manufacturing,30,1,6,0,36
+F07E00,Federal nondefense: Gross investment in equipment,423100,Motor vehicle and motor vehicle parts and supplies,26,0,0,0,0
+F07E00,Federal nondefense: Gross investment in equipment,423400,Professional and commercial equipment and supplies,556,0,0,0,0
+F07E00,Federal nondefense: Gross investment in equipment,423600,Household appliances and electrical and electronic goods ,2375,0,0,0,0
+F07E00,Federal nondefense: Gross investment in equipment,423800,"Machinery, equipment, and supplies",482,0,0,0,0
+F07E00,Federal nondefense: Gross investment in equipment,423A00,Other durable goods merchant wholesalers,68,0,0,0,0
+F07E00,Federal nondefense: Gross investment in equipment,424200,Drugs and druggists’ sundries,2,0,0,0,0
+F07E00,Federal nondefense: Gross investment in equipment,424400,Grocery and related product wholesalers ,2,0,0,0,0
+F07E00,Federal nondefense: Gross investment in equipment,424700,Petroleum and petroleum products,2,0,0,0,0
+F07E00,Federal nondefense: Gross investment in equipment,424A00,Other nondurable goods merchant wholesalers,24,0,0,0,0
+F07E00,Federal nondefense: Gross investment in equipment,425000,Wholesale electronic markets and agents and brokers,41,0,0,0,0
+F07E00,Federal nondefense: Gross investment in equipment,481000,Air transportation,7,0,0,0,0
+F07E00,Federal nondefense: Gross investment in equipment,482000,Rail transportation,6,0,0,0,0
+F07E00,Federal nondefense: Gross investment in equipment,483000,Water transportation,0,0,0,0,0
+F07E00,Federal nondefense: Gross investment in equipment,484000,Truck transportation,195,0,0,0,0
+F07E00,Federal nondefense: Gross investment in equipment,S00401,Scrap,0,0,0,0,0
+F07E00,Federal nondefense: Gross investment in equipment,S00402,Used and secondhand goods,-76,0,0,0,-76
+F07N00,Federal nondefense: Gross investment in intellectual property products,423100,Motor vehicle and motor vehicle parts and supplies,0,0,0,0,0
+F07N00,Federal nondefense: Gross investment in intellectual property products,423400,Professional and commercial equipment and supplies,413,0,0,0,0
+F07N00,Federal nondefense: Gross investment in intellectual property products,423600,Household appliances and electrical and electronic goods ,31,0,0,0,0
+F07N00,Federal nondefense: Gross investment in intellectual property products,423800,"Machinery, equipment, and supplies",0,0,0,0,0
+F07N00,Federal nondefense: Gross investment in intellectual property products,423A00,Other durable goods merchant wholesalers,6,0,0,0,0
+F07N00,Federal nondefense: Gross investment in intellectual property products,424200,Drugs and druggists’ sundries,0,0,0,0,0
+F07N00,Federal nondefense: Gross investment in intellectual property products,424A00,Other nondurable goods merchant wholesalers,2,0,0,0,0
+F07N00,Federal nondefense: Gross investment in intellectual property products,425000,Wholesale electronic markets and agents and brokers,15,0,0,0,0
+F07N00,Federal nondefense: Gross investment in intellectual property products,481000,Air transportation,1,0,0,0,0
+F07N00,Federal nondefense: Gross investment in intellectual property products,483000,Water transportation,0,0,0,0,0
+F07N00,Federal nondefense: Gross investment in intellectual property products,484000,Truck transportation,15,0,0,0,0
+F07N00,Federal nondefense: Gross investment in intellectual property products,511200,Software publishers,1611,16,467,0,2093
+F07N00,Federal nondefense: Gross investment in intellectual property products,518200,"Data processing, hosting, and related services",679,0,0,0,679
+F07N00,Federal nondefense: Gross investment in intellectual property products,541511,Custom computer programming services,17537,0,0,0,17537
+F07N00,Federal nondefense: Gross investment in intellectual property products,541700,Scientific research and development services,69932,0,0,0,69932
+F07S00,Federal nondefense: Gross investment in structures,233210,Health care structures,3286,0,0,0,3286
+F07S00,Federal nondefense: Gross investment in structures,233262,Educational and vocational structures,1252,0,0,0,1252
+F07S00,Federal nondefense: Gross investment in structures,2332A0,Office and commercial structures,3440,0,0,0,3440
+F07S00,Federal nondefense: Gross investment in structures,233230,Manufacturing structures,1181,0,0,0,1181
+F07S00,Federal nondefense: Gross investment in structures,2332D0,Other nonresidential structures,3543,0,0,0,3543
+F07S00,Federal nondefense: Gross investment in structures,233240,Power and communication structures,308,0,0,0,308
+F07S00,Federal nondefense: Gross investment in structures,2332C0,Transportation structures and highways and streets,1833,0,0,0,1833
+F07S00,Federal nondefense: Gross investment in structures,S00402,Used and secondhand goods,-365,0,0,0,-365
+F10E00,State and local: Gross investment in equipment,332200,Cutlery and handtool manufacturing,16,0,6,0,22
+F10E00,State and local: Gross investment in equipment,332420,Metal tank (heavy gauge) manufacturing,1,0,0,0,1
+F10E00,State and local: Gross investment in equipment,332430,"Metal can, box, and other metal container (light gauge) manufacturing",20,1,2,0,22
+F10E00,State and local: Gross investment in equipment,33291A,Valve and fittings other than plumbing,128,3,34,0,166
+F10E00,State and local: Gross investment in equipment,332996,Fabricated pipe and pipe fitting manufacturing,5,0,1,0,6
+F10E00,State and local: Gross investment in equipment,332999,Other fabricated metal manufacturing,603,16,118,0,737
+F10E00,State and local: Gross investment in equipment,333111,Farm machinery and equipment manufacturing,185,5,67,0,257
+F10E00,State and local: Gross investment in equipment,333112,Lawn and garden equipment manufacturing,81,2,29,0,112
+F10E00,State and local: Gross investment in equipment,333120,Construction machinery manufacturing,1828,51,541,0,2420
+F10E00,State and local: Gross investment in equipment,33329A,Other industrial machinery manufacturing,169,5,29,0,203
+F10E00,State and local: Gross investment in equipment,333314,Optical instrument and lens manufacturing,66,2,14,0,82
+F10E00,State and local: Gross investment in equipment,333316,Photographic and photocopying equipment manufacturing,93,2,92,0,188
+F10E00,State and local: Gross investment in equipment,333318,Other commercial and service industry machinery manufacturing,1481,41,569,0,2091
+F10E00,State and local: Gross investment in equipment,333414,Heating equipment (except warm air furnaces) manufacturing,0,0,0,0,0
+F10E00,State and local: Gross investment in equipment,333415,"Air conditioning, refrigeration, and warm air heating equipment manufacturing",118,3,36,0,157
+F10E00,State and local: Gross investment in equipment,333413,Industrial and commercial fan and blower and air purification equipment manufacturing,2,0,1,0,3
+F10E00,State and local: Gross investment in equipment,333517,Machine tool manufacturing,936,25,162,0,1124
+F10E00,State and local: Gross investment in equipment,333611,Turbine and turbine generator set units manufacturing,114,3,20,0,137
+F10E00,State and local: Gross investment in equipment,333618,Other engine equipment manufacturing,463,13,80,0,556
+F10E00,State and local: Gross investment in equipment,33391A,Pump and pumping equipment manufacturing,213,6,37,0,256
+F10E00,State and local: Gross investment in equipment,333920,Material handling equipment manufacturing,445,11,73,0,529
+F10E00,State and local: Gross investment in equipment,333991,Power-driven handtool manufacturing,183,5,32,0,220
+F10E00,State and local: Gross investment in equipment,333994,Industrial process furnace and oven manufacturing,12,0,2,0,15
+F10E00,State and local: Gross investment in equipment,33399A,Other general purpose machinery manufacturing,225,6,39,0,270
+F10E00,State and local: Gross investment in equipment,334111,Electronic computer manufacturing,3826,40,1086,0,4953
+F10E00,State and local: Gross investment in equipment,334112,Computer storage device manufacturing,300,3,85,0,388
+F10E00,State and local: Gross investment in equipment,334118,Computer terminals and other computer peripheral equipment manufacturing,1793,19,509,0,2321
+F10E00,State and local: Gross investment in equipment,334210,Telephone apparatus manufacturing,1083,11,498,0,1592
+F10E00,State and local: Gross investment in equipment,334220,Broadcast and wireless communications equipment,4887,48,298,0,5233
+F10E00,State and local: Gross investment in equipment,334290,Other communications equipment manufacturing,283,8,132,0,423
+F10E00,State and local: Gross investment in equipment,33441A,Other electronic component manufacturing,79,2,11,0,91
+F10E00,State and local: Gross investment in equipment,334510,Electromedical and electrotherapeutic apparatus manufacturing,51,1,17,0,69
+F10E00,State and local: Gross investment in equipment,334511,"Search, detection, and navigation instruments manufacturing",758,8,101,0,867
+F10E00,State and local: Gross investment in equipment,334513,Industrial process variable instruments manufacturing,278,3,37,0,318
+F10E00,State and local: Gross investment in equipment,334514,Totalizing fluid meter and counting device manufacturing,379,10,51,0,440
+F10E00,State and local: Gross investment in equipment,334515,Electricity and signal testing instruments manufacturing,60,2,8,0,70
+F10E00,State and local: Gross investment in equipment,334516,Analytical laboratory instrument manufacturing,112,3,15,0,130
+F10E00,State and local: Gross investment in equipment,334517,Irradiation apparatus manufacturing,47,0,16,0,64
+F10E00,State and local: Gross investment in equipment,33451A,"Watch, clock, and other measuring and controlling device manufacturing",168,5,22,0,195
+F10E00,State and local: Gross investment in equipment,334300,Audio and video equipment manufacturing,1677,17,447,0,2141
+F10E00,State and local: Gross investment in equipment,335120,Lighting fixture manufacturing,19,3,5,0,28
+F10E00,State and local: Gross investment in equipment,335210,Small electrical appliance manufacturing,147,23,39,0,208
+F10E00,State and local: Gross investment in equipment,335221,Household cooking appliance manufacturing,104,2,28,0,133
+F10E00,State and local: Gross investment in equipment,335222,Household refrigerator and home freezer manufacturing,172,3,46,0,221
+F10E00,State and local: Gross investment in equipment,335224,Household laundry equipment manufacturing,5,0,1,0,6
+F10E00,State and local: Gross investment in equipment,335311,"Power, distribution, and specialty transformer manufacturing",187,2,52,0,241
+F10E00,State and local: Gross investment in equipment,335312,Motor and generator manufacturing,173,2,48,0,223
+F10E00,State and local: Gross investment in equipment,335313,Switchgear and switchboard apparatus manufacturing,81,1,23,0,104
+F10E00,State and local: Gross investment in equipment,335314,Relay and industrial control manufacturing,174,2,49,0,225
+F10E00,State and local: Gross investment in equipment,335999,All other miscellaneous electrical equipment and component manufacturing,270,3,75,0,348
+F10E00,State and local: Gross investment in equipment,336111,Automobile manufacturing,668,21,158,0,848
+F10E00,State and local: Gross investment in equipment,336112,Light truck and utility vehicle manufacturing,104,2,1,0,107
+F10E00,State and local: Gross investment in equipment,336120,Heavy duty truck manufacturing,7484,119,282,0,7885
+F10E00,State and local: Gross investment in equipment,336360,Motor vehicle seating and interior trim manufacturing,2,0,0,0,2
+F10E00,State and local: Gross investment in equipment,336411,Aircraft manufacturing,13,0,1,0,14
+F10E00,State and local: Gross investment in equipment,336500,Railroad rolling stock manufacturing,791,27,32,0,849
+F10E00,State and local: Gross investment in equipment,336611,Ship building and repairing,24,0,1,0,26
+F10E00,State and local: Gross investment in equipment,336612,Boat building,35,0,1,0,36
+F10E00,State and local: Gross investment in equipment,336991,"Motorcycle, bicycle, and parts manufacturing",549,6,68,0,623
+F10E00,State and local: Gross investment in equipment,336999,All other transportation equipment manufacturing,95,1,4,0,100
+F10E00,State and local: Gross investment in equipment,337121,Upholstered household furniture manufacturing,17,3,3,0,23
+F10E00,State and local: Gross investment in equipment,337122,Nonupholstered wood household furniture manufacturing,52,8,11,0,70
+F10E00,State and local: Gross investment in equipment,337127,Institutional furniture manufacturing,477,71,115,0,663
+F10E00,State and local: Gross investment in equipment,33712N,Other household nonupholstered furniture,5,1,1,0,7
+F10E00,State and local: Gross investment in equipment,337215,"Showcase, partition, shelving, and locker manufacturing",153,24,31,0,208
+F10E00,State and local: Gross investment in equipment,33721A,Office furniture and custom architectural woodwork and millwork manufacturing,1981,295,404,0,2680
+F10E00,State and local: Gross investment in equipment,337900,Other furniture related product manufacturing,23,4,6,0,33
+F10E00,State and local: Gross investment in equipment,339112,Surgical and medical instrument manufacturing,60,1,20,0,81
+F10E00,State and local: Gross investment in equipment,339113,Surgical appliance and supplies manufacturing,457,5,155,0,617
+F10E00,State and local: Gross investment in equipment,339114,Dental equipment and supplies manufacturing,11,0,4,0,15
+F10E00,State and local: Gross investment in equipment,339920,Sporting and athletic goods manufacturing,277,42,110,0,429
+F10E00,State and local: Gross investment in equipment,339940,Office supplies (except paper) manufacturing,162,25,17,0,204
+F10E00,State and local: Gross investment in equipment,339990,All other miscellaneous manufacturing,92,14,29,0,135
+F10E00,State and local: Gross investment in equipment,314110,Carpet and rug mills,31,1,14,0,47
+F10E00,State and local: Gross investment in equipment,423100,Motor vehicle and motor vehicle parts and supplies,507,0,0,0,0
+F10E00,State and local: Gross investment in equipment,423400,Professional and commercial equipment and supplies,2565,0,0,0,0
+F10E00,State and local: Gross investment in equipment,423600,Household appliances and electrical and electronic goods ,1889,0,0,0,0
+F10E00,State and local: Gross investment in equipment,423800,"Machinery, equipment, and supplies",1355,0,0,0,0
+F10E00,State and local: Gross investment in equipment,423A00,Other durable goods merchant wholesalers,431,0,0,0,0
+F10E00,State and local: Gross investment in equipment,424200,Drugs and druggists’ sundries,2,0,0,0,0
+F10E00,State and local: Gross investment in equipment,424400,Grocery and related product wholesalers ,3,0,0,0,0
+F10E00,State and local: Gross investment in equipment,424700,Petroleum and petroleum products,1,0,0,0,0
+F10E00,State and local: Gross investment in equipment,424A00,Other nondurable goods merchant wholesalers,55,0,0,0,0
+F10E00,State and local: Gross investment in equipment,425000,Wholesale electronic markets and agents and brokers,380,0,0,0,0
+F10E00,State and local: Gross investment in equipment,481000,Air transportation,16,0,0,0,0
+F10E00,State and local: Gross investment in equipment,482000,Rail transportation,95,0,0,0,0
+F10E00,State and local: Gross investment in equipment,483000,Water transportation,0,0,0,0,0
+F10E00,State and local: Gross investment in equipment,484000,Truck transportation,983,0,0,0,0
+F10E00,State and local: Gross investment in equipment,541512,Computer systems design services,1130,0,0,0,1130
+F10E00,State and local: Gross investment in equipment,S00402,Used and secondhand goods,-8300,6,32,0,-8262
+F10N00,State and local: Gross investment in intellectual property products,423100,Motor vehicle and motor vehicle parts and supplies,0,0,0,0,0
+F10N00,State and local: Gross investment in intellectual property products,423400,Professional and commercial equipment and supplies,852,0,0,0,0
+F10N00,State and local: Gross investment in intellectual property products,423600,Household appliances and electrical and electronic goods ,63,0,0,0,0
+F10N00,State and local: Gross investment in intellectual property products,423800,"Machinery, equipment, and supplies",0,0,0,0,0
+F10N00,State and local: Gross investment in intellectual property products,423A00,Other durable goods merchant wholesalers,12,0,0,0,0
+F10N00,State and local: Gross investment in intellectual property products,424200,Drugs and druggists’ sundries,0,0,0,0,0
+F10N00,State and local: Gross investment in intellectual property products,424A00,Other nondurable goods merchant wholesalers,4,0,0,0,0
+F10N00,State and local: Gross investment in intellectual property products,425000,Wholesale electronic markets and agents and brokers,31,0,0,0,0
+F10N00,State and local: Gross investment in intellectual property products,481000,Air transportation,2,0,0,0,0
+F10N00,State and local: Gross investment in intellectual property products,484000,Truck transportation,31,0,0,0,0
+F10N00,State and local: Gross investment in intellectual property products,511200,Software publishers,3332,33,963,0,4328
+F10N00,State and local: Gross investment in intellectual property products,518200,"Data processing, hosting, and related services",1781,0,0,0,1781
+F10N00,State and local: Gross investment in intellectual property products,541511,Custom computer programming services,7828,0,0,0,7828
+F10N00,State and local: Gross investment in intellectual property products,541700,Scientific research and development services,15675,0,0,0,15675
+F10S00,State and local: Gross investment in structures,233210,Health care structures,7304,0,0,0,7304
+F10S00,State and local: Gross investment in structures,233262,Educational and vocational structures,63478,0,0,0,63478
+F10S00,State and local: Gross investment in structures,2332A0,Office and commercial structures,7747,0,0,0,7747
+F10S00,State and local: Gross investment in structures,233412,Multifamily residential structures,4082,0,0,0,4082
+F10S00,State and local: Gross investment in structures,2334A0,Other residential structures,4601,0,0,0,4601
+F10S00,State and local: Gross investment in structures,233230,Manufacturing structures,860,0,0,0,860
+F10S00,State and local: Gross investment in structures,2332D0,Other nonresidential structures,54398,0,0,0,54398
+F10S00,State and local: Gross investment in structures,233240,Power and communication structures,10161,0,0,0,10161
+F10S00,State and local: Gross investment in structures,233411,Single-family residential structures,765,0,0,0,765
+F10S00,State and local: Gross investment in structures,2332C0,Transportation structures and highways and streets,108434,0,0,0,108434
+F10S00,State and local: Gross investment in structures,S00402,Used and secondhand goods,3122,0,0,0,3122

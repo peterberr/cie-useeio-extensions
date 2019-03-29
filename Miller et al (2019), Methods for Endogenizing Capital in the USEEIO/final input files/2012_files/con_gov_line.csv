@@ -1,0 +1,43 @@
+yk,yk_code,yk_desc,line,item
+6,F06E00,Federal national defense: Gross investment in equipment,24,      Aircraft
+6,F06E00,Federal national defense: Gross investment in equipment,25,      Missiles
+6,F06E00,Federal national defense: Gross investment in equipment,26,      Ships
+6,F06E00,Federal national defense: Gross investment in equipment,27,      Vehicles
+6,F06E00,Federal national defense: Gross investment in equipment,28,      Electronics
+6,F06E00,Federal national defense: Gross investment in equipment,29,      Other equipment
+5,F06S00,Federal national defense: Gross investment in structures,32,        Residential
+5,F06S00,Federal national defense: Gross investment in structures,33,        Industrial
+5,F06S00,Federal national defense: Gross investment in structures,34,      Military facilities 3
+7,F06N00,Federal national defense: Gross investment in intellectual property products,36,      Software
+7,F06N00,Federal national defense: Gross investment in intellectual property products,37,      Research and development
+9,F07E00,Federal nondefense: Gross investment in equipment,39,    Equipment
+8,F07S00,Federal nondefense: Gross investment in structures,41,      Office
+8,F07S00,Federal nondefense: Gross investment in structures,42,      Commercial
+8,F07S00,Federal nondefense: Gross investment in structures,43,      Health care
+8,F07S00,Federal nondefense: Gross investment in structures,44,      Educational
+8,F07S00,Federal nondefense: Gross investment in structures,45,      Public safety
+8,F07S00,Federal nondefense: Gross investment in structures,46,      Amusement and recreation
+8,F07S00,Federal nondefense: Gross investment in structures,47,      Transportation
+8,F07S00,Federal nondefense: Gross investment in structures,48,      Power
+8,F07S00,Federal nondefense: Gross investment in structures,49,      Highways and streets
+8,F07S00,Federal nondefense: Gross investment in structures,50,      Conservation and development
+8,F07S00,Federal nondefense: Gross investment in structures,51,      Other structures 4
+10,F07N00,Federal nondefense: Gross investment in intellectual property products,53,      Software
+10,F07N00,Federal nondefense: Gross investment in intellectual property products,54,      Research and development
+12,F10E00,State and local: Gross investment in equipment,56,  Equipment
+11,F10S00,State and local: Gross investment in structures,58,    Residential
+11,F10S00,State and local: Gross investment in structures,59,    Office
+11,F10S00,State and local: Gross investment in structures,60,    Commercial
+11,F10S00,State and local: Gross investment in structures,61,    Health care
+11,F10S00,State and local: Gross investment in structures,62,    Educational
+11,F10S00,State and local: Gross investment in structures,63,    Public safety
+11,F10S00,State and local: Gross investment in structures,64,    Amusement and recreation
+11,F10S00,State and local: Gross investment in structures,65,    Transportation
+11,F10S00,State and local: Gross investment in structures,66,    Power
+11,F10S00,State and local: Gross investment in structures,67,    Highways and streets
+11,F10S00,State and local: Gross investment in structures,68,    Sewer systems
+11,F10S00,State and local: Gross investment in structures,69,    Water systems
+11,F10S00,State and local: Gross investment in structures,70,    Conservation and development
+11,F10S00,State and local: Gross investment in structures,71,    Other structures 5
+13,F10N00,State and local: Gross investment in intellectual property products,73,    Software
+13,F10N00,State and local: Gross investment in intellectual property products,74,    Research and development

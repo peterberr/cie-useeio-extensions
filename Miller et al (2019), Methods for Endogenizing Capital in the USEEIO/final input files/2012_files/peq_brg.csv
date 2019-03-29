@@ -1,0 +1,186 @@
+peq_code,peq_desc,dig_code,dig_desc,pro,tra,who,ret,pur
+4,Computers and peripheral equipment,334111,Electronic computer manufacturing,36048,378,13569,5455,55450
+4,Computers and peripheral equipment,334112,Computer storage device manufacturing,6687,70,2392,727,9876
+4,Computers and peripheral equipment,334118,Computer terminals and other computer peripheral equipment manufacturing,10658,107,3880,1104,15749
+4,Computers and peripheral equipment,541512,Computer systems design services,18701,0,0,0,18701
+4,Computers and peripheral equipment,S00402,Used and secondhand goods,418,1869,1467,0,3754
+5,Communication equipment,334118,Computer terminals and other computer peripheral equipment manufacturing,15,0,4,21,40
+5,Communication equipment,334210,Telephone apparatus manufacturing,5818,58,2517,1285,9678
+5,Communication equipment,334220,Broadcast and wireless communications equipment,37159,368,13516,0,51044
+5,Communication equipment,334290,Other communications equipment manufacturing,707,19,341,0,1067
+5,Communication equipment,334511,"Search, detection, and navigation instruments manufacturing",15419,157,2130,0,17707
+5,Communication equipment,334300,Audio and video equipment manufacturing,8098,82,2239,1222,11641
+5,Communication equipment,335920,Communication and energy wire and cable manufacturing,247,2,71,0,320
+5,Communication equipment,336414,Guided missile and space vehicle manufacturing,307,3,0,0,310
+5,Communication equipment,517110,Wired telecommunications carriers,7155,0,0,0,7155
+5,Communication equipment,541300,"Architectural, engineering, and related services",5774,0,0,0,5774
+5,Communication equipment,S00402,Used and secondhand goods,23,21,11,0,54
+6,Medical equipment and instruments,334510,Electromedical and electrotherapeutic apparatus manufacturing,20025,206,7074,0,27306
+6,Medical equipment and instruments,334517,Irradiation apparatus manufacturing,5587,58,1974,0,7619
+6,Medical equipment and instruments,337127,Institutional furniture manufacturing,270,40,95,0,405
+6,Medical equipment and instruments,339112,Surgical and medical instrument manufacturing,20906,215,7386,0,28507
+6,Medical equipment and instruments,339113,Surgical appliance and supplies manufacturing,6238,64,2204,0,8506
+6,Medical equipment and instruments,339114,Dental equipment and supplies manufacturing,1783,18,630,0,2431
+6,Medical equipment and instruments,541300,"Architectural, engineering, and related services",4426,0,0,0,4426
+6,Medical equipment and instruments,S00402,Used and secondhand goods,0,0,0,0,0
+7,Nonmedical instruments,334513,Industrial process variable instruments manufacturing,6592,67,911,0,7570
+7,Nonmedical instruments,334514,Totalizing fluid meter and counting device manufacturing,2657,72,367,0,3097
+7,Nonmedical instruments,334516,Analytical laboratory instrument manufacturing,9606,257,1305,0,11168
+7,Nonmedical instruments,334517,Irradiation apparatus manufacturing,2000,21,356,0,2376
+7,Nonmedical instruments,33451A,"Watch, clock, and other measuring and controlling device manufacturing",4828,131,667,0,5626
+7,Nonmedical instruments,541300,"Architectural, engineering, and related services",1738,0,0,0,1738
+7,Nonmedical instruments,S00402,Used and secondhand goods,46,42,6,0,94
+8,Photocopy and related equipment,333314,Optical instrument and lens manufacturing,3663,98,821,0,4583
+8,Photocopy and related equipment,333316,Photographic and photocopying equipment manufacturing,1052,28,1203,693,2978
+8,Photocopy and related equipment,541300,"Architectural, engineering, and related services",402,0,0,0,402
+8,Photocopy and related equipment,S00402,Used and secondhand goods,17,16,33,0,66
+9,Office and accounting equipment,333318,Other commercial and service industry machinery manufacturing,824,23,256,1198,2301
+9,Office and accounting equipment,334118,Computer terminals and other computer peripheral equipment manufacturing,1053,11,307,0,1371
+9,Office and accounting equipment,339940,Office supplies (except paper) manufacturing,1,0,0,1,2
+9,Office and accounting equipment,541300,"Architectural, engineering, and related services",290,0,0,0,290
+9,Office and accounting equipment,S00402,Used and secondhand goods,25,23,7,0,55
+11,Fabricated metal products,2122A0,"Iron, gold, silver, and other metal ore mining",264,36,10,0,310
+11,Fabricated metal products,332200,Cutlery and handtool manufacturing,78,2,30,0,109
+11,Fabricated metal products,332310,Plate work and fabricated structural product manufacturing,239,6,23,0,269
+11,Fabricated metal products,332320,Ornamental and architectural metal products manufacturing,358,10,36,0,404
+11,Fabricated metal products,332410,Power boiler and heat exchanger manufacturing,3289,88,1084,0,4461
+11,Fabricated metal products,332420,Metal tank (heavy gauge) manufacturing,4194,114,106,0,4414
+11,Fabricated metal products,332430,"Metal can, box, and other metal container (light gauge) manufacturing",238,6,23,0,268
+11,Fabricated metal products,332500,Hardware manufacturing,199,6,76,0,281
+11,Fabricated metal products,33291A,Valve and fittings other than plumbing,2766,74,911,0,3751
+11,Fabricated metal products,332996,Fabricated pipe and pipe fitting manufacturing,855,23,174,0,1052
+11,Fabricated metal products,332999,Other fabricated metal manufacturing,471,13,96,0,579
+11,Fabricated metal products,333415,"Air conditioning, refrigeration, and warm air heating equipment manufacturing",53,1,17,0,72
+11,Fabricated metal products,337215,"Showcase, partition, shelving, and locker manufacturing",11,2,2,0,15
+11,Fabricated metal products,325180,Other Basic Inorganic Chemical Manufacturing,3175,0,0,0,3175
+11,Fabricated metal products,541300,"Architectural, engineering, and related services",1203,0,0,0,1203
+12,Engines and turbines,333611,Turbine and turbine generator set units manufacturing,10147,278,1822,0,12247
+12,Engines and turbines,333618,Other engine equipment manufacturing,2835,78,509,74,3496
+12,Engines and turbines,541300,"Architectural, engineering, and related services",671,0,0,0,671
+13,Metalworking machinery,333511,Industrial mold manufacturing,5846,157,1050,0,7053
+13,Metalworking machinery,333514,"Special tool, die, jig, and fixture manufacturing",7592,204,1363,0,9159
+13,Metalworking machinery,333517,Machine tool manufacturing,9412,253,1685,0,11349
+13,Metalworking machinery,33351B,"Cutting and machine tool accessory, rolling mill, and other metalworking machinery manufacturing",2583,70,464,0,3116
+13,Metalworking machinery,541300,"Architectural, engineering, and related services",1885,0,0,0,1885
+13,Metalworking machinery,S00402,Used and secondhand goods,-186,0,0,0,-186
+14,"Special industry machinery, not elsewhere classified",332200,Cutlery and handtool manufacturing,42,1,16,0,60
+14,"Special industry machinery, not elsewhere classified",333242,Semiconductor machinery manufacturing,6362,172,1142,0,7676
+14,"Special industry machinery, not elsewhere classified",33329A,Other industrial machinery manufacturing,18119,489,3243,0,21851
+14,"Special industry machinery, not elsewhere classified",333318,Other commercial and service industry machinery manufacturing,437,12,192,0,641
+14,"Special industry machinery, not elsewhere classified",326290,Other rubber product manufacturing,114,2,23,0,139
+14,"Special industry machinery, not elsewhere classified",541300,"Architectural, engineering, and related services",5481,0,0,0,5481
+14,"Special industry machinery, not elsewhere classified",S00402,Used and secondhand goods,-908,7,46,0,-855
+15,"General industrial, including materials handling, equipment",333120,Construction machinery manufacturing,95,3,29,0,127
+15,"General industrial, including materials handling, equipment",333414,Heating equipment (except warm air furnaces) manufacturing,80,2,26,0,108
+15,"General industrial, including materials handling, equipment",333413,Industrial and commercial fan and blower and air purification equipment manufacturing,2506,68,779,0,3353
+15,"General industrial, including materials handling, equipment",333912,Air and gas compressor manufacturing,6124,165,1099,0,7388
+15,"General industrial, including materials handling, equipment",33391A,Pump and pumping equipment manufacturing,6549,177,1176,0,7902
+15,"General industrial, including materials handling, equipment",333920,Material handling equipment manufacturing,15463,418,2776,0,18657
+15,"General industrial, including materials handling, equipment",333991,Power-driven handtool manufacturing,2996,81,538,3407,7022
+15,"General industrial, including materials handling, equipment",333993,Packaging machinery manufacturing,4556,123,818,0,5497
+15,"General industrial, including materials handling, equipment",333994,Industrial process furnace and oven manufacturing,1402,38,252,0,1692
+15,"General industrial, including materials handling, equipment",33399A,Other general purpose machinery manufacturing,12866,353,2309,0,15528
+15,"General industrial, including materials handling, equipment",33399B,Fluid power process machinery,490,13,88,0,592
+15,"General industrial, including materials handling, equipment",33451A,"Watch, clock, and other measuring and controlling device manufacturing",293,8,40,0,341
+15,"General industrial, including materials handling, equipment",541300,"Architectural, engineering, and related services",8464,0,0,0,8464
+15,"General industrial, including materials handling, equipment",S00402,Used and secondhand goods,-3096,8,159,0,-2928
+16,"Electrical transmission, distribution, and industrial apparatus",334515,Electricity and signal testing instruments manufacturing,3773,102,509,0,4384
+16,"Electrical transmission, distribution, and industrial apparatus",335311,"Power, distribution, and specialty transformer manufacturing",5645,64,1622,0,7330
+16,"Electrical transmission, distribution, and industrial apparatus",335312,Motor and generator manufacturing,2863,29,822,0,3714
+16,"Electrical transmission, distribution, and industrial apparatus",335313,Switchgear and switchboard apparatus manufacturing,5838,66,1677,0,7581
+16,"Electrical transmission, distribution, and industrial apparatus",335314,Relay and industrial control manufacturing,1198,12,344,0,1555
+16,"Electrical transmission, distribution, and industrial apparatus",335999,All other miscellaneous electrical equipment and component manufacturing,5530,58,1285,0,6873
+16,"Electrical transmission, distribution, and industrial apparatus",541300,"Architectural, engineering, and related services",1895,0,0,0,1895
+19,Light trucks (including utility vehicles),336112,Light truck and utility vehicle manufacturing,90608,1476,830,4818,97732
+19,Light trucks (including utility vehicles),S00402,Used and secondhand goods,-37681,92,67,2944,-34578
+20,"Other trucks, buses, and truck trailers",336120,Heavy duty truck manufacturing,23699,372,719,0,24790
+20,"Other trucks, buses, and truck trailers",336211,Motor vehicle body manufacturing,2425,46,833,37,3341
+20,"Other trucks, buses, and truck trailers",336212,Truck trailer manufacturing,7435,72,2693,0,10201
+20,"Other trucks, buses, and truck trailers",S00402,Used and secondhand goods,264,68,2470,0,2803
+21,Autos,336111,Automobile manufacturing,64919,2130,15620,6265,88933
+21,Autos,S00401,Scrap,-28,0,0,0,-28
+21,Autos,S00402,Used and secondhand goods,-34058,312,1039,444,-32263
+22,Aircraft,334511,"Search, detection, and navigation instruments manufacturing",468,5,65,0,538
+22,Aircraft,336360,Motor vehicle seating and interior trim manufacturing,1892,23,33,0,1948
+22,Aircraft,336411,Aircraft manufacturing,27676,280,1186,0,29141
+22,Aircraft,336412,Aircraft engine and engine parts manufacturing,497,5,22,0,524
+22,Aircraft,336414,Guided missile and space vehicle manufacturing,5549,56,245,0,5850
+22,Aircraft,S00402,Used and secondhand goods,-2979,28,131,0,-2819
+23,Ships and boats,336611,Ship building and repairing,5124,55,209,127,5515
+23,Ships and boats,336612,Boat building,449,4,18,343,815
+23,Ships and boats,S00402,Used and secondhand goods,114,3,12,0,130
+24,Railroad equipment,336500,Railroad rolling stock manufacturing,11275,380,470,0,12125
+24,Railroad equipment,541300,"Architectural, engineering, and related services",577,0,0,0,577
+24,Railroad equipment,S00402,Used and secondhand goods,10,0,0,0,10
+26,Furniture and fixtures,337110,Wood kitchen cabinet and countertop manufacturing,604,28,79,0,712
+26,Furniture and fixtures,337121,Upholstered household furniture manufacturing,554,83,115,62,813
+26,Furniture and fixtures,337122,Nonupholstered wood household furniture manufacturing,551,82,114,63,810
+26,Furniture and fixtures,337127,Institutional furniture manufacturing,7562,1125,1508,724,10920
+26,Furniture and fixtures,33712N,Other household nonupholstered furniture,268,40,56,23,388
+26,Furniture and fixtures,337215,"Showcase, partition, shelving, and locker manufacturing",5244,829,1067,89,7229
+26,Furniture and fixtures,33721A,Office furniture and custom architectural woodwork and millwork manufacturing,8556,1276,1774,427,12033
+26,Furniture and fixtures,337900,Other furniture related product manufacturing,852,132,303,28,1315
+26,Furniture and fixtures,339940,Office supplies (except paper) manufacturing,38,6,4,0,48
+26,Furniture and fixtures,541300,"Architectural, engineering, and related services",2793,0,0,0,2793
+26,Furniture and fixtures,S00402,Used and secondhand goods,223,204,46,0,473
+27,Agricultural machinery,333111,Farm machinery and equipment manufacturing,26829,744,9678,0,37251
+27,Agricultural machinery,541300,"Architectural, engineering, and related services",1508,0,0,0,1508
+27,Agricultural machinery,S00402,Used and secondhand goods,-443,26,1041,0,623
+28,Construction machinery,333120,Construction machinery manufacturing,27354,760,8374,0,36488
+28,Construction machinery,333920,Material handling equipment manufacturing,5368,145,964,0,6477
+28,Construction machinery,541300,"Architectural, engineering, and related services",410,0,0,0,410
+28,Construction machinery,S00402,Used and secondhand goods,-11,41,1187,0,1217
+29,Mining and oilfield machinery,21311A,Other support activities for mining,3775,0,0,0,3775
+29,Mining and oilfield machinery,333130,Mining and oil and gas field machinery manufacturing,21119,573,6523,0,28215
+29,Mining and oilfield machinery,33391A,Pump and pumping equipment manufacturing,2343,63,421,0,2827
+29,Mining and oilfield machinery,541300,"Architectural, engineering, and related services",1237,0,0,0,1237
+29,Mining and oilfield machinery,S00402,Used and secondhand goods,-831,47,1349,0,564
+30,Service industry machinery,333318,Other commercial and service industry machinery manufacturing,10401,294,6913,0,17609
+30,Service industry machinery,333415,"Air conditioning, refrigeration, and warm air heating equipment manufacturing",6956,187,2649,0,9792
+30,Service industry machinery,33391A,Pump and pumping equipment manufacturing,1306,37,235,0,1578
+30,Service industry machinery,541300,"Architectural, engineering, and related services",1441,0,0,0,1441
+30,Service industry machinery,S00402,Used and secondhand goods,46,42,20,0,109
+31,"Electrical equipment, not elsewhere classified",334610,Manufacturing and reproducing magnetic and optical media,164,2,53,0,219
+31,"Electrical equipment, not elsewhere classified",335120,Lighting fixture manufacturing,1383,206,397,0,1986
+31,"Electrical equipment, not elsewhere classified",335210,Small electrical appliance manufacturing,387,60,107,0,554
+31,"Electrical equipment, not elsewhere classified",335221,Household cooking appliance manufacturing,21,0,6,0,27
+31,"Electrical equipment, not elsewhere classified",335222,Household refrigerator and home freezer manufacturing,128,2,36,0,166
+31,"Electrical equipment, not elsewhere classified",335224,Household laundry equipment manufacturing,224,3,62,0,289
+31,"Electrical equipment, not elsewhere classified",335228,Other major household appliance manufacturing,50,1,14,0,65
+31,"Electrical equipment, not elsewhere classified",335911,Storage battery manufacturing,405,4,55,0,465
+31,"Electrical equipment, not elsewhere classified",335930,Wiring device manufacturing,84,1,12,0,97
+31,"Electrical equipment, not elsewhere classified",335999,All other miscellaneous electrical equipment and component manufacturing,1829,19,524,0,2373
+31,"Electrical equipment, not elsewhere classified",541300,"Architectural, engineering, and related services",0,0,0,0,0
+31,"Electrical equipment, not elsewhere classified",S00402,Used and secondhand goods,17,17,5,0,40
+32,Other,332200,Cutlery and handtool manufacturing,2,0,1,4,7
+32,Other,333111,Farm machinery and equipment manufacturing,2349,65,890,0,3305
+32,Other,333112,Lawn and garden equipment manufacturing,4906,134,1815,10176,17032
+32,Other,333318,Other commercial and service industry machinery manufacturing,34,1,15,0,50
+32,Other,336213,Motor home manufacturing,64,1,3,249,317
+32,Other,336214,Travel trailer and camper manufacturing,582,6,24,26,639
+32,Other,336991,"Motorcycle, bicycle, and parts manufacturing",182,2,29,252,465
+32,Other,336999,All other transportation equipment manufacturing,992,10,77,818,1898
+32,Other,339920,Sporting and athletic goods manufacturing,1559,235,631,0,2426
+32,Other,339950,Sign manufacturing,7166,1084,2313,0,10563
+32,Other,339990,All other miscellaneous manufacturing,4143,626,3333,282,8384
+32,Other,313200,Fabric mills,10,0,1,36,48
+32,Other,314110,Carpet and rug mills,831,39,397,3013,4280
+32,Other,326140,Polystyrene foam product manufacturing,0,0,0,0,1
+32,Other,326150,Urethane and other foam product (except polystyrene) manufacturing,18,0,10,64,92
+32,Other,326290,Other rubber product manufacturing,9,0,2,33,44
+32,Other,541300,"Architectural, engineering, and related services",2044,0,0,0,2044
+32,Other,S00402,Used and secondhand goods,560,55,226,0,841
+33,"Less: Sale of equipment scrap, excluding autos",S00401,Scrap,-21708,0,0,0,-21708
+34,Residential equipment,334300,Audio and video equipment manufacturing,289,3,80,47,420
+34,Residential equipment,335210,Small electrical appliance manufacturing,25,4,7,11,46
+34,Residential equipment,335221,Household cooking appliance manufacturing,1901,28,526,836,3291
+34,Residential equipment,335222,Household refrigerator and home freezer manufacturing,2000,32,553,880,3465
+34,Residential equipment,335228,Other major household appliance manufacturing,643,10,178,283,1114
+34,Residential equipment,337121,Upholstered household furniture manufacturing,65,10,14,8,96
+34,Residential equipment,337122,Nonupholstered wood household furniture manufacturing,83,12,17,10,123
+34,Residential equipment,33712N,Other household nonupholstered furniture,138,21,29,17,204
+34,Residential equipment,337215,"Showcase, partition, shelving, and locker manufacturing",1,0,0,0,2
+34,Residential equipment,337900,Other furniture related product manufacturing,120,18,25,14,178
+34,Residential equipment,314110,Carpet and rug mills,268,13,128,973,1382
+34,Residential equipment,326150,Urethane and other foam product (except polystyrene) manufacturing,5,0,3,161,168
+34,Residential equipment,326290,Other rubber product manufacturing,10,0,2,35,47

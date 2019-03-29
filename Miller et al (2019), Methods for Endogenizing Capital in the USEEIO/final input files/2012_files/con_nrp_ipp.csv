@@ -1,0 +1,34 @@
+asset_code,asset_nipa,dig_code,dig_desc,inv
+AE10,Theatrical movies,512100,Motion picture and video industries,15592
+AE20,Long-lived television programs                           ,515200,Cable and other subscription programming,13153
+AE20,Long-lived television programs                           ,541920,Photographic services,1133
+AE20,Long-lived television programs                           ,515100,Radio and television broadcasting,10084
+AE20,Long-lived television programs                           ,711100,Performing arts companies,1195
+AE20,Long-lived television programs                           ,512100,Motion picture and video industries,11067
+AE30,Books,511130,Book publishers,9103
+AE30,Books,511120,Periodical Publishers,117
+AE40,Music                                           ,512200,Sound recording industries,5731
+AE50,Other entertainment originals                                  ,711100,Performing arts companies,2511
+AE50,Other entertainment originals                                  ,711500,"Independent artists, writers, and performers",493
+ENS1,Prepackaged software,541511,Custom computer programming services,102735
+ENS2,Custom software,541511,Custom computer programming services,66593
+ENS2,Custom software,541700,Scientific research and development services,50151
+ENS2,Custom software,512100,Motion picture and video industries,2330
+ENS3,Own account software,511200,Software publishers,50256
+RD11,Pharmaceutical and medicine manufacturing     ,541700,Scientific research and development services,56184
+RD12,"Chemical manufacturing, ex. pharma and med",541700,Scientific research and development services,10143
+RD21,Computers and peripheral equipment manufacturing,541700,Scientific research and development services,5863
+RD22,Communications equipment manufacturing ,541700,Scientific research and development services,14333
+RD23,Semiconductor and other component manufacturing   ,541700,Scientific research and development services,29644
+RD24,Navigational and other instruments manufacturing,541700,Scientific research and development services,12679
+RD25,"Other computer and electronic manufacturing, n.e.c.",541700,Scientific research and development services,234
+RD31,Motor vehicles and parts manufacturing ,541700,Scientific research and development services,16424
+RD32,Aerospace products and parts manufacturing             ,541700,Scientific research and development services,8812
+RD40,Software publishers,511200,Software publishers,32307
+RD50,Financial and real estate services,541700,Scientific research and development services,4001
+RD60,Computer systems design and related services,518200,"Data processing, hosting, and related services",10743
+RD70,Scientific research and development services            ,541700,Scientific research and development services,9145
+RD80,"All other nonmanufacturing, n.e.c.                            ",541700,Scientific research and development services,35117
+RD91,Private universities and colleges                            ,541700,Scientific research and development services,3263
+RD92,Other nonprofit institutions                                 ,541700,Scientific research and development services,18322
+RDOM,Other manufacturing                                          ,541700,Scientific research and development services,46236

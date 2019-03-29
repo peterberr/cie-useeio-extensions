@@ -1,0 +1,72 @@
+klems_code,klems_desc,sig_code,sig_desc
+AtB," AGRICULTURE, HUNTING, FORESTRY AND FISHING",111CA,Farms
+AtB," AGRICULTURE, HUNTING, FORESTRY AND FISHING",113FF,"Forestry, fishing, and related activities"
+C, MINING AND QUARRYING,211,Oil and gas extraction
+C, MINING AND QUARRYING,212,"Mining, except oil and gas"
+C, MINING AND QUARRYING,213,Support activities for mining
+E," ELECTRICITY, GAS AND WATER SUPPLY",22,Utilities
+F, CONSTRUCTION,23,Construction
+15t16,"  FOOD , BEVERAGES AND TOBACCO",311FT,Food and beverage and tobacco products
+17t19,"  TEXTILES, TEXTILE , LEATHER AND FOOTWEAR",313TT,Textile mills and textile product mills
+17t19,"  TEXTILES, TEXTILE , LEATHER AND FOOTWEAR",315AL,Apparel and leather and allied products
+20,  WOOD AND OF WOOD AND CORK,321,Wood products
+21t22,"  PULP, PAPER, PAPER , PRINTING AND PUBLISHING",322,Paper products
+21t22,"  PULP, PAPER, PAPER , PRINTING AND PUBLISHING",323,Printing and related support activities
+23,"   Coke, refined petroleum and nuclear fuel",324,Petroleum and coal products
+24,   Chemicals and chemical products,325,Chemical products
+25,   Rubber and plastics,326,Plastics and rubber products
+26,  OTHER NON-METALLIC MINERAL,327,Nonmetallic mineral products
+27t28,  BASIC METALS AND FABRICATED METAL,331,Primary metals
+27t28,  BASIC METALS AND FABRICATED METAL,332,Fabricated metal products
+29,"  MACHINERY, NEC",333,Machinery
+30t33,  ELECTRICAL AND OPTICAL EQUIPMENT,334,Computer and electronic products
+30t33,  ELECTRICAL AND OPTICAL EQUIPMENT,335,"Electrical equipment, appliances, and components"
+34t35,  TRANSPORT EQUIPMENT,3361MV,"Motor vehicles, bodies and trailers, and parts"
+34t35,  TRANSPORT EQUIPMENT,3364OT,Other transportation equipment
+36t37,  MANUFACTURING NEC; RECYCLING,337,Furniture and related products
+36t37,  MANUFACTURING NEC; RECYCLING,339,Miscellaneous manufacturing
+52,"  Retail trade, except of motor vehicles and motorcycles; repair of household goods",441,Motor vehicle and parts dealers
+52,"  Retail trade, except of motor vehicles and motorcycles; repair of household goods",445,Food and beverage stores
+52,"  Retail trade, except of motor vehicles and motorcycles; repair of household goods",452,General merchandise stores
+60t63,  TRANSPORT AND STORAGE,481,Air transportation
+60t63,  TRANSPORT AND STORAGE,482,Rail transportation
+60t63,  TRANSPORT AND STORAGE,483,Water transportation
+60t63,  TRANSPORT AND STORAGE,484,Truck transportation
+60t63,  TRANSPORT AND STORAGE,485,Transit and ground passenger transportation
+60t63,  TRANSPORT AND STORAGE,486,Pipeline transportation
+60t63,  TRANSPORT AND STORAGE,487OS,Other transportation and support activities
+60t63,  TRANSPORT AND STORAGE,493,Warehousing and storage
+71t74,   Renting of m&eq and other business activities,511,"Publishing industries, except internet (includes software)"
+71t74,   Renting of m&eq and other business activities,512,Motion picture and sound recording industries
+71t74,   Renting of m&eq and other business activities,513,Broadcasting and telecommunications
+71t74,   Renting of m&eq and other business activities,514,"Data processing, internet publishing, and other information services"
+J,  FINANCIAL INTERMEDIATION,523,"Securities, commodity contracts, and investments"
+J,  FINANCIAL INTERMEDIATION,524,Insurance carriers and related activities
+J,  FINANCIAL INTERMEDIATION,525,"Funds, trusts, and other financial vehicles"
+71t74,   Renting of m&eq and other business activities,532RL,Rental and leasing services and lessors of intangible assets
+71t74,   Renting of m&eq and other business activities,5411,Legal services
+71t74,   Renting of m&eq and other business activities,5412OP,"Miscellaneous professional, scientific, and technical services"
+71t74,   Renting of m&eq and other business activities,5415,Computer systems design and related services
+71t74,   Renting of m&eq and other business activities,55,Management of companies and enterprises
+71t74,   Renting of m&eq and other business activities,561,Administrative and support services
+E," ELECTRICITY, GAS AND WATER SUPPLY",562,Waste management and remediation services
+M,  EDUCATION,61,Educational services
+N,  HEALTH AND SOCIAL WORK,621,Ambulatory health care services
+N,  HEALTH AND SOCIAL WORK,622,Hospitals
+N,  HEALTH AND SOCIAL WORK,624,Social assistance
+O,"  OTHER COMMUNITY, SOCIAL AND PERSONAL SERVICES",711AS,"Performing arts, spectator sports, museums, and related activities"
+O,"  OTHER COMMUNITY, SOCIAL AND PERSONAL SERVICES",713,"Amusements, gambling, and recreation industries"
+H, HOTELS AND RESTAURANTS,721,Accommodation
+H, HOTELS AND RESTAURANTS,722,Food services and drinking places
+O,"  OTHER COMMUNITY, SOCIAL AND PERSONAL SERVICES",81,"Other services, except government"
+J,  FINANCIAL INTERMEDIATION,521CI,"Federal Reserve banks, credit intermediation, and related activities"
+70,   Real estate activities,ORE,Other real estate
+N,  HEALTH AND SOCIAL WORK,623,Nursing and residential care facilities
+51,"  Wholesale trade and commission trade, except of motor vehicles and motorcycles",42,Wholesale trade
+52,"  Retail trade, except of motor vehicles and motorcycles; repair of household goods",4A0,Other retail
+L,  PUBLIC ADMIN AND DEFENCE; COMPULSORY SOCIAL SECURITY,GFGD,Federal general government (defense)
+L,  PUBLIC ADMIN AND DEFENCE; COMPULSORY SOCIAL SECURITY,GFGN,Federal general government (nondefense)
+64,  POST AND TELECOMMUNICATIONS,GFE,Federal government enterprises
+L,  PUBLIC ADMIN AND DEFENCE; COMPULSORY SOCIAL SECURITY,GSLG,State and local general government
+L,  PUBLIC ADMIN AND DEFENCE; COMPULSORY SOCIAL SECURITY,GSLE,State and local government enterprises
+70,   Real estate activities,HS,Housing

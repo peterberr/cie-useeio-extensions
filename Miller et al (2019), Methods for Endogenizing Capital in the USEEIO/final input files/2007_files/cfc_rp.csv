@@ -1,0 +1,52 @@
+rp_fa_code,rp_fa_type,2007,2012,2016
+53105sfoo,"  Owner-occupied, 1-4 units, new",108603,102660,127211
+53105asoo,"  Owner-occupied, 1-4 units, additions and alterations",45642,52529,63941
+53105msoo,"  Owner-occupied, 1-4 units, major replacements",19667,22546,25044
+53105mfoo,"  Owner-occupied, 5+ units, new",6070,6723,8931
+53105amoo,"  Owner-occupied, 5+ units, additions and alterations",980,1017,1154
+53105mmoo,"  Owner-occupied, 5+ units, major replacements",633,671,708
+53105mhoo,"  Owner-occupied, manufactured homes",7754,8006,8107
+53105acoo,"  Owner-occupied, acquisition costs",21025,14845,18712
+53105dcoo,"  Owner-occupied, disposal costs",106482,82254,107864
+53105sfto,"  Tenant-occupied, 1-4 units, new",11822,10620,12535
+53105asto,"  Tenant-occupied, 1-4 units, additions and alterations",5136,5855,7080
+53105msto,"  Tenant-occupied, 1-4 units, major replacements",4207,4358,4502
+53105mfto,"  Tenant-occupied, 5+ units, new",2831,2984,3803
+53105amto,"  Tenant-occupied, 5+ units, additions and alterations",532,578,677
+53105mmto,"  Tenant-occupied, 5+ units, major replacements",525,550,574
+53105acto,"  Tenant-occupied, acquisition costs",2289,1646,2159
+53105dcto,"  Tenant-occupied, disposal costs",8443,6432,8448
+53105e1to,"  Tenant-occupied, 1-4 units, equipment",1452,1511,1553
+53105e5to,"  Tenant-occupied, 5+ units, equipment",995,1033,1061
+53102sfto,"  Tenant-occupied, 1-4 units, new",502,465,564
+53102asto,"  Tenant-occupied, 1-4 units, additions and alterations",330,411,523
+53102msto,"  Tenant-occupied, 1-4 units, major replacements",260,287,312
+53102mfto,"  Tenant-occupied, 5+ units, new",1106,1187,1533
+53102amto,"  Tenant-occupied, 5+ units, additions and alterations",235,256,301
+53102mmto,"  Tenant-occupied, 5+ units, major replacements",236,247,258
+53102acto,"  Tenant-occupied, acquisition costs",394,303,400
+53102dcto,"  Tenant-occupied, disposal costs",1450,1189,1570
+53102e1to,"  Tenant-occupied, 1-4 units, equipment",333,350,361
+53102e5to,"  Tenant-occupied, 5+ units, equipment",230,240,247
+53104sfto,"  Tenant-occupied, 1-4 units, new",2930,2660,3179
+53104asto,"  Tenant-occupied, 1-4 units, additions and alterations",1769,2089,2583
+53104msto,"  Tenant-occupied, 1-4 units, major replacements",1439,1528,1608
+53104mfto,"  Tenant-occupied, 5+ units, new",9911,10518,13400
+53104amto,"  Tenant-occupied, 5+ units, additions and alterations",2217,2319,2648
+53104mmto,"  Tenant-occupied, 5+ units, major replacements",2156,2181,2222
+53104mhto,"  Tenant-occupied, manufactured homes",2724,2957,3102
+53104acto,"  Tenant-occupied, acquisition costs",2591,1978,2582
+53104dcto,"  Tenant-occupied, disposal costs",9562,7777,10137
+53104e1to,"  Tenant-occupied, 1-4 units, equipment",2876,3011,3101
+53104e5to,"  Tenant-occupied, 5+ units, equipment",1999,2070,2123
+53108sfto,"  Tenant-occupied, 1-4 units, new",605,548,650
+53108asto,"  Tenant-occupied, 1-4 units, additions and alterations",264,314,389
+53108msto,"  Tenant-occupied, 1-4 units, major replacements",205,221,234
+53108mfto,"  Tenant-occupied, 5+ units, new",982,1018,1263
+53108amto,"  Tenant-occupied, 5+ units, additions and alterations",163,166,185
+53108mmto,"  Tenant-occupied, 5+ units, major replacements",151,149,149
+53108acto,"  Tenant-occupied, acquisition costs",215,161,212
+53108dcto,"  Tenant-occupied, disposal costs",797,634,831
+53108e1to,"  Tenant-occupied, 1-4 units, equipment",151,153,156
+53108e5to,"  Tenant-occupied, 5+ units, equipment",107,106,107
+53108osto,  Other residential structures,1279,1335,1830

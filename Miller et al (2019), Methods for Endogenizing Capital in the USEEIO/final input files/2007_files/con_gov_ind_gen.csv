@@ -1,0 +1,36 @@
+line,govt_1,govt_2,cat_1,type,item,S00500,S00600,GSLGE,GSLGH,GSLGO
+24,Federal,National defense,Equipment,General government ,      Aircraft,1.00,0.00,,,
+25,Federal,National defense,Equipment,General government ,      Missiles,1.00,0.00,,,
+26,Federal,National defense,Equipment,General government ,      Ships,1.00,0.00,,,
+27,Federal,National defense,Equipment,General government ,      Vehicles,1.00,0.00,,,
+28,Federal,National defense,Equipment,General government ,      Electronics,1.00,0.00,,,
+29,Federal,National defense,Equipment,General government ,      Other equipment,1.00,0.00,,,
+32,Federal,National defense,Structures,General government ,        Residential,1.00,0.00,,,
+33,Federal,National defense,Structures,General government ,        Industrial,1.00,0.00,,,
+34,Federal,National defense,Structures,General government ,      Military facilities 3,1.00,0.00,,,
+36,Federal,National defense,Intellectual property products,General government ,      Software,1.00,0.00,,,
+37,Federal,National defense,Intellectual property products,General government ,      Research and development,1.00,0.00,,,
+39,Federal,Nondefense,Equipment,Mix of general government and government enterprises,    Equipment,0.00,1.00,,,
+41,Federal,Nondefense,Structures,Mix of general government and government enterprises,      Office,0.00,1.00,,,
+42,Federal,Nondefense,Structures,Mix of general government and government enterprises,      Commercial,0.00,1.00,,,
+43,Federal,Nondefense,Structures,General government ,      Health care,0.00,1.00,,,
+44,Federal,Nondefense,Structures,General government ,      Educational,0.00,1.00,,,
+45,Federal,Nondefense,Structures,General government ,      Public safety,0.00,1.00,,,
+46,Federal,Nondefense,Structures,General government ,      Amusement and recreation,0.00,1.00,,,
+47,Federal,Nondefense,Structures,General government ,      Transportation,0.00,1.00,,,
+49,Federal,Nondefense,Structures,General government ,      Highways and streets,0.00,1.00,,,
+50,Federal,Nondefense,Structures,Mix of general government and government enterprises,      Conservation and development,0.00,1.00,,,
+51,Federal,Nondefense,Structures,General government ,      Other structures 4,0.00,1.00,,,
+53,Federal,Nondefense,Intellectual property products,Mix of general government and government enterprises,      Software,0.00,1.00,,,
+54,Federal,Nondefense,Intellectual property products,General government ,      Research and development,0.00,1.00,,,
+56,State and local,,Equipment,Mix of general government and government enterprises,  Equipment,,,0.27,0.33,0.40
+59,State and local,,Structures,General government ,    Office,,,0.27,0.33,0.40
+61,State and local,,Structures,General government ,    Health care,,,0.00,1.00,0.00
+62,State and local,,Structures,General government ,    Educational,,,1.00,0.00,0.00
+63,State and local,,Structures,General government ,    Public safety,,,0.27,0.33,0.40
+64,State and local,,Structures,General government ,    Amusement and recreation,,,0.00,0.00,1.00
+67,State and local,,Structures,Mix of general government and government enterprises,    Highways and streets,,,0.00,0.00,1.00
+68,State and local,,Structures,Mix of general government and government enterprises,    Sewer systems,,,0.00,0.00,1.00
+70,State and local,,Structures,General government ,    Conservation and development,,,0.27,0.33,0.40
+73,State and local,,Intellectual property products,Mix of general government and government enterprises,    Software,,,0.27,0.33,0.40
+74,State and local,,Intellectual property products,General government ,    Research and development,,,0.27,0.33,0.40

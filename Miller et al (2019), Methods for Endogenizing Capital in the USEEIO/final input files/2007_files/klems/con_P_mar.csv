@@ -1,0 +1,24 @@
+dig_code,dig_desc,who,ret,tra
+423100,Motor vehicle and motor vehicle parts and supplies,1,,
+423400,Professional and commercial equipment and supplies,1,,
+423600,Household appliances and electrical and electronic goods ,1,,
+423800,"Machinery, equipment, and supplies",1,,
+424200,Drugs and druggists’ sundries,1,,
+424400,Grocery and related product wholesalers ,1,,
+424700,Petroleum and petroleum products,1,,
+425000,Wholesale electronic markets and agents and brokers,1,,
+441000,Motor vehicle and parts dealers,,1,
+444000,Building material and garden equipment and supplies dealers,,1,
+445000,Food and beverage stores,,1,
+446000,Health and personal care stores,,1,
+447000,Gasoline stations,,1,
+448000,Clothing and clothing accessories stores,,1,
+452000,General merchandise stores,,1,
+454000,Nonstore retailers,,1,
+481000,Air transportation,,,1
+482000,Rail transportation,,,1
+483000,Water transportation,,,1
+484000,Truck transportation,,,1
+423A00,Other durable goods merchant wholesalers,1,,
+424A00,Other nondurable goods merchant wholesalers,1,,
+4B0000,All other retail,,1,
