@@ -1,0 +1,97 @@
+"asset_cat","asset_code","asset_desc","x"
+"IPP","RD32","Aerospace products and parts manufacturing             ",8812
+"Structures","SB43","Air transportation",1045
+"Equipment","ET30","Aircraft",34430
+"IPP","RD80","All other nonmanufacturing, n.e.c.                            ",35117
+"Structures","SB42","Amusement and recreation         ",7460
+"Equipment","ET20","Autos",55714
+"IPP","AE30","Books",9220
+"IPP","RD12","Chemical manufacturing, ex. pharma and med",10143
+"Structures","SU20","Communication                             ",15954
+"Equipment","EP20","Communications",104780
+"IPP","RD22","Communications equipment manufacturing ",14333
+"IPP","RD60","Computer systems design and related services",10743
+"IPP","RD21","Computers and peripheral equipment manufacturing",5863
+"Equipment","EO22","Construction tractors",7721
+"IPP","ENS2","Custom software",119074
+"Equipment","EP1C","DASDs",0
+"Structures","SB20","Educational and vocational       ",16260
+"Structures","SU30","Electric                                ",36342
+"Equipment","EI60","Electric transmission and distribution",33329
+"Equipment","EP35","Electro medical instruments",37041
+"Structures","SN00","Farm                                      ",7748
+"Equipment","EO21","Farm tractors",12355
+"IPP","RD50","Financial and real estate services",4001
+"Structures","SC04","Food and beverage establishments",5844
+"Structures","SU40","Gas",10317
+"Equipment","EI50","General industrial equipment",70330
+"Structures","SO04","Highway and conservation and development",292
+"Structures","SB31","Hospitals                             ",23888
+"Equipment","EO71","Household appliances",1099
+"Equipment","EO11","Household furniture",2565
+"Equipment","EI22","Internal combustion engines",4169
+"Equipment","ET11","Light trucks (including utility vehicles)",60112
+"Structures","SB44","Local transit structures",0
+"Structures","SB41","Lodging                                   ",12621
+"IPP","AE20","Long-lived television programs                           ",36632
+"Equipment","EP1A","Mainframes",18701
+"Structures","SI00","Manufacturing                               ",46268
+"Structures","SOO2","Medical buildings                       ",7220
+"Equipment","EI30","Metalworking machinery",32366
+"Structures","SM02","Mining                                    ",11012
+"Equipment","EO50","Mining and oilfield machinery",35200
+"Structures","SOMO","Mobile structures",286
+"IPP","RD31","Motor vehicles and parts manufacturing ",16424
+"Structures","SC03","Multimerchandise shopping            ",14903
+"IPP","AE40","Music                                           ",5731
+"IPP","RD24","Navigational and other instruments manufacturing",12679
+"Equipment","EP34","Nonelectro medical instruments",42158
+"Equipment","EP36","Nonmedical instruments",31641
+"Equipment","EI11","Nuclear fuel",3277
+"Structures","SOO1","Office                                    ",30948
+"Equipment","EP12","Office and accounting equipment",4010
+"Equipment","EO80","Other",52374
+"Equipment","EO30","Other agricultural machinery",22869
+"Structures","SC02","Other commercial",8092
+"IPP","RD25","Other computer and electronic manufacturing, n.e.c.",234
+"Equipment","EO40","Other construction machinery",36349
+"Equipment","EO72","Other electrical",5170
+"IPP","AE50","Other entertainment originals                                  ",3004
+"Equipment","EI12","Other fabricated metals",17085
+"Equipment","EO12","Other furniture",34734
+"Structures","SB46","Other land transportation                       ",532
+"IPP","RDOM","Other manufacturing                                          ",46236
+"IPP","RD92","Other nonprofit institutions                                 ",18322
+"Structures","SU11","Other railroad",1643
+"Structures","SB45","Other transportation",29
+"Equipment","ET12","Other trucks, buses and truck trailers",39859
+"IPP","ENS3","Own account software",50256
+"Equipment","EP1B","PCs",33530
+"Structures","SM01","Petroleum and natural gas          ",141705
+"Structures","SU50","Petroleum pipelines",7119
+"IPP","RD11","Pharmaceutical and medicine manufacturing     ",56184
+"Equipment","EP31","Photocopy and related equipment",8011
+"IPP","ENS1","Prepackaged software",102735
+"Equipment","EP1D","Printers",8117
+"IPP","RD91","Private universities and colleges                            ",3263
+"Structures","SO03","Public safety",132
+"Equipment","ET50","Railroad equipment",12711
+"Structures","SB10","Religious                                 ",3819
+"IPP","RD70","Scientific research and development services            ",9145
+"IPP","RD23","Semiconductor and other component manufacturing   ",29644
+"Equipment","EO60","Service industry machinery",30511
+"Structures","SO02","Sewage and waste disposal",714
+"Equipment","ET40","Ships and boats",6458
+"IPP","RD40","Software publishers",32307
+"Structures","SB32","Special care                          ",4266
+"Equipment","EI40","Special industrial machinery",34683
+"Equipment","EI21","Steam engines",12245
+"Equipment","EP1G","Storage devices",9507
+"Equipment","EP1H","System integrators",21649
+"Equipment","EP1F","Tape drives",0
+"Equipment","EP1E","Terminals",7201
+"IPP","AE10","Theatrical movies",15592
+"Structures","SU12","Track replacement",7514
+"Structures","SC01","Warehouses                                ",7047
+"Structures","SO01","Water supply",464
+"Structures","SU60","Wind and solar",29967
