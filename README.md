@@ -4,4 +4,4 @@ Ongoing work includes engodenizing capital inputs to production, modifying the e
 
 Update March 2019:
 
-Files now include data submitted for journal publications using the most recently published benchmark IO tables for 2007 and 2012.
+The repository now includes data submitted for journal publications using the most recently published benchmark IO tables for 2007 and 2012 - see the Folders dated '2019'.
