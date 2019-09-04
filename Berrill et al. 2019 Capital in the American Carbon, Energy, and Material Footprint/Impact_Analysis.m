@@ -1,7 +1,7 @@
 % File to analyse GHG, Energy, and Material Impacts of US consumption
 % using USEEIO and capital flow matrices
 % For Capital in US Footprints paper
-% March 28 2019
+% Sep 4 2019
 % Peter Berrill
 
 % Required input files:
@@ -1743,7 +1743,7 @@ xtickangle(45)
 labels=[{'Coal'}, {'Oil'},{'Nat gas liquids'}, {'Nat gas'}, {'Biomass'}, {'Geothermal'},{'Hydro'},{'Nuclear'},{'Solar'},{'Wind'}];
 u=legend(q(order),labels{order});
 set(u,'Fontsize',9)
-ylim([0 42]);
+ylim([0 55]);
 colormap(jet(15))
 set(gca,'FontSize',11.5);
 set(gca,'TitleFontSizeMultiplier',1.08);
@@ -1765,7 +1765,7 @@ xtickangle(45)
 labels=[{'Metals'}, {'Other minerals'}, {'Fossil fuels'}, {'Biomass'}];
 u=legend(q(order),labels{order});
 set(u,'Fontsize',9)
-ylim([0 2200]);
+ylim([0 2500]);
 colormap('jet')
 set(gca,'FontSize',11.5);
 set(gca,'TitleFontSizeMultiplier',1.08);
@@ -1824,6 +1824,64 @@ if year == 2007
     
     int_tot = table(row,CI_wo_k,CI_w_k,CI_wo_k_purch_408,CI_w_k_purch_408,EI_wo_k,EI_w_k,EI_wo_k_purch_408,EI_w_k_purch_408,MI_wo_k,MI_w_k,MI_wo_k_purch_408,MI_w_k_purch_408,'RowNames',meta.ZLabs_short(:,2)); 
 end
+%% asset carbon intensities
+% mining and fossil extraction
+Zk=IO.Ak*diag(IO.x);
+Zs=sum(Zk,2);
+mine=[14:21];
+yhe=zeros(408,1);
+yhe(mine)=Zs(mine);
+GHG_mine=IO.C(2,:)*IO.S*IO.Lt*yhe;
+CM_mine=GHG_mine/sum(yhe)*1e-6
+% residential construction
+res=[30,31,35];
+yhe=zeros(408,1);
+yhe(res)=Zs(res);
+GHG_res=IO.C(2,:)*IO.S*IO.Lt*yhe;
+CM_res=GHG_res/sum(yhe)*1e-6
+% non-residential construction
+nonres=[25:29, 32:34, 36];
+yhe=zeros(408,1);
+yhe(nonres)=Zs(nonres);
+GHG_nonres=IO.C(2,:)*IO.S*IO.Lt*yhe;
+CM_nonres=GHG_nonres/sum(yhe)*1e-6
+% metals vehicles and machinery
+mvm=[53:190];
+yhe=zeros(408,1);
+yhe(mvm)=Zs(mvm);
+GHG_mvm=IO.C(2,:)*IO.S*IO.Lt*yhe;
+CM_mvm=GHG_mvm/sum(yhe)*1e-6
+% other durables
+oth=[37:52,191:227,228:270];
+yhe=zeros(408,1);
+yhe(oth)=Zs(oth);
+GHG_oth=IO.C(2,:)*IO.S*IO.Lt*yhe;
+CM_oth=GHG_oth/sum(yhe)*1e-6
+% trade and transport margins
+mar=[271:299];
+yhe=zeros(408,1);
+yhe(mar)=Zs(mar);
+GHG_mar=IO.C(2,:)*IO.S*IO.Lt*yhe;
+CM_mar=GHG_mar/sum(yhe)*1e-6
+% information and entertainment
+infart=[300:322,370:377];
+yhe=zeros(408,1);
+yhe(infart)=Zs(infart);
+GHG_infart=IO.C(2,:)*IO.S*IO.Lt*yhe;
+CM_infart=GHG_infart/sum(yhe)*1e-6
+% real estate
+re=[323:329];
+yhe=zeros(408,1);
+yhe(re)=Zs(re);
+GHG_re=IO.C(2,:)*IO.S*IO.Lt*yhe;
+CM_re=GHG_re/sum(yhe)*1e-6
+% scientific research, and professional services
+rnd=[330:343];
+yhe=zeros(408,1);
+yhe(rnd)=Zs(rnd);
+GHG_rnd=IO.C(2,:)*IO.S*IO.Lt*yhe;
+CM_rnd=GHG_rnd/sum(yhe)*1e-6
+
 %% Save
 switch year
     case 2007
