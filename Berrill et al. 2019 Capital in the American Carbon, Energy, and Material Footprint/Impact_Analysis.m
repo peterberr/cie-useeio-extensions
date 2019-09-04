@@ -75,6 +75,8 @@ M_GHGdiff=M_GHGt-M_GHG0; % increase in carbon intensity due to capital
 % Matrices of total emissions from consumption expenditure
 D_GHG0=M_GHG0*diag(y_exp); 
 D_GHGt=M_GHGt*diag(y_exp);
+d_sum_tot=((IO.C(2,:)*IO.S)*IO.Lt*diag(y_exp))'; % total CF incl capital
+d_sum_pr=sum(D_GHGt,2); % total CF by production sector
 D_GHGdiff=D_GHGt-D_GHG0;
 D_GHG_t_purch=M_GHGt_purch*diag(y_exp_pur);
 %% private and public expenditure and investment CF in-year impacts 
@@ -228,6 +230,7 @@ colormap(cm)
 u1=legend(q81(order4),ylabels(order4),'Location','North','FontSize',9);
 title(u1,'Capital Investment  ')
 xlim([0 size(K,1)+1])
+ylim([0 400])
 xticks(1.5:3:70.5);
 xticklabels(ZLab25([1:11 13:16 18:end]));
 xtickangle(41)
@@ -334,6 +337,7 @@ MF_fednondef_con_t=(IO.C(11,:)*IO.S*IO.Lt*diag(y_fednondef_exp))'; % fed non-def
 diff_MF_fnd=MF_fednondef_con_t-MF_fednondef_ex;
 MF_slg_con_t=(IO.C(11,:)*IO.S*IO.Lt*diag(y_slg_exp))'; % sl govt
 diff_MF_slg=MF_slg_con_t-MF_slg_ex;
+MF_tot_prod_Mt=diag((IO.C(11,:)*IO.S))*IO.Lt*y_exp*1e-9;
 %% concatenate expenditure and capital consumption MF results
 MF_con=[MF_pr_ex MF_feddef_ex MF_fednondef_ex MF_slg_ex diff_MF_pr diff_MF_fd diff_MF_fnd diff_MF_slg]; % total consumption MF, incl capital
 MF_con(:,size(MF_con,2)+1)=sum(MF_con,2); % sum by consumption commodidty sector
@@ -417,7 +421,7 @@ colormap(cm)
 u1=legend(q41(order4),ylabels(order4),'Location','North','FontSize',9);
 title(u1,'Capital Investment')
 xlim([0 size(MK,1)+1])
-ylim([0 1100])
+ylim([0 1600])
 xticks(1.5:3:70.5);
 xticklabels(ZLab25([1:11 13:16 18:end]));
 xtickangle(41)
@@ -487,6 +491,7 @@ EF_pr_inv=(IO.C(6,:)*IO.S*IO.L*diag(y_priv_inv))'; % EF from private investment
 EF_feddef_inv=(IO.C(6,:)*IO.S*IO.L*diag(y_feddef_inv))'; % EF from fed def investment
 EF_fednondef_inv=(IO.C(6,:)*IO.S*IO.L*diag(y_fednondef_inv))'; % EF from fed non-def investment
 EF_slg_inv=(IO.C(6,:)*IO.S*IO.L*diag(y_slg_inv))'; % EF from state/local govt investment
+EF_tot_prod_PJ=diag((IO.C(6,:)*IO.S))*IO.Lt*y_exp*1e-9;
 %% concatenate total expenditure EF results
 EF_exp=[EF_pr_ex EF_feddef_ex EF_fednondef_ex EF_slg_ex EF_pr_inv EF_feddef_inv EF_fednondef_inv EF_slg_inv]; % total consumption and investment expenditure EF 
 EF_exp(:,size(EF_exp,2)+1)=sum(EF_exp,2); % sum by commodity type
@@ -643,7 +648,7 @@ Ds=D_GHGt; % total GHG impacts from prod and cons
 Ds(:,size(Ds,2)+1)=sum(Ds,2); % sum from prod. sectors
 Ds(:,size(Ds,2)+1)=1:408; % number sectors in original order
 DS=flipud(sortrows(Ds,409)); % sort by largest producers
-D_pro_sec=DS(1:15,410); % the sector numbers of highest producers
+% D_pro_sec=DS(1:15,410); % the sector numbers of highest producers
 DsT=DS'; % transpose
 DsT(409:410,:)=[]; % remove the prod. totals and sector numbers
 DsT(:,409)=sum(DsT,2); % sum from cons. sectors
@@ -652,12 +657,15 @@ DsTs=flipud(sortrows(DsT,409)); % sort by largest consumers
 D_con_sec=DsTs(1:15,410); % the sector numbers of highest consumers
 %% Manually extract production sectors of interest
 % main_pr=[22 14 281 8 23 88 340 123 7]; % define sectors of interest from prod. perspective, informed by sumps
-sump=sum(D_GHGt,2); % sum of production emissions, changed from M to D
+sump=sum(D_GHGt,2); % sum of production emissions
 sump(:,2)=1:408; % sec numbers
 sumps=flipud(sortrows(sump,1)); % sort sump
 sumps1=sumps;
 % main_pr=[22 14 53 294 2 43 7 8 15]; % define sectors of interest from prod. perspective, informed by sumps
 main_pr=sumps(1:11,2)';
+cont_pr=[meta.ZLabs_short(main_pr,2) num2cell(d_sum_pr(main_pr)/sum(d_sum_pr))];
+cont_pr(12,1)=cellstr('Other');
+cont_pr(12,2)=num2cell(1-sum(cell2mat(cont_pr(:,2))));
 main_pr(main_pr==408)=[];
 main_pr(main_pr==406)=[];
 
@@ -709,7 +717,226 @@ xticks(1:16);
 xticklabels(xlab)
 xtickangle(45)
 labels=[meta.ZLabs_short(main_pr,2) ;{'Own*'};{'Other'}];
-title(['Contribution from production sectors to CF of consumption, ' num2str(year)])
+title(['A. Contribution from production sectors to CF of consumption, ' num2str(year)])
+u=legend(q(order),labels{order},'Location','northeastoutside');
+title(u,'Production sectors')
+colormap(jet(m+12))
+ylim([0 1])
+xlabel('\bfConsumption sectors')
+set(gca,'FontSize',11.5);
+set(u,'Fontsize',9.5)
+%% Contribution to EF
+DE_t=diag(IO.C(6,:)*IO.S)*IO.Lt*diag(y_exp);
+DE_0=diag(IO.C(6,:)*IO.S)*IO.L*diag(y_exp);
+DE_k=DE_t-DE_0;
+
+%% Contribution to MF
+DM_t=diag(IO.C(11,:)*IO.S)*IO.Lt*diag(y_exp);
+DM_0=diag(IO.C(11,:)*IO.S)*IO.L*diag(y_exp);
+DM_k=DM_t-DM_0;
+
+%% Detailed highest consumers and producers of EF impacts (2-way Contribution analysis results)
+Ds=DE_t; % total EF impacts from prod and cons
+Ds(:,size(Ds,2)+1)=sum(Ds,2); % sum from prod. sectors
+Ds(:,size(Ds,2)+1)=1:408; % number sectors in original order
+DS=flipud(sortrows(Ds,409)); % sort by largest producers
+DsT=DS'; % transpose
+DsT(409:410,:)=[]; % remove the prod. totals and sector numbers
+DsT(:,409)=sum(DsT,2); % sum from cons. sectors
+DsT(:,410)=1:408; % original sector numbers
+DsTs=flipud(sortrows(DsT,409)); % sort by largest consumers
+D_con_sec=DsTs(1:15,410); % the sector numbers of highest consumers
+%% largest proportional contributors to footprints
+sump=sum(DE_t,2); % sum of production emissions
+sump(:,2)=1:408; % sec numbers
+sumps=flipud(sortrows(sump,1)); % sort sump
+main_pr=sumps(1:8,2)';
+m=size(main_pr,2); % number of interesting prod. sectors 
+other=1:408; 
+other(main_pr)=[]; % remove sectors of interest from list of all sector numbers
+Dn=[DE_t(main_pr,:); DE_t(other,:)]; % Order production sectors by interesting, other (not in order of highest impacts)
+DnT=Dn'; % transpose - put production sectors on columns, consumption on rows
+DnT(:,409)=sum(DnT,2); % total consumption sectors
+DnT(:,410)=1:408; % sector number of consumption sectors
+DnTs=flipud(sortrows(DnT,409)); % sort by largest consumption sectors
+DnTs(:,409:410)=[]; % remove totals and sector numbers
+ot=sum(DnTs(1:15,m+1:end),2); % the 'other' production impacts from the highest consumption sectors, not explained by the extracted production sectors
+cont=[DnTs(1:15,1:m) ot]; % matrix of contributions from prod. sectors of interest, and other production sectors
+cs=sum(cont,2); % row sums, total of consumption sectors
+c=diag(cs)\cont; % get pc of contributions from prod. sectors to cons. sectors impacts
+order=fliplr(1:m+1);
+%% contribution to 'other' consumption sectors
+otr2c1=DnTs(16:408,1:m); % inputs to other consumption sectors, from extraction prod sectors
+otr2c2=DnTs(16:408,m+1:408); % inputs to other cons sectors, from other prod sectors
+contr2=[sum(otr2c1,1) sum(sum(otr2c2))]; % contr of int prod sectors to other cons sectors; contr of other prod sectors to other cons sectors
+csr2=sum(contr2); % total 'other' impacts
+contr2n=contr2/csr2; % make vector of contribution pc to 'other' consumption sector
+ctot=[c;contr2n]; % total contribution from to top consumption sectors, other consumption sectors
+f13=figure;
+q=bar(ctot,'stack');
+xlab=[meta.ZLabs_short(D_con_sec,2);{'Other'}];
+xticks(1:16);
+xticklabels(xlab)
+xtickangle(45)
+labels=[meta.ZLabs_short(main_pr,2) ;{'Other'}];
+title(['B. Contribution from production sectors to EF of consumption, ' num2str(year)])
+u=legend(q(order),labels{order},'Location','northeastoutside');
+title(u,'Production sectors')
+colormap(jet(m+12))
+ylim([0 1])
+xlabel('\bfConsumption sectors')
+set(gca,'FontSize',11.5);
+set(u,'Fontsize',9.5)
+%% Detailed highest consumers and producers of MF impacts (2-way Contribution analysis results)
+Ds=DM_t; % total MF impacts from prod and cons
+Ds(:,size(Ds,2)+1)=sum(Ds,2); % sum from prod. sectors
+Ds(:,size(Ds,2)+1)=1:408; % number sectors in original order
+DS=flipud(sortrows(Ds,409)); % sort by largest producers
+DsT=DS'; % transpose
+DsT(409:410,:)=[]; % remove the prod. totals and sector numbers
+DsT(:,409)=sum(DsT,2); % sum from cons. sectors
+DsT(:,410)=1:408; % original sector numbers
+DsTs=flipud(sortrows(DsT,409)); % sort by largest consumers
+D_con_sec=DsTs(1:15,410); % the sector numbers of highest consumers
+%% largest proportional contributors to material footprint
+sump=sum(DM_t,2); % sum of production emissions
+sump(:,2)=1:408; % sec numbers
+sumps=flipud(sortrows(sump,1)); % sort sump
+main_pr=sumps(1:8,2)';
+m=size(main_pr,2); % number of interesting prod. sectors 
+other=1:408; 
+other(main_pr)=[]; % remove sectors of interest from list of all sector numbers
+Dn=[DM_t(main_pr,:); DM_t(other,:)]; % Order production sectors by interesting, other (not in order of highest impacts)
+DnT=Dn'; % transpose - put production sectors on columns, consumption on rows
+DnT(:,409)=sum(DnT,2); % total consumption sectors
+DnT(:,410)=1:408; % sector number of consumption sectors
+DnTs=flipud(sortrows(DnT,409)); % sort by largest consumption sectors
+DnTs(:,409:410)=[]; % remove totals and sector numbers
+ot=sum(DnTs(1:15,m+1:end),2); % the 'other' production impacts from the highest consumption sectors, not explained by the extracted production sectors
+cont=[DnTs(1:15,1:m) ot]; % matrix of contributions from prod. sectors of interest, and other production sectors
+cs=sum(cont,2); % row sums, total of consumption sectors
+c=diag(cs)\cont; % get pc of contributions from prod. sectors to cons. sectors impacts
+order=fliplr(1:m+1);
+%% contribution to 'other' consumption sectors
+otr2c1=DnTs(16:408,1:m); % inputs to other consumption sectors, from extraction prod sectors
+otr2c2=DnTs(16:408,m+1:408); % inputs to other cons sectors, from other prod sectors
+contr2=[sum(otr2c1,1) sum(sum(otr2c2))]; % contr of int prod sectors to other cons sectors; contr of other prod sectors to other cons sectors
+csr2=sum(contr2); % total 'other' impacts
+contr2n=contr2/csr2; % make vector of contribution pc to 'other' consumption sector
+ctot=[c;contr2n]; % total contribution from to top consumption sectors, other consumption sectors
+f13=figure;
+q=bar(ctot,'stack');
+xlab=[meta.ZLabs_short(D_con_sec,2);{'Other'}];
+xticks(1:16);
+xticklabels(xlab)
+xtickangle(45)
+labels=[meta.ZLabs_short(main_pr,2) ;{'Other'}];
+title(['C. Contribution from production sectors to MF of consumption, ' num2str(year)])
+u=legend(q(order),labels{order},'Location','northeastoutside');
+title(u,'Production sectors')
+colormap(jet(m+12))
+ylim([0 1])
+xlabel('\bfConsumption sectors')
+set(gca,'FontSize',11.5);
+set(u,'Fontsize',9.5)
+%% Cont to capital EF
+Ds=DE_k; % total EF impacts from prod and cons
+Ds(:,size(Ds,2)+1)=sum(Ds,2); % sum from prod. sectors
+Ds(:,size(Ds,2)+1)=1:408; % number sectors in original order
+DS=flipud(sortrows(Ds,409)); % sort by largest producers
+DsT=DS'; % transpose
+DsT(409:410,:)=[]; % remove the prod. totals and sector numbers
+DsT(:,409)=sum(DsT,2); % sum from cons. sectors
+DsT(:,410)=1:408; % original sector numbers
+DsTs=flipud(sortrows(DsT,409)); % sort by largest consumers
+D_con_sec=DsTs(1:12,410); % the sector numbers of highest consumers
+%% largest proportional contributors to footprints
+sump=sum(DE_k,2); % sum of production emissions
+sump(:,2)=1:408; % sec numbers
+sumps=flipud(sortrows(sump,1)); % sort sump
+main_pr=sumps(1:6,2)';
+m=size(main_pr,2); % number of interesting prod. sectors 
+other=1:408; 
+other(main_pr)=[]; % remove sectors of interest from list of all sector numbers
+Dn=[DE_k(main_pr,:); DE_k(other,:)]; % Order production sectors by interesting, other (not in order of highest impacts)
+DnT=Dn'; % transpose - put production sectors on columns, consumption on rows
+DnT(:,409)=sum(DnT,2); % total consumption sectors
+DnT(:,410)=1:408; % sector number of consumption sectors
+DnTs=flipud(sortrows(DnT,409)); % sort by largest consumption sectors
+DnTs(:,409:410)=[]; % remove totals and sector numbers
+ot=sum(DnTs(1:12,m+1:end),2); % the 'other' production impacts from the highest consumption sectors, not explained by the extracted production sectors
+cont=[DnTs(1:12,1:m) ot]; % matrix of contributions from prod. sectors of interest, and other production sectors
+cs=sum(cont,2); % row sums, total of consumption sectors
+c=diag(cs)\cont; % get pc of contributions from prod. sectors to cons. sectors impacts
+order=fliplr(1:m+1);
+%% contribution to 'other' consumption sectors
+otr2c1=DnTs(13:408,1:m); % inputs to other consumption sectors, from extraction prod sectors
+otr2c2=DnTs(13:408,m+1:408); % inputs to other cons sectors, from other prod sectors
+contr2=[sum(otr2c1,1) sum(sum(otr2c2))]; % contr of int prod sectors to other cons sectors; contr of other prod sectors to other cons sectors
+csr2=sum(contr2); % total 'other' impacts
+contr2n=contr2/csr2; % make vector of contribution pc to 'other' consumption sector
+ctot=[c;contr2n]; % total contribution from to top consumption sectors, other consumption sectors
+f13=figure;
+q=bar(ctot,'stack');
+xlab=[meta.ZLabs_short(D_con_sec,2);{'Other'}];
+xticks(1:13);
+xticklabels(xlab)
+xtickangle(45)
+labels=[meta.ZLabs_short(main_pr,2) ;{'Other'}];
+title(['B. Contribution from production sectors to EF of capital consumption, ' num2str(year)])
+u=legend(q(order),labels{order},'Location','northeastoutside');
+title(u,'Production sectors')
+colormap(jet(m+12))
+ylim([0 1])
+xlabel('\bfConsumption sectors')
+set(gca,'FontSize',11.5);
+set(u,'Fontsize',9.5)
+%% Contribution to capital MF
+Ds=DM_k; % total MF impacts from prod and cons
+Ds(:,size(Ds,2)+1)=sum(Ds,2); % sum from prod. sectors
+Ds(:,size(Ds,2)+1)=1:408; % number sectors in original order
+DS=flipud(sortrows(Ds,409)); % sort by largest producers
+DsT=DS'; % transpose
+DsT(409:410,:)=[]; % remove the prod. totals and sector numbers
+DsT(:,409)=sum(DsT,2); % sum from cons. sectors
+DsT(:,410)=1:408; % original sector numbers
+DsTs=flipud(sortrows(DsT,409)); % sort by largest consumers
+D_con_sec=DsTs(1:12,410); % the sector numbers of highest consumers
+%% largest proportional contributors to material footprint
+sump=sum(DM_k,2); % sum of production emissions
+sump(:,2)=1:408; % sec numbers
+sumps=flipud(sortrows(sump,1)); % sort sump
+sumps1=sumps;
+main_pr=sumps(1:7,2)';
+m=size(main_pr,2); % number of interesting prod. sectors 
+other=1:408; 
+other(main_pr)=[]; % remove sectors of interest from list of all sector numbers
+Dn=[DM_k(main_pr,:); DM_k(other,:)]; % Order production sectors by interesting, other (not in order of highest impacts)
+DnT=Dn'; % transpose - put production sectors on columns, consumption on rows
+DnT(:,409)=sum(DnT,2); % total consumption sectors
+DnT(:,410)=1:408; % sector number of consumption sectors
+DnTs=flipud(sortrows(DnT,409)); % sort by largest consumption sectors
+DnTs(:,409:410)=[]; % remove totals and sector numbers
+ot=sum(DnTs(1:12,m+1:end),2); % the 'other' production impacts from the highest consumption sectors, not explained by the extracted production sectors
+cont=[DnTs(1:12,1:m) ot]; % matrix of contributions from prod. sectors of interest, and other production sectors
+cs=sum(cont,2); % row sums, total of consumption sectors
+c=diag(cs)\cont; % get pc of contributions from prod. sectors to cons. sectors impacts
+order=fliplr(1:m+1);
+%% contribution to 'other' consumption sectors
+otr2c1=DnTs(13:408,1:m); % inputs to other consumption sectors, from extraction prod sectors
+otr2c2=DnTs(13:408,m+1:408); % inputs to other cons sectors, from other prod sectors
+contr2=[sum(otr2c1,1) sum(sum(otr2c2))]; % contr of int prod sectors to other cons sectors; contr of other prod sectors to other cons sectors
+csr2=sum(contr2); % total 'other' impacts
+contr2n=contr2/csr2; % make vector of contribution pc to 'other' consumption sector
+ctot=[c;contr2n]; % total contribution from to top consumption sectors, other consumption sectors
+f13=figure;
+q=bar(ctot,'stack');
+xlab=[meta.ZLabs_short(D_con_sec,2);{'Other'}];
+xticks(1:13);
+xticklabels(xlab)
+xtickangle(45)
+labels=[meta.ZLabs_short(main_pr,2) ;{'Other'}];
+title(['C. Contribution from production sectors to MF of capital consumption, ' num2str(year)])
 u=legend(q(order),labels{order},'Location','northeastoutside');
 title(u,'Production sectors')
 colormap(jet(m+12))
@@ -834,7 +1061,7 @@ csrk2=sum(contrk2);
 contrk2n=contrk2/csrk2;
 cktot=[ck;contrk2n];
 cktot_reduce=[cktot(:,1:8) sum(cktot(:,9:11),2) cktot(:,12:13)];
-
+%%
 f14=figure;
 order=fliplr(1:mk-1);
 q=bar(cktot_reduce,'stack');
@@ -844,7 +1071,7 @@ xticklabels(xlab)
 xtickangle(45)
 labels=[meta.ZLabs_short(k_pr(1:8),2); {'Residential construction'};  meta.ZLabs_short(k_pr(12),2); {'Other'}];
 % labels=[meta.ZLabs_short(k_pr(1:9),2); {'Other'}];
-title(['B. Contribution of production sectors to CF of capital consumption, ' num2str(year)])
+title(['A. Contribution of production sectors to CF of capital consumption, ' num2str(year)])
 u=legend(q(order),labels{order},'Location','northeastoutside');
 title(u,'Production sectors')
 colormap(jet(m+12))
@@ -861,125 +1088,176 @@ A(409:end,409:end)=(IO.A+IO.Ak);
 A0=A;
 I=eye(816);
 L=inv(I-A);
-
+L0=L;
 y=zeros(816,1);
 y(1:408)=y_exp;
 x=L*y;
 X=L*diag(y);
 GHGk=diag(IO.C(2,:)*IO.S)*X(409:end,1:408);
+bigCS=[IO.C(2,:)*IO.S zeros(1,408);zeros(1,408) IO.C(2,:)*IO.S];
+d_dk=bigCS*X;
 %% hyp extraction
 asset_cont=zeros(9,13);
 tot_asset_cont=zeros(9,1);
 mine=[14:21]+408;
 A=A0; 
-A(mine,1:408)=0;
-L=inv(I-A);
-X=L*diag(y);
-GHGk_he=diag(IO.C(2,:)*IO.S)*X(409:end,1:408); 
-for i = 1:12
-    asset_cont(1,i)=1-(sum(GHGk_he(:,Dk_con_sec(i)))/ sum(GHGk(:,Dk_con_sec(i)))); % mining
-end
-asset_cont(1,13)=1-sum(sum(GHGk_he(:,Dk_con_sec_r)))/sum(sum(GHGk(:,Dk_con_sec_r))); % mining inputs to all other
-tot_asset_cont(1)=1-sum(GHGk_he)/sum(GHGk);
+A(mine,1:408)=0; % remove contribution of mining/extraction capital to production
+L=inv(I-A); % new Leontief without those sectors
+X=L*diag(y); % total production without mining/extraction
+% x=L0*diag(y); %
+% xd=x-X; % difference in production with/without any contribution from the extracted sectors
+% GHGk_he=diag(IO.C(2,:)*IO.S)*X(409:end,1:408); 
+% mine_int=sum(sum(GHGk_he))/sum(sum(xd));
+d_dkhe=bigCS*X;
+he_red=1-d_dkhe(2,:)./d_dk(2,:);
+asset_cont(1,1:12)=he_red(Dk_con_sec);
+asset_cont(1,13)=1-sum(d_dkhe(2,Dk_con_sec_r))./sum(d_dk(2,Dk_con_sec_r));
+% for i = 1:12 % for each iteration, loop will determine contribution of mining to capital CF of one of the 12 sectors with highest capital CF
+%     asset_cont(1,i)=1-(sum(GHGk_he(:,Dk_con_sec(i)))/ sum(GHGk(:,Dk_con_sec(i)))); % mining
+% end
+% asset_cont(1,13)=1-sum(sum(GHGk_he(:,Dk_con_sec_r)))/sum(sum(GHGk(:,Dk_con_sec_r))); % mining inputs to all other
+% tot_asset_cont(1)=1-(sum(GHGk_he)/sum(GHGk));
+tot_asset_cont(1)=1-sum(d_dkhe(2,:))/sum(d_dk(2,:));
 res=[30,31,35]+408;
 A=A0; 
 A(res,1:408)=0;
 L=inv(I-A);
 X=L*diag(y);
-GHGk_he=diag(IO.C(2,:)*IO.S)*X(409:end,1:408); 
-for i = 1:12
-    asset_cont(2,i)=1-sum(GHGk_he(:,Dk_con_sec(i)))/ sum(GHGk(:,Dk_con_sec(i))); % residential structures
-end
-asset_cont(2,13)=1-sum(sum(GHGk_he(:,Dk_con_sec_r)))/sum(sum(GHGk(:,Dk_con_sec_r))); % res inputs to all other
-tot_asset_cont(2)=1-sum(GHGk_he)/sum(GHGk);
+d_dkhe=bigCS*X;
+he_red=1-d_dkhe(2,:)./d_dk(2,:);
+asset_cont(2,1:12)=he_red(Dk_con_sec);
+asset_cont(2,13)=1-sum(d_dkhe(2,Dk_con_sec_r))./sum(d_dk(2,Dk_con_sec_r));
+tot_asset_cont(2)=1-sum(d_dkhe(2,:))/sum(d_dk(2,:));
+% GHGk_he=diag(IO.C(2,:)*IO.S)*X(409:end,1:408); 
+% for i = 1:12
+%     asset_cont(2,i)=1-sum(GHGk_he(:,Dk_con_sec(i)))/ sum(GHGk(:,Dk_con_sec(i))); % residential structures
+% end
+% asset_cont(2,13)=1-sum(sum(GHGk_he(:,Dk_con_sec_r)))/sum(sum(GHGk(:,Dk_con_sec_r))); % res inputs to all other
+% tot_asset_cont(2)=1-sum(GHGk_he)/sum(GHGk);
 nonres=[25:29, 32:34, 36]+408;
 A=A0; 
 A(nonres,1:408)=0;
 L=inv(I-A);
 X=L*diag(y);
-GHGk_he=diag(IO.C(2,:)*IO.S)*X(409:end,1:408); 
-for i = 1:12
-    asset_cont(3,i)=1-sum(GHGk_he(:,Dk_con_sec(i)))/ sum(GHGk(:,Dk_con_sec(i))); % nonres strucures
-end
-asset_cont(3,13)=1-sum(sum(GHGk_he(:,Dk_con_sec_r)))/sum(sum(GHGk(:,Dk_con_sec_r))); % nonres inputs to all other
-tot_asset_cont(3)=1-sum(GHGk_he)/sum(GHGk);
+d_dkhe=bigCS*X;
+he_red=1-d_dkhe(2,:)./d_dk(2,:);
+asset_cont(3,1:12)=he_red(Dk_con_sec);
+asset_cont(3,13)=1-sum(d_dkhe(2,Dk_con_sec_r))./sum(d_dk(2,Dk_con_sec_r));
+tot_asset_cont(3)=1-sum(d_dkhe(2,:))/sum(d_dk(2,:));
+% GHGk_he=diag(IO.C(2,:)*IO.S)*X(409:end,1:408); 
+% for i = 1:12
+%     asset_cont(3,i)=1-sum(GHGk_he(:,Dk_con_sec(i)))/ sum(GHGk(:,Dk_con_sec(i))); % nonres strucures
+% end
+% asset_cont(3,13)=1-sum(sum(GHGk_he(:,Dk_con_sec_r)))/sum(sum(GHGk(:,Dk_con_sec_r))); % nonres inputs to all other
+% tot_asset_cont(3)=1-sum(GHGk_he)/sum(GHGk);
 mvm=[53:190]+408;
 A=A0; 
 A(mvm,1:408)=0;
 L=inv(I-A);
 X=L*diag(y);
-GHGk_he=diag(IO.C(2,:)*IO.S)*X(409:end,1:408); 
-for i = 1:12
-    asset_cont(4,i)=1-sum(GHGk_he(:,Dk_con_sec(i)))/ sum(GHGk(:,Dk_con_sec(i))); % metal, vehicles machinery
-end
-asset_cont(4,13)=1-sum(sum(GHGk_he(:,Dk_con_sec_r)))/sum(sum(GHGk(:,Dk_con_sec_r))); % mvm inputs to all other
-tot_asset_cont(4)=1-sum(GHGk_he)/sum(GHGk);
+d_dkhe=bigCS*X;
+he_red=1-d_dkhe(2,:)./d_dk(2,:);
+asset_cont(4,1:12)=he_red(Dk_con_sec);
+asset_cont(4,13)=1-sum(d_dkhe(2,Dk_con_sec_r))./sum(d_dk(2,Dk_con_sec_r));
+tot_asset_cont(4)=1-sum(d_dkhe(2,:))/sum(d_dk(2,:));
+% GHGk_he=diag(IO.C(2,:)*IO.S)*X(409:end,1:408); 
+% for i = 1:12
+%     asset_cont(4,i)=1-sum(GHGk_he(:,Dk_con_sec(i)))/ sum(GHGk(:,Dk_con_sec(i))); % metal, vehicles machinery
+% end
+% asset_cont(4,13)=1-sum(sum(GHGk_he(:,Dk_con_sec_r)))/sum(sum(GHGk(:,Dk_con_sec_r))); % mvm inputs to all other
+% tot_asset_cont(4)=1-sum(GHGk_he)/sum(GHGk);
 bcm_text=[37:52,191:227,228:270]+408;
 A=A0; 
 A(bcm_text,1:408)=0;
 L=inv(I-A);
 X=L*diag(y);
-GHGk_he=diag(IO.C(2,:)*IO.S)*X(409:end,1:408); 
-for i = 1:12
-    asset_cont(5,i)=1-sum(GHGk_he(:,Dk_con_sec(i)))/ sum(GHGk(:,Dk_con_sec(i))); % bio chem minerals textiles
-end
-asset_cont(5,13)=1-sum(sum(GHGk_he(:,Dk_con_sec_r)))/sum(sum(GHGk(:,Dk_con_sec_r))); % bcmt inputs to all other
-tot_asset_cont(5)=1-sum(GHGk_he)/sum(GHGk);
+d_dkhe=bigCS*X;
+he_red=1-d_dkhe(2,:)./d_dk(2,:);
+asset_cont(5,1:12)=he_red(Dk_con_sec);
+asset_cont(5,13)=1-sum(d_dkhe(2,Dk_con_sec_r))./sum(d_dk(2,Dk_con_sec_r));
+tot_asset_cont(5)=1-sum(d_dkhe(2,:))/sum(d_dk(2,:));
+% GHGk_he=diag(IO.C(2,:)*IO.S)*X(409:end,1:408); 
+% for i = 1:12
+%     asset_cont(5,i)=1-sum(GHGk_he(:,Dk_con_sec(i)))/ sum(GHGk(:,Dk_con_sec(i))); % bio chem minerals textiles
+% end
+% asset_cont(5,13)=1-sum(sum(GHGk_he(:,Dk_con_sec_r)))/sum(sum(GHGk(:,Dk_con_sec_r))); % bcmt inputs to all other
+% tot_asset_cont(5)=1-sum(GHGk_he)/sum(GHGk);
 mar=[271:299]+408;
 A=A0; 
 A(mar,1:408)=0;
 L=inv(I-A);
 X=L*diag(y);
-GHGk_he=diag(IO.C(2,:)*IO.S)*X(409:end,1:408); 
-for i = 1:12
-    asset_cont(6,i)=1-sum(GHGk_he(:,Dk_con_sec(i)))/ sum(GHGk(:,Dk_con_sec(i))); % margins
-end
-asset_cont(6,13)=1-sum(sum(GHGk_he(:,Dk_con_sec_r)))/sum(sum(GHGk(:,Dk_con_sec_r))); % margins inputs to all other
-tot_asset_cont(6)=1-sum(GHGk_he)/sum(GHGk);
+d_dkhe=bigCS*X;
+he_red=1-d_dkhe(2,:)./d_dk(2,:);
+asset_cont(6,1:12)=he_red(Dk_con_sec);
+asset_cont(6,13)=1-sum(d_dkhe(2,Dk_con_sec_r))./sum(d_dk(2,Dk_con_sec_r));
+tot_asset_cont(6)=1-sum(d_dkhe(2,:))/sum(d_dk(2,:));
+% GHGk_he=diag(IO.C(2,:)*IO.S)*X(409:end,1:408); 
+% for i = 1:12
+%     asset_cont(6,i)=1-sum(GHGk_he(:,Dk_con_sec(i)))/ sum(GHGk(:,Dk_con_sec(i))); % margins
+% end
+% asset_cont(6,13)=1-sum(sum(GHGk_he(:,Dk_con_sec_r)))/sum(sum(GHGk(:,Dk_con_sec_r))); % margins inputs to all other
+% tot_asset_cont(6)=1-sum(GHGk_he)/sum(GHGk);
 infart=[300:322,370:377]+408;
 A=A0; 
 A(infart,1:408)=0;
 L=inv(I-A);
 X=L*diag(y);
-GHGk_he=diag(IO.C(2,:)*IO.S)*X(409:end,1:408); 
-for i = 1:12
-    asset_cont(7,i)=1-sum(GHGk_he(:,Dk_con_sec(i)))/ sum(GHGk(:,Dk_con_sec(i))); % information art industries
-end
-asset_cont(7,13)=1-sum(sum(GHGk_he(:,Dk_con_sec_r)))/sum(sum(GHGk(:,Dk_con_sec_r))); % information inputs to all other
-tot_asset_cont(7)=1-sum(GHGk_he)/sum(GHGk);
+d_dkhe=bigCS*X;
+he_red=1-d_dkhe(2,:)./d_dk(2,:);
+asset_cont(7,1:12)=he_red(Dk_con_sec);
+asset_cont(7,13)=1-sum(d_dkhe(2,Dk_con_sec_r))./sum(d_dk(2,Dk_con_sec_r));
+tot_asset_cont(7)=1-sum(d_dkhe(2,:))/sum(d_dk(2,:));
+% GHGk_he=diag(IO.C(2,:)*IO.S)*X(409:end,1:408); 
+% for i = 1:12
+%     asset_cont(7,i)=1-sum(GHGk_he(:,Dk_con_sec(i)))/ sum(GHGk(:,Dk_con_sec(i))); % information art industries
+% end
+% asset_cont(7,13)=1-sum(sum(GHGk_he(:,Dk_con_sec_r)))/sum(sum(GHGk(:,Dk_con_sec_r))); % information inputs to all other
+% tot_asset_cont(7)=1-sum(GHGk_he)/sum(GHGk);
 re=[323:329]+408;
 A=A0; 
 A(re,1:408)=0;
 L=inv(I-A);
 X=L*diag(y);
-GHGk_he=diag(IO.C(2,:)*IO.S)*X(409:end,1:408); 
-for i = 1:12
-    asset_cont(8,i)=1-sum(GHGk_he(:,Dk_con_sec(i)))/ sum(GHGk(:,Dk_con_sec(i))); % real estate 
-end
-asset_cont(8,13)=1-sum(sum(GHGk_he(:,Dk_con_sec_r)))/sum(sum(GHGk(:,Dk_con_sec_r))); % re inputs to all other
-tot_asset_cont(8)=1-sum(GHGk_he)/sum(GHGk);
+d_dkhe=bigCS*X;
+he_red=1-d_dkhe(2,:)./d_dk(2,:);
+asset_cont(8,1:12)=he_red(Dk_con_sec);
+asset_cont(8,13)=1-sum(d_dkhe(2,Dk_con_sec_r))./sum(d_dk(2,Dk_con_sec_r));
+tot_asset_cont(8)=1-sum(d_dkhe(2,:))/sum(d_dk(2,:));
+% GHGk_he=diag(IO.C(2,:)*IO.S)*X(409:end,1:408); 
+% for i = 1:12
+%     asset_cont(8,i)=1-sum(GHGk_he(:,Dk_con_sec(i)))/ sum(GHGk(:,Dk_con_sec(i))); % real estate 
+% end
+% asset_cont(8,13)=1-sum(sum(GHGk_he(:,Dk_con_sec_r)))/sum(sum(GHGk(:,Dk_con_sec_r))); % re inputs to all other
+% tot_asset_cont(8)=1-sum(GHGk_he)/sum(GHGk);
 rnd=[330:343]+408;
 A=A0; 
 A(rnd,1:408)=0;
 L=inv(I-A);
 X=L*diag(y);
-GHGk_he=diag(IO.C(2,:)*IO.S)*X(409:end,1:408); 
-for i = 1:12
-    asset_cont(9,i)=1-sum(GHGk_he(:,Dk_con_sec(i)))/ sum(GHGk(:,Dk_con_sec(i))); % rnd
-end
-asset_cont(9,13)=1-sum(sum(GHGk_he(:,Dk_con_sec_r)))/sum(sum(GHGk(:,Dk_con_sec_r))); % rnd inputs to all other
-tot_asset_cont(9)=1-sum(GHGk_he)/sum(GHGk);
+d_dkhe=bigCS*X;
+he_red=1-d_dkhe(2,:)./d_dk(2,:);
+asset_cont(9,1:12)=he_red(Dk_con_sec);
+asset_cont(9,13)=1-sum(d_dkhe(2,Dk_con_sec_r))./sum(d_dk(2,Dk_con_sec_r));
+tot_asset_cont(9)=1-sum(d_dkhe(2,:))/sum(d_dk(2,:));
+asset_cont(:,14)=tot_asset_cont;
+% GHGk_he=diag(IO.C(2,:)*IO.S)*X(409:end,1:408); 
+% for i = 1:12
+%     asset_cont(9,i)=1-sum(GHGk_he(:,Dk_con_sec(i)))/ sum(GHGk(:,Dk_con_sec(i))); % rnd
+% end
+% asset_cont(9,13)=1-sum(sum(GHGk_he(:,Dk_con_sec_r)))/sum(sum(GHGk(:,Dk_con_sec_r))); % rnd inputs to all other
+% tot_asset_cont(9)=1-sum(GHGk_he)/sum(GHGk);
 %%
 f14b=figure;
 order=fliplr(1:size(asset_cont,1));
 q=bar(asset_cont','stack');
-xlab=[meta.ZLabs_short(Dk_con_sec,2);{'Other'}];
-xticks(1:13);
+xlab=[meta.ZLabs_short(Dk_con_sec,2);{'Other'};{'Total'}];
+xticks(1:14);
 xticklabels(xlab)
 xtickangle(45)
 labels=[sector_label([2 4 5 8],2); {'Other durables'}; {'Trade, Transport'}; {'Information, Entertainment'};
     {'Real Estate'};sector_label(16,2)];
-title(['A. Contribution of asset types to CF of capital consumption, ' num2str(year)])
+title(['Contribution of asset types to CF of capital consumption, ' num2str(year)])
 u=legend(q(order),labels{order},'Location','northeastoutside');
 title(u,'Asset types')
 colormap(jet(m+12))
@@ -1023,6 +1301,7 @@ if isequal(year,2007) % add in intensities per 2012USD
     E_int_A=(IO.C(6,:)*IO.S2012USD*IO.L)'; % Energy intensity of consumption, excl. capital
 end
 Mi_inc=M_int_At./M_int_A; % ratio of intensity with capital to without capital
+Mi_cc=(M_int_At-M_int_A)./M_int_At;
 Mi_inc(isnan(Mi_inc))=1;
 Mi_inc(isinf(Mi_inc))=1;
 Mi_inc=Mi_inc-1; % increase in intensity due to capital (proportional)
@@ -1035,6 +1314,7 @@ GHGi_inc=GHGi_inc-1; % increase in intensity due to capital (proportional)
 GHGi_cc=GHG_int_capcon./GHG_int_Atot; % proportion of total impacts coming from capital inputs
 
 Ei_inc=E_int_At./E_int_A; % ratio of intensity with capital to without capital
+Ei_cc=(E_int_At-E_int_A)./E_int_At;
 Ei_inc(isnan(Ei_inc))=1;
 Ei_inc(isinf(Ei_inc))=1;
 Ei_inc=Ei_inc-1;  % increase in intensity due to capital (proportional)
@@ -1048,14 +1328,22 @@ GHG_dir_pc=GHG_int_pr./GHG_int_Atot; % proportion of total impacts coming from d
 
 Mabs_inc=diff_MF_pr+diff_MF_fd+diff_MF_fnd+diff_MF_slg; % total absolute increase in MF with capital
 Eabs_inc=diff_EF_pr+diff_EF_fd+diff_EF_fnd+diff_EF_slg; % total absolute increase in EF with capital
-int=table(row,GHG_int_pr,GHG_int_con,GHG_int_Atot,GHG_dir_pc,GHGi_inc,GHGi_cc,GHG_int_Atot_purch_408,M_int_A,M_int_At,Mi_inc,E_int_A,E_int_At,Ei_inc,Gabs_inc,GHG_pc_inc,Mabs_inc,Eabs_inc,'RowNames',meta.ZLabs_short(:,2)); % table of intensities and changes
 
 GHG_pc_inc_C=sum(Gabs_inc)/sum((d_pr_ex+d_feddef_ex+d_fednondef_ex+d_slg_ex))% economy wide percent increase in GHG emissions with capital
 GHG_pc_ofT_C=sum(Gabs_inc)/(sum(Gabs_inc)+sum(d_pr_ex+d_feddef_ex+d_fednondef_ex+d_slg_ex)) % economy wide capital percent of total CF
 M_pc_inc_C=sum(Mabs_inc)/sum((MF_pr_ex+MF_feddef_ex+MF_fednondef_ex+MF_slg_ex)) % economy wide percent increase in MF with capital
+M_pc_inc_sec=Mabs_inc./(MF_pr_ex+MF_feddef_ex+MF_fednondef_ex+MF_slg_ex); % sectoral percent increase in MF with capital
+M_pc_inc_sec(isnan(M_pc_inc_sec))=0; 
 M_pc_ofT_C=sum(Mabs_inc)/(sum(Mabs_inc)+sum(MF_pr_ex+MF_feddef_ex+MF_fednondef_ex+MF_slg_ex)) % economy wide capital percent of total MF
 E_pc_inc_C=sum(Eabs_inc)/sum((EF_pr_ex+EF_feddef_ex+EF_fednondef_ex+EF_slg_ex)) % economy wide percent increase in EF
+E_pc_inc_sec=Eabs_inc./(EF_pr_ex+EF_feddef_ex+EF_fednondef_ex+EF_slg_ex); % sectoral percent increase in MF with capital
+E_pc_inc_sec(isnan(E_pc_inc_sec))=0; 
 E_pc_ofT_C=sum(Eabs_inc)/(sum(Eabs_inc)+sum(EF_pr_ex+EF_feddef_ex+EF_fednondef_ex+EF_slg_ex)) % economy wide capital percent of total EF
+int=table(row,GHG_int_pr,GHG_int_con,GHG_int_Atot,GHG_dir_pc,GHGi_inc,GHGi_cc,GHG_int_Atot_purch_408,M_int_A,M_int_At,Mi_inc,Mi_cc,E_int_A,E_int_At,Ei_inc,Ei_cc,Gabs_inc,GHG_pc_inc,Mabs_inc,M_pc_inc_sec,Eabs_inc,E_pc_inc_sec,'RowNames',meta.ZLabs_short(:,2)); % table of intensities and changes
+
+avg_ci=1e-6*sum(sum_con(:,9))/sum(y_exp)
+avg_ei=1e-6*sum(EF_con(:,9))/sum(y_exp)
+avg_mi=1e-6*sum(MF_con(:,9))/sum(y_exp)
 
 GHG_pc_inc_I=sum(d_pr_inv+d_feddef_inv+d_fednondef_inv+d_slg_inv)/sum((d_pr_ex+d_feddef_ex+d_fednondef_ex+d_slg_ex)); % economy wide % increase in GHG emissions with investment
 GHG_pc_ofT_I=sum(d_pr_inv+d_feddef_inv+d_fednondef_inv+d_slg_inv)/(sum(d_pr_inv+d_feddef_inv+d_fednondef_inv+d_slg_inv)+sum(d_pr_ex+d_feddef_ex+d_fednondef_ex+d_slg_ex))% economy wide investment % of total CF
@@ -1430,7 +1718,7 @@ end
 xticks(1:13)
 xticklabels(xlabg)
 xtickangle(45)
-labels=[{'CO2'}, {'N2O'},{'CH4'}, {'Other'}];
+labels=[{'CO2'}, {'CH4'},{'N2O'}, {'Other'}];
 u=legend(q(order),labels{order});
 set(u,'Fontsize',9)
 colormap('parula')
